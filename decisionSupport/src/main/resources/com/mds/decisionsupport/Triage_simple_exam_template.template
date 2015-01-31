@@ -43,6 +43,19 @@
               </fieldConstraint>
             </constraints>
           </compositeConstraint>
+          <fieldConstraint>
+            <value>$code</value>
+            <operator>in</operator>
+            <constraintValueType>7</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>SimpleExam</factType>
+            <fieldName>miCode</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
         </constraints>
       </constraintList>
       <factType>SimpleExam</factType>
@@ -193,6 +206,16 @@
     </entry>
     <entry>
       <string>$pathway_id</string>
+      <list>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+      </list>
+    </entry>
+    <entry>
+      <string>$code</string>
       <list>
         <string></string>
         <string></string>
