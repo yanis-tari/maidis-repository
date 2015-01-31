@@ -173,8 +173,8 @@
     <entry>
       <string>$rule</string>
       <list>
-        <string>Systolic blood pressure: 90–75/ &amp;lt; 75mmHg  ==&amp;gt; triage level 2/1</string>
-        <string>Systolic blood pressure: 90–75/ &amp;lt; 75mmHg  ==&amp;gt; triage level 2/1</string>
+        <string>Systolic blood pressure: 90–75 / &gt; 75 mmHg  ==&gt; triage level 2/1</string>
+        <string>Systolic blood pressure: 90–75 / &gt; 75 mmHg  ==&gt; triage level 2/1</string>
       </list>
     </entry>
     <entry>
