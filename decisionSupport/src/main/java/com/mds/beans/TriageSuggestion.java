@@ -25,9 +25,13 @@ public class TriageSuggestion implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(0)
 	private java.lang.String value;
 
-    @org.kie.api.definition.type.Label(value = "start the pathway")
-	@org.kie.api.definition.type.Position(value = 4)
+    @org.kie.api.definition.type.Label("start the pathway")
+	@org.kie.api.definition.type.Position(4)
 	private java.lang.Boolean startThePathway;
+
+	@org.kie.api.definition.type.Label(value = "Action")
+	@org.kie.api.definition.type.Position(value = 5)
+	private java.lang.String action;
 
 	public java.lang.String getDescription() {
         return this.description;
@@ -69,6 +73,14 @@ public class TriageSuggestion implements java.io.Serializable {
 		this.startThePathway = startThePathway;
 	}
 
+	public java.lang.String getAction() {
+		return this.action;
+	}
+
+	public void setAction(java.lang.String action) {
+		this.action = action;
+	}
+
 	public TriageSuggestion() {
 	}
 
@@ -76,23 +88,13 @@ public class TriageSuggestion implements java.io.Serializable {
 			java.lang.String description,
 			java.lang.String suggestionClinicalPathway,
 			java.lang.String suggestionClinicalPathwayID,
-			java.lang.Boolean startThePathway) {
+			java.lang.Boolean startThePathway, java.lang.String action) {
 		this.value = value;
 		this.description = description;
 		this.suggestionClinicalPathway = suggestionClinicalPathway;
 		this.suggestionClinicalPathwayID = suggestionClinicalPathwayID;
 		this.startThePathway = startThePathway;
-	}
-	
-	public TriageSuggestion(java.lang.String value,
-			java.lang.String description,
-			java.lang.String suggestionClinicalPathway,
-			java.lang.String suggestionClinicalPathwayID) {
-		this.value = value;
-		this.description = description;
-		this.suggestionClinicalPathway = suggestionClinicalPathway;
-		this.suggestionClinicalPathwayID = suggestionClinicalPathwayID;
-		this.startThePathway = false;
+		this.action = action;
 	}
 
 }
