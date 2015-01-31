@@ -136,6 +136,20 @@
       <boundName>mySuggestion</boundName>
       <isBound>true</isBound>
     </assertLogical>
+    <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+      <fieldValues>
+        <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          <field>addSuggestions</field>
+          <value>mySuggestion</value>
+          <nature>3</nature>
+          <type>com.mds.beans.TriageSuggestion</type>
+          <method></method>
+        </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+      </fieldValues>
+      <variable>myTriage</variable>
+      <state>1</state>
+      <methodName>addSuggestions</methodName>
+    </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
   </rhs>
   <imports>
     <imports>
