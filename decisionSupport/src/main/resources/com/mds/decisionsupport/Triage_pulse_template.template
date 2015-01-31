@@ -122,6 +122,12 @@
           <nature>7</nature>
           <type>String</type>
         </fieldValue>
+        <fieldValue>
+          <field>department</field>
+          <value>Cardiology</value>
+          <nature>1</nature>
+          <type>String</type>
+        </fieldValue>
       </fieldValues>
       <factType>TriageSuggestion</factType>
       <boundName>mySuggestion</boundName>
