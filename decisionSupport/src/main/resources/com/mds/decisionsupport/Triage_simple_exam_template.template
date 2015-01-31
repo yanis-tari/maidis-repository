@@ -73,6 +73,37 @@
         <parameters/>
       </window>
     </fact>
+    <fact>
+      <constraintList>
+        <constraints>
+          <fieldConstraint>
+            <operator>contains</operator>
+            <constraintValueType>6</constraintValueType>
+            <expression>
+              <parts>
+                <variable>
+                  <name>myExam</name>
+                  <classType>SimpleExam</classType>
+                  <genericType>SimpleExam</genericType>
+                  <fact reference="../../../../../../../../fact"/>
+                </variable>
+              </parts>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>Triage</factType>
+            <fieldName>pamiList</fieldName>
+            <fieldType>Collection</fieldType>
+          </fieldConstraint>
+        </constraints>
+      </constraintList>
+      <factType>Triage</factType>
+      <boundName>myTriage</boundName>
+      <isNegated>false</isNegated>
+      <window>
+        <parameters/>
+      </window>
+    </fact>
   </lhs>
   <rhs/>
   <imports>
