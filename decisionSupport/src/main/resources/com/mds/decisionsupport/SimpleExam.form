@@ -1,0 +1,92 @@
+
+<form id="1104986520">
+<property name="subject" value=""/>
+<property name="name" value="SimpleExam.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="simpleExam_miText" type="InputText" id="1922758187">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;miText (simpleExam)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Vital Sign Namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value="{pulse,Pulse;systolicBP,Systolic Blood pressure;diastolicBP,Diastolic Blood Pressure;temperature,Temperature;satO2,SatO2}"/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="simpleExam/miText"/>
+<property name="outputBinding" value="simpleExam/miText"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="simpleExam_stringValue" type="InputText" id="9406161">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;stringValue (simpleExam)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Valuequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="simpleExam/stringValue"/>
+<property name="outputBinding" value="simpleExam/stringValue"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="simpleExam_unit" type="InputText" id="678546092">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;unit (simpleExam)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Unitquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value="{mmHg,mmHg;bpm,bpm;degree,C&#176;;percent,%}"/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="simpleExam/unit"/>
+<property name="outputBinding" value="simpleExam/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="simpleExam_miDate" type="InputDate" id="1200451407">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;miDate (simpleExam)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=new java.util.Date();"/>
+<property name="inputBinding" value="simpleExam/miDate"/>
+<property name="outputBinding" value="simpleExam/miDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="simpleExam" name="#0000A0" type="className" outId="simpleExam" value="com.mds.beans.SimpleExam" id="simpleExam"/>
+</form>

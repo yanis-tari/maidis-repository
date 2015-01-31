@@ -1,0 +1,55 @@
+
+<form id="1001765534">
+<property name="subject" value=""/>
+<property name="name" value="decisionSupport.Triage-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="triage_patient" type="Subform" id="510375511">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;patient (triage)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Patient identity informationsquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="triage/patient"/>
+<property name="defaultSubform" value="Patient.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="triage_pamiList" type="CustomInput" id="549566219">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pamiList (triage)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Medical informationsquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="triage/pamiList"/>
+<property name="defaultSubform" value="Acte.form"/>
+<property name="previewSubform" value="Acte.form"/>
+<property name="tableSubform" value="Acte.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="false"/>
+<property name="customFieldType" value="com.maidis.custom.field.form.MedicalItemListProvider"/>
+<property name="fieldClass" value="java.util.List"/>
+<property name="param1" value=""/>
+<property name="param2" value=""/>
+<property name="param3" value=""/>
+<property name="param4" value=""/>
+<property name="param5" value=""/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="triage" value="com.mds.beans.Triage" id="triage"/>
+</form>

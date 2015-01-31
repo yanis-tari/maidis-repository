@@ -1,0 +1,89 @@
+
+<form id="1574922001">
+<property name="subject" value=""/>
+<property name="name" value="triageSuggestionLine.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="suggestion_value" type="InputText" id="2129500434">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;value (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Triage valuequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/value"/>
+<property name="outputBinding" value="suggestion/value"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="suggestion_description" type="InputText" id="87152382">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;description (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Descriptionquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/description"/>
+<property name="outputBinding" value="suggestion/description"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="suggestion_suggestionClinicalPathway" type="InputText" id="228336557">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;suggestionClinicalPathway (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Suggestion of clinical pathwayquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/suggestionClinicalPathway"/>
+<property name="outputBinding" value="suggestion/suggestionClinicalPathway"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="suggestion_startThePathway" type="CheckBox" id="337991917">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;startThePathway (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Startquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/startThePathway"/>
+<property name="outputBinding" value="suggestion/startThePathway"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="suggestion" name="#0000A0" type="dataModelerEntry" outId="suggestion" value="com.mds.beans.TriageSuggestion" id="suggestion"/>
+</form>

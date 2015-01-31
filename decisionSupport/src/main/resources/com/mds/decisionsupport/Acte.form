@@ -1,0 +1,25 @@
+
+<form id="1276364089">
+<property name="subject" value=""/>
+<property name="name" value="Acte.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="acte_posology" type="InputText" id="1120806208">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;posology (acte)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acte/posology"/>
+<property name="outputBinding" value="acte/posology"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="acte_pathology" type="InputText" id="1564528166">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;pathology (acte)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acte/pathology"/>
+<property name="outputBinding" value="acte/pathology"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="acte" name="#0000A0" type="className" outId="acte" value="com.mds.beans.Acte" id="acte"/>
+</form>

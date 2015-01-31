@@ -1,0 +1,18 @@
+package com.mds.decisionsupport;
+
+import java.lang.Number;
+import com.mds.beans.Triage;
+import com.mds.beans.TriageSuggestion;
+import com.mds.beans.Pami;
+import com.mds.beans.SimpleExam;
+	
+rule "TriageRuleVitalSignPulse1"
+dialect "mvel"
+ruleflow-group "triage"
+salience 1
+when
+  $vitalSign : SimpleExam( )
+
+then
+ System.out.println("SimpleExam ################### "+$vitalSign.miCode+" "+$vitalSign.nValue);
+end

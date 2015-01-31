@@ -1,0 +1,35 @@
+
+<form id="448259501">
+<property name="subject" value=""/>
+<property name="name" value="Symptom.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="symptom_symptome" type="InputText" id="646924055">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;symptome (symptom)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="symptom/symptome"/>
+<property name="outputBinding" value="symptom/symptome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="symptom_diagnostic" type="InputText" id="340548231">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;diagnostic (symptom)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="symptom/diagnostic"/>
+<property name="outputBinding" value="symptom/diagnostic"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="symptom_miText" type="InputText" id="943406515">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;miText (symptom)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="symptom/miText"/>
+<property name="outputBinding" value="symptom/miText"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder supportedType="className" inputId="symptom" name="#0000A0" type="dataModelerEntry" outId="symptom" value="com.mds.beans.Symptom" id="symptom"/>
+</form>

@@ -1,0 +1,14 @@
+package com.mds.decisionsupport;
+
+import java.lang.Number;
+import com.mds.beans.Triage;
+import com.mds.beans.TriageSuggestion;
+
+rule "Triage_Rule_Vital_Sign"
+	dialect "mvel"
+	when
+		triageBean : Triage( )
+	then
+		System.out.println("Rule Vital Signs ############################");
+		triageBean.addSuggestions( "1", "Descripption", "pathway", "pathway ID" );
+end

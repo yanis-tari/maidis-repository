@@ -1,0 +1,19 @@
+package com.mds.decisionsupport;
+
+import java.lang.Number;
+import com.mds.beans.Triage;
+import com.mds.beans.TriageSuggestion;
+import com.mds.beans.Pami;
+import com.mds.beans.SimpleExam;
+	
+rule "TriageRuleVitalSignPulse"
+dialect "mvel"
+ruleflow-group "triage"
+salience 5
+when
+  $vitalSign : SimpleExam( miCode == "http://snomed.info/id/78564009" , nValue < 180.0 )
+  $triageBean : Triage( pamiList contains $vitalSign )
+then
+ $triageBean.addSuggestions( "1", "Immediately life-threatening", "cardiology", "cardiology" );
+ System.out.println("Pulse gt 180 ###################");
+end
