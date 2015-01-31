@@ -128,6 +128,12 @@
           <nature>1</nature>
           <type>String</type>
         </fieldValue>
+        <fieldValue>
+          <field>rule</field>
+          <value>$rule</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
       </fieldValues>
       <factType>TriageSuggestion</factType>
       <boundName>mySuggestion</boundName>
@@ -164,6 +170,16 @@
   <packageName>com.mds.decisionsupport</packageName>
   <isNegated>false</isNegated>
   <table>
+    <entry>
+      <string>$rule</string>
+      <list>
+        <string>Pulse &amp;gt; 180bpm  ==&amp;gt; triage level 1</string>
+        <string>Pulse 120–140/141–180bpm ==&amp;gt; triage level 3/2</string>
+        <string>Pulse 120–140/141–180bpm ==&amp;gt; triage level 3/2</string>
+        <string>Pulse 50–40/&amp;lt;40bpm ==&amp;gt; triage level 3/2</string>
+        <string>Pulse 50–40/&amp;lt;40bpm ==&amp;gt; triage level 3/2</string>
+      </list>
+    </entry>
     <entry>
       <string>$min</string>
       <list>
