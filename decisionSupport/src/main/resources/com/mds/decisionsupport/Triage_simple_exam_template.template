@@ -14,7 +14,7 @@
         <constraints>
           <fieldConstraint>
             <value>$code</value>
-            <operator>==</operator>
+            <operator>in</operator>
             <constraintValueType>7</constraintValueType>
             <expression>
               <parts/>
@@ -217,11 +217,11 @@
     <entry>
       <string>$code</string>
       <list>
-        <string>http://snomed.info/id/78564009</string>
-        <string>http://snomed.info/id/78564009</string>
-        <string>http://snomed.info/id/78564009</string>
-        <string>http://snomed.info/id/78564009</string>
-        <string>http://snomed.info/id/78564009</string>
+        <string>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</string>
+        <string>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</string>
+        <string>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</string>
+        <string>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</string>
+        <string>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</string>
       </list>
     </entry>
   </table>
