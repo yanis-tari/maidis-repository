@@ -25,19 +25,6 @@
             <fieldName>miCode</fieldName>
             <fieldType>String</fieldType>
           </fieldConstraint>
-          <fieldConstraint>
-            <value>snomed</value>
-            <operator>==</operator>
-            <constraintValueType>1</constraintValueType>
-            <expression>
-              <parts/>
-              <index>2147483647</index>
-            </expression>
-            <parameters/>
-            <factType>SimpleExam</factType>
-            <fieldName>miClass</fieldName>
-            <fieldType>String</fieldType>
-          </fieldConstraint>
           <compositeConstraint>
             <compositeJunctionType>&amp;&amp;</compositeJunctionType>
             <constraints>
