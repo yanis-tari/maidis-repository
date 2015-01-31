@@ -48,7 +48,7 @@
             </constraints>
           </compositeConstraint>
           <fieldConstraint>
-            <value>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</value>
+            <value>http://snomed.info/id/314440001,http://snomed.info/id/72313002,http://snomed.info/id/314439003,http://snomed.info/id/407554009,http://snomed.info/id/315612005,http://snomed.info/id/314438006,http://snomed.info/id/407556006,http://snomed.info/id/400974009,http://snomed.info/id/399304008,http://snomed.info/id/314442009,http://snomed.info/id/314447003,http://snomed.info/id/314441002,http://snomed.info/id/314444005,http://snomed.info/id/314448008,http://snomed.info/id/314443004,http://snomed.info/id/314446007,http://snomed.info/id/413606001,http://snomed.info/id/314449000,http://snomed.info/id/314445006</value>
             <operator>in</operator>
             <constraintValueType>1</constraintValueType>
             <expression>
@@ -167,29 +167,20 @@
     <entry>
       <string>$min</string>
       <list>
-        <string>179</string>
-        <string>120</string>
-        <string>140</string>
-        <string>41</string>
+        <string>75</string>
         <string>0</string>
       </list>
     </entry>
     <entry>
       <string>__ID_KOL_NAME__</string>
       <list>
-        <string>1</string>
-        <string>2</string>
-        <string>3</string>
-        <string>4</string>
-        <string>5</string>
+        <string>6</string>
+        <string>7</string>
       </list>
     </entry>
     <entry>
       <string>$suggest_clinical_pathway</string>
       <list>
-        <null/>
-        <string></string>
-        <string></string>
         <string></string>
         <string></string>
       </list>
@@ -197,21 +188,15 @@
     <entry>
       <string>$triage_value</string>
       <list>
+        <string>2</string>
         <string>1</string>
-        <string>3</string>
-        <string>2</string>
-        <string>3</string>
-        <string>2</string>
       </list>
     </entry>
     <entry>
       <string>$max</string>
       <list>
-        <string>1000</string>
-        <string>141</string>
-        <string>180</string>
-        <string>50</string>
-        <string>40</string>
+        <string>90</string>
+        <string>76</string>
       </list>
     </entry>
     <entry>
@@ -219,12 +204,9 @@
       <list>
         <string></string>
         <string></string>
-        <string></string>
-        <string></string>
-        <string></string>
       </list>
     </entry>
   </table>
-  <idCol>5</idCol>
-  <rowsCount>5</rowsCount>
+  <idCol>7</idCol>
+  <rowsCount>2</rowsCount>
 </rule>
