@@ -1,5 +1,5 @@
 <rule>
-  <name>Triage_simple_exam_template</name>
+  <name>Triage_pulse_template</name>
   <modelVersion>1.0</modelVersion>
   <attributes>
     <attribute>
@@ -189,16 +189,6 @@
       </list>
     </entry>
     <entry>
-      <string>$triage_value</string>
-      <list>
-        <string>1</string>
-        <string>3</string>
-        <string>2</string>
-        <string>3</string>
-        <string>2</string>
-      </list>
-    </entry>
-    <entry>
       <string>$max</string>
       <list>
         <string>1000</string>
@@ -206,6 +196,16 @@
         <string>180</string>
         <string>50</string>
         <string>40</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$triage_value</string>
+      <list>
+        <string>1</string>
+        <string>3</string>
+        <string>2</string>
+        <string>3</string>
+        <string>2</string>
       </list>
     </entry>
     <entry>
