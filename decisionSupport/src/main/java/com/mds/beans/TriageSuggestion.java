@@ -32,6 +32,18 @@ public class TriageSuggestion implements java.io.Serializable {
 	@org.kie.api.definition.type.Label(value = "Action")
 	@org.kie.api.definition.type.Position(value = 5)
 	private java.lang.String action;
+	
+	@org.kie.api.definition.type.Label(value = "Department")
+	@org.kie.api.definition.type.Position(value = 6)
+	private java.lang.String department;
+
+	public java.lang.String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(java.lang.String department) {
+		this.department = department;
+	}
 
 	public java.lang.String getDescription() {
         return this.description;
@@ -86,7 +98,7 @@ public class TriageSuggestion implements java.io.Serializable {
 	}
 
 	public TriageSuggestion(java.lang.String value,
-			java.lang.String description, java.lang.String action,
+			java.lang.String description, java.lang.String action,java.lang.String department,
 			java.lang.String suggestionClinicalPathway,
 			java.lang.String suggestionClinicalPathwayID,
 			java.lang.Boolean startThePathway) {
@@ -96,6 +108,7 @@ public class TriageSuggestion implements java.io.Serializable {
 		this.suggestionClinicalPathwayID = suggestionClinicalPathwayID;
 		this.startThePathway = startThePathway;
 		this.action = action;
+		this.department = department;
 	}
 	public TriageSuggestion(java.lang.String value,
 			java.lang.String suggestionClinicalPathway,
