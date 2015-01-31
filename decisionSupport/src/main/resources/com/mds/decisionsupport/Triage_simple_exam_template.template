@@ -170,46 +170,74 @@
     <entry>
       <string>$min</string>
       <list>
-        <string>180</string>
+        <string>179</string>
+        <string>120</string>
+        <string>140</string>
+        <string>41</string>
+        <string>0</string>
       </list>
     </entry>
     <entry>
       <string>__ID_KOL_NAME__</string>
       <list>
         <string>1</string>
+        <string>2</string>
+        <string>3</string>
+        <string>4</string>
+        <string>5</string>
       </list>
     </entry>
     <entry>
       <string>$suggest_clinical_pathway</string>
       <list>
         <null/>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$triage_value</string>
       <list>
         <string>1</string>
+        <string>3</string>
+        <string>2</string>
+        <string>3</string>
+        <string>2</string>
       </list>
     </entry>
     <entry>
       <string>$max</string>
       <list>
-        <string>75</string>
+        <string>1000</string>
+        <string>141</string>
+        <string>180</string>
+        <string>50</string>
+        <string>40</string>
       </list>
     </entry>
     <entry>
       <string>$pathway_id</string>
       <list>
         <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$code</string>
       <list>
-        <string>dgd</string>
+        <string>http://snomed.info/id/78564009</string>
+        <string>http://snomed.info/id/78564009</string>
+        <string>http://snomed.info/id/78564009</string>
+        <string>http://snomed.info/id/78564009</string>
+        <string>http://snomed.info/id/78564009</string>
       </list>
     </entry>
   </table>
-  <idCol>1</idCol>
-  <rowsCount>1</rowsCount>
+  <idCol>5</idCol>
+  <rowsCount>5</rowsCount>
 </rule>
