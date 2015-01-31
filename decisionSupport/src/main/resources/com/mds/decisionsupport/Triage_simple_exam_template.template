@@ -6,6 +6,10 @@
       <attributeName>ruleflow-group</attributeName>
       <value>triage</value>
     </attribute>
+    <attribute>
+      <attributeName>salience</attributeName>
+      <value>1</value>
+    </attribute>
   </attributes>
   <metadataList/>
   <lhs>
