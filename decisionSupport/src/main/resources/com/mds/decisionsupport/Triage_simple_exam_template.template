@@ -1,7 +1,12 @@
 <rule>
   <name>Triage_simple_exam_template</name>
   <modelVersion>1.0</modelVersion>
-  <attributes/>
+  <attributes>
+    <attribute>
+      <attributeName>ruleflow-group</attributeName>
+      <value>triage</value>
+    </attribute>
+  </attributes>
   <metadataList/>
   <lhs>
     <fact>
@@ -105,7 +110,33 @@
       </window>
     </fact>
   </lhs>
-  <rhs/>
+  <rhs>
+    <assertLogical>
+      <fieldValues>
+        <fieldValue>
+          <field>value</field>
+          <value>$triage_value</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+        <fieldValue>
+          <field>suggestionClinicalPathway</field>
+          <value>$suggest_clinical_pathway</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+        <fieldValue>
+          <field>suggestionClinicalPathwayID</field>
+          <value>$pathway_id</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+      </fieldValues>
+      <factType>TriageSuggestion</factType>
+      <boundName>mySuggestion</boundName>
+      <isBound>true</isBound>
+    </assertLogical>
+  </rhs>
   <imports>
     <imports>
       <org.drools.workbench.models.datamodel.imports.Import>
@@ -135,9 +166,27 @@
       </list>
     </entry>
     <entry>
+      <string>$suggest_clinical_pathway</string>
+      <list>
+        <null/>
+      </list>
+    </entry>
+    <entry>
+      <string>$triage_value</string>
+      <list>
+        <string>1</string>
+      </list>
+    </entry>
+    <entry>
       <string>$max</string>
       <list>
         <string>75</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$pathway_id</string>
+      <list>
+        <string></string>
       </list>
     </entry>
     <entry>
