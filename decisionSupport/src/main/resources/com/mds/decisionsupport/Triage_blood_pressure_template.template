@@ -128,6 +128,12 @@
           <nature>1</nature>
           <type>String</type>
         </fieldValue>
+        <fieldValue>
+          <field>rule</field>
+          <value>$rule</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
       </fieldValues>
       <factType>TriageSuggestion</factType>
       <boundName>mySuggestion</boundName>
@@ -165,6 +171,13 @@
   <isNegated>false</isNegated>
   <table>
     <entry>
+      <string>$rule</string>
+      <list>
+        <string>Systolic blood pressure: 90–75/ &amp;lt; 75mmHg  ==&amp;gt; triage level 2/1</string>
+        <string>Systolic blood pressure: 90–75/ &amp;lt; 75mmHg  ==&amp;gt; triage level 2/1</string>
+      </list>
+    </entry>
+    <entry>
       <string>$min</string>
       <list>
         <string>75</string>
@@ -181,8 +194,8 @@
     <entry>
       <string>$suggest_clinical_pathway</string>
       <list>
-        <string></string>
-        <string></string>
+        <null/>
+        <null/>
       </list>
     </entry>
     <entry>
@@ -202,8 +215,8 @@
     <entry>
       <string>$pathway_id</string>
       <list>
-        <string></string>
-        <string></string>
+        <null/>
+        <null/>
       </list>
     </entry>
   </table>
