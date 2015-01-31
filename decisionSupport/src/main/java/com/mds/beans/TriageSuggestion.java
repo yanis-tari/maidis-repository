@@ -63,6 +63,7 @@ public class TriageSuggestion implements java.io.Serializable {
     
     public void setValue(java.lang.String value) {
         this.value = value;
+        initDescriptionAndAction();
     }
 
 	public java.lang.Boolean getStartThePathway() {
@@ -85,16 +86,55 @@ public class TriageSuggestion implements java.io.Serializable {
 	}
 
 	public TriageSuggestion(java.lang.String value,
-			java.lang.String description,
+			java.lang.String description, java.lang.String action,
 			java.lang.String suggestionClinicalPathway,
 			java.lang.String suggestionClinicalPathwayID,
-			java.lang.Boolean startThePathway, java.lang.String action) {
+			java.lang.Boolean startThePathway) {
 		this.value = value;
 		this.description = description;
 		this.suggestionClinicalPathway = suggestionClinicalPathway;
 		this.suggestionClinicalPathwayID = suggestionClinicalPathwayID;
 		this.startThePathway = startThePathway;
 		this.action = action;
+	}
+	public TriageSuggestion(java.lang.String value,
+			java.lang.String suggestionClinicalPathway,
+			java.lang.String suggestionClinicalPathwayID) {
+		this.value = value;
+		this.suggestionClinicalPathway = suggestionClinicalPathway;
+		this.suggestionClinicalPathwayID = suggestionClinicalPathwayID;
+		initDescriptionAndAction();
+	}
+	
+	private void initDescriptionAndAction(){
+		 if(value != null)
+	        {
+	        	if(value.equals("1"))
+	        	{
+	        		description="Immediately life-threatening";
+	        		action="Actions focused on support of one or more vital functions Immediate medical and paramedical intervention ";
+	        	}	
+	        	if(value.equals("2"))
+	        	{	
+	        		description="Marked impairment of a vital organ or imminently life-threatening or functionally disabling traumatic lesion";
+	        		action="Actions focused on treatment of the vital function or traumatic lesion Immediate paramedical and medical intervention within 20 min";
+	        	}
+	        	if(value.equals("3"))
+	        	{	
+	        		description="Functional impairment or organic lesions likely to deteriorate within 24h or complex medical situation justifying the use of several hospital resources";
+	        		action="Multiple actions focused on diagnostic evaluation and prognostic evaluation in addition to treatment. Medical intervention within 60 min ± followed by paramedical intervention";
+	        	}	
+	        	if(value.equals("4"))
+	        	{	
+	        		description="Stable, noncomplex functional impairment or organic lesions, but justifying the urgent use of at least one hospital resource";
+	        		action="Consultation with limited diagnostic and/or therapeutic procedures Medical intervention within 120 min ± followed by paramedical intervention";
+	        	}	
+	        	if(value.equals("5"))
+	        	{	
+	        		description="No functional impairment or organic lesion justifying the use of hospital resources";
+	        		action="Consultation with no diagnostic or therapeutic procedure Medical intervention within 240 min";
+	        	}	
+	        }
 	}
 
 }

@@ -104,10 +104,10 @@ public class Triage implements java.io.Serializable {
 		this.suggestions.add(suggestion);
 	}
 	
-	public void addSuggestions(java.lang.String value, java.lang.String description, java.lang.String suggestionClinicalPathway, java.lang.String suggestionClinicalPathwayID) {
+	public void addSuggestions(java.lang.String value, java.lang.String suggestionClinicalPathway, java.lang.String suggestionClinicalPathwayID) {
 		if(this.suggestions == null)
 			this.suggestions = new java.util.ArrayList<com.mds.beans.TriageSuggestion>();
-		this.suggestions.add(new TriageSuggestion(value, description, suggestionClinicalPathway, suggestionClinicalPathwayID));		
+		this.suggestions.add(new TriageSuggestion(value, suggestionClinicalPathway, suggestionClinicalPathwayID));		
 	}
 
 	public com.mds.beans.TriageSuggestion getAdoptedSuggestion() {
