@@ -31,18 +31,18 @@
 <property name="cssStyle" value=""/>
 <property name="inputBinding" value="triage_in/suggestions"/>
 <property name="outputBinding" value="triage_out/suggestions"/>
-<property name="defaultSubform" value="triageSuggestionLine.form"/>
-<property name="previewSubform" value="triageSuggestionLine.form"/>
+<property name="defaultSubform" value="triageSuggestionEdit.form"/>
+<property name="previewSubform" value="triageSuggestionEdit.form"/>
 <property name="tableSubform" value="triageSuggestionLine.form"/>
 <property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="deleteItems" value="true"/>
+<property name="deleteItems" value="false"/>
 <property name="updateItems" value="true"/>
 <property name="visualizeItems" value="false"/>
 <property name="hideCreateItem" value="true"/>
 <property name="expanded" value="false"/>
-<property name="enableTableEnterData" value="true"/>
+<property name="enableTableEnterData" value="false"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
 <dataHolder inputId="triage_in" name="#0000A0" type="dataModelerEntry" outId="triage_out" value="com.mds.beans.Triage" id="triage"/>
