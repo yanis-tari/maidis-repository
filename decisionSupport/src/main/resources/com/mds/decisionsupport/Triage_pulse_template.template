@@ -173,11 +173,11 @@
     <entry>
       <string>$rule</string>
       <list>
-        <string>Pulse &amp;gt; 180bpm  ==&amp;gt; triage level 1</string>
-        <string>Pulse 120–140/141–180bpm ==&amp;gt; triage level 3/2</string>
-        <string>Pulse 120–140/141–180bpm ==&amp;gt; triage level 3/2</string>
-        <string>Pulse 50–40/&amp;lt;40bpm ==&amp;gt; triage level 3/2</string>
-        <string>Pulse 50–40/&amp;lt;40bpm ==&amp;gt; triage level 3/2</string>
+        <string>Pulse &gt; 180 bpm  ==&gt; triage level 1</string>
+        <string>Pulse 120–140 / 141–180 bpm ==&gt; triage level 3/2</string>
+        <string>Pulse 120–140 / 141–180 bpm ==&gt; triage level 3/2</string>
+        <string>Pulse 50–40 / &lt; 40 bpm ==&gt; triage level 3/2</string>
+        <string>Pulse 50–40 / &lt; 40 bpm ==&gt; triage level 3/2</string>
       </list>
     </entry>
     <entry>
