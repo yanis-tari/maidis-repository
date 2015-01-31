@@ -16,54 +16,23 @@
     <fact>
       <constraintList>
         <constraints>
-          <compositeConstraint>
-            <compositeJunctionType>&amp;&amp;</compositeJunctionType>
-            <constraints>
-              <fieldConstraint>
-                <value>$min</value>
-                <operator>&gt;=</operator>
-                <constraintValueType>7</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>SimpleExam</factType>
-                <fieldName>nValue</fieldName>
-                <fieldType>Double</fieldType>
-              </fieldConstraint>
-              <fieldConstraint>
-                <value>$max</value>
-                <operator>&lt;=</operator>
-                <constraintValueType>7</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>SimpleExam</factType>
-                <fieldName>nValue</fieldName>
-                <fieldType>Double</fieldType>
-              </fieldConstraint>
-            </constraints>
-          </compositeConstraint>
           <fieldConstraint>
-            <value>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</value>
-            <operator>in</operator>
-            <constraintValueType>1</constraintValueType>
+            <value>$SymptomCode</value>
+            <operator>==</operator>
+            <constraintValueType>7</constraintValueType>
             <expression>
               <parts/>
               <index>2147483647</index>
             </expression>
             <parameters/>
-            <factType>SimpleExam</factType>
+            <factType>Pami</factType>
             <fieldName>miCode</fieldName>
             <fieldType>String</fieldType>
           </fieldConstraint>
         </constraints>
       </constraintList>
-      <factType>SimpleExam</factType>
-      <boundName>myExam</boundName>
+      <factType>Pami</factType>
+      <boundName>myMedicalItem</boundName>
       <isNegated>false</isNegated>
       <window>
         <parameters/>
@@ -73,17 +42,11 @@
       <constraintList>
         <constraints>
           <fieldConstraint>
+            <value>myMedicalItem</value>
             <operator>contains</operator>
-            <constraintValueType>6</constraintValueType>
+            <constraintValueType>2</constraintValueType>
             <expression>
-              <parts>
-                <variable>
-                  <name>myExam</name>
-                  <classType>SimpleExam</classType>
-                  <genericType>SimpleExam</genericType>
-                  <fact reference="../../../../../../../../fact"/>
-                </variable>
-              </parts>
+              <parts/>
               <index>2147483647</index>
             </expression>
             <parameters/>
@@ -165,6 +128,9 @@
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.mds.beans.SimpleExam</type>
       </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.mds.beans.Pami</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.mds.decisionsupport</packageName>
@@ -173,37 +139,37 @@
     <entry>
       <string>$rule</string>
       <list>
-        <string>Pulse &gt; 180 bpm  ==&gt; triage level 1</string>
-        <string>Pulse 120–140 / 141–180 bpm ==&gt; triage level 3/2</string>
-        <string>Pulse 120–140 / 141–180 bpm ==&gt; triage level 3/2</string>
-        <string>Pulse 50–40 / &lt; 40 bpm ==&gt; triage level 3/2</string>
-        <string>Pulse 50–40 / &lt; 40 bpm ==&gt; triage level 3/2</string>
+        <string>Chest pain (pathological ECG: senior opinion) ==&gt; 2-1</string>
+        <string>Acute limb ischemia* ==&gt; 3-2</string>
+        <string>Phlebitis (suspected) ==&gt; 3</string>
+        <string>Malaise or loss of consciousness ==&gt; 3</string>
+        <string>Peripheral edema ==&gt; 4-3</string>
       </list>
     </entry>
     <entry>
-      <string>$min</string>
+      <string>$SymptomCode</string>
       <list>
-        <string>179</string>
-        <string>120</string>
-        <string>140</string>
-        <string>41</string>
-        <string>0</string>
+        <string>http://snomed.info/id/29857009</string>
+        <string>http://snomed.info/id/21631000119105</string>
+        <string>http://snomed.info/id/61599003</string>
+        <string>http://snomed.info/id/419045004</string>
+        <string>http://snomed.info/id/82014009</string>
       </list>
     </entry>
     <entry>
       <string>__ID_KOL_NAME__</string>
       <list>
-        <string>1</string>
-        <string>2</string>
-        <string>3</string>
-        <string>4</string>
-        <string>5</string>
+        <string>6</string>
+        <string>7</string>
+        <string>8</string>
+        <string>9</string>
+        <string>10</string>
       </list>
     </entry>
     <entry>
       <string>$suggest_clinical_pathway</string>
       <list>
-        <null/>
+        <string></string>
         <string></string>
         <string></string>
         <string></string>
@@ -213,21 +179,11 @@
     <entry>
       <string>$triage_value</string>
       <list>
-        <string>1</string>
+        <string>2-1</string>
+        <string>3-2</string>
         <string>3</string>
-        <string>2</string>
         <string>3</string>
-        <string>2</string>
-      </list>
-    </entry>
-    <entry>
-      <string>$max</string>
-      <list>
-        <string>1000</string>
-        <string>141</string>
-        <string>180</string>
-        <string>50</string>
-        <string>40</string>
+        <string>4-3</string>
       </list>
     </entry>
     <entry>
@@ -241,6 +197,6 @@
       </list>
     </entry>
   </table>
-  <idCol>5</idCol>
+  <idCol>10</idCol>
   <rowsCount>5</rowsCount>
 </rule>
