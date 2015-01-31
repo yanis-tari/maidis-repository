@@ -3,7 +3,77 @@
   <modelVersion>1.0</modelVersion>
   <attributes/>
   <metadataList/>
-  <lhs/>
+  <lhs>
+    <fact>
+      <constraintList>
+        <constraints>
+          <fieldConstraint>
+            <value>$code</value>
+            <operator>==</operator>
+            <constraintValueType>7</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>SimpleExam</factType>
+            <fieldName>miCode</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
+          <fieldConstraint>
+            <value>snomed</value>
+            <operator>==</operator>
+            <constraintValueType>1</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>SimpleExam</factType>
+            <fieldName>miClass</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
+          <compositeConstraint>
+            <compositeJunctionType>&amp;&amp;</compositeJunctionType>
+            <constraints>
+              <fieldConstraint>
+                <value>$min</value>
+                <operator>&gt;=</operator>
+                <constraintValueType>7</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>SimpleExam</factType>
+                <fieldName>nValue</fieldName>
+                <fieldType>Double</fieldType>
+              </fieldConstraint>
+              <fieldConstraint>
+                <value>$max</value>
+                <operator>&lt;=</operator>
+                <constraintValueType>7</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>SimpleExam</factType>
+                <fieldName>nValue</fieldName>
+                <fieldType>Double</fieldType>
+              </fieldConstraint>
+            </constraints>
+          </compositeConstraint>
+        </constraints>
+      </constraintList>
+      <factType>SimpleExam</factType>
+      <boundName>myExam</boundName>
+      <isNegated>false</isNegated>
+      <window>
+        <parameters/>
+      </window>
+    </fact>
+  </lhs>
   <rhs/>
   <imports>
     <imports>
@@ -22,10 +92,30 @@
   <isNegated>false</isNegated>
   <table>
     <entry>
+      <string>$min</string>
+      <list>
+        <string>180</string>
+      </list>
+    </entry>
+    <entry>
       <string>__ID_KOL_NAME__</string>
-      <list/>
+      <list>
+        <string>1</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$max</string>
+      <list>
+        <string>75</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$code</string>
+      <list>
+        <string>dgd</string>
+      </list>
     </entry>
   </table>
-  <idCol>0</idCol>
-  <rowsCount>0</rowsCount>
+  <idCol>1</idCol>
+  <rowsCount>1</rowsCount>
 </rule>
