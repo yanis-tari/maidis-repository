@@ -27,7 +27,7 @@ public class TriageSuggestion implements java.io.Serializable {
 
     @org.kie.api.definition.type.Label("start the pathway")
 	@org.kie.api.definition.type.Position(4)
-	private java.lang.Boolean startThePathway;
+	private java.lang.Boolean startThePathway = false;
 
 	@org.kie.api.definition.type.Label(value = "Action")
 	@org.kie.api.definition.type.Position(value = 5)
