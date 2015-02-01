@@ -1,0 +1,20 @@
+package com.mds.myhealth;
+
+import java.lang.Number;
+import MyHealthMsg;
+
+rule "pulse-gt-180"
+	dialect "mvel"
+	ruleflow-group "monitoring"
+	when
+		patient : Patient( patientExams : exams != null , userId : id != null )
+		exam : SimpleExam( name == "pulse" , intValue > 180 ) from patientExams
+	then
+		System.out.println("Rule Pulse greater than 180 bpm ");
+		MyHealthMsg msg = new MyHealthMsg();
+		msg.setMsg( "your pulse is too heigh ( greater than 180 bpm : Immediately life-threatening ), please call your doctor" );
+		msg.setType( "alerts" );
+		msg.setUserId( userId );
+		insertLogical( msg );
+		msg.sendMsg(  );
+end

@@ -1,0 +1,20 @@
+package com.mds.myhealth;
+
+import java.lang.Number;
+import MyHealthMsg;
+
+rule "pulse_120_140"
+	dialect "mvel"
+	ruleflow-group "monitoring"
+	when
+		patient : Patient( patientExams : exams != null , userId : id != null )
+		exam : SimpleExam( name == "pulse" , intValue > 120 && intValue < 140 ) from patientExams
+	then
+		System.out.println("Rule Pulse120-140 bpm ");
+		MyHealthMsg msg = new MyHealthMsg();
+		msg.setMsg( "Pulse :120-140 bpm  (Functional impairment or organic lesions likely to deteriorate within 24 h or complex medical situation justifying the use of several hospital resources)" );
+		msg.setType( "alerts" );
+		msg.setUserId( userId );
+		insertLogical( msg );
+		msg.sendMsg(  );
+end
