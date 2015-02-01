@@ -1,0 +1,9 @@
+package com.mds.decisionsupport;
+
+import java.lang.Number;
+
+rule "Triage_diabet"
+	dialect "mvel"
+	when
+	then
+end
