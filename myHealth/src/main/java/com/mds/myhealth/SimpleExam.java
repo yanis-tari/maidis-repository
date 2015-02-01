@@ -7,7 +7,6 @@ package com.mds.myhealth;
 @org.kie.api.definition.type.Label("Simple exam")
 @org.kie.api.definition.type.TypeSafe(true)
 @org.kie.api.definition.type.Timestamp("date")
-@org.kie.api.remote.Remotable
 public class SimpleExam implements java.io.Serializable
 {
 
