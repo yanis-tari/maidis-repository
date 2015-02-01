@@ -15,4 +15,12 @@ rule "Triage_diabet"
 		abdominalPain : Pami( miCode in ( "http://snomed.info/id/21522001", "http://snomed.info/id/314212008", "http://snomed.info/id/304542004" ) )
 		triageBean : Triage( pamiList contains vomiting && pamiList contains lossOfConsciousness && pamiList contains abdominalPain )
 	then
+		TriageSuggestion suggestion = new TriageSuggestion();
+		suggestion.setValue( "1" );
+		suggestion.setRule( "" );
+		suggestion.setSuggestionClinicalPathwayID( "Diabet pathway" );
+		suggestion.setSuggestionClinicalPathway( "" );
+		suggestion.setDepartment( "Diabet" );
+		insertLogical( suggestion );
+		triageBean.addSuggestions( suggestion );
 end
