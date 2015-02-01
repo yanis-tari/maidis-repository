@@ -18,8 +18,8 @@ rule "Triage_diabet"
 		TriageSuggestion suggestion = new TriageSuggestion();
 		suggestion.setValue( "1" );
 		suggestion.setRule( "" );
-		suggestion.setSuggestionClinicalPathwayID( "Diabet pathway" );
-		suggestion.setSuggestionClinicalPathway( "" );
+		suggestion.setSuggestionClinicalPathwayID( "decisionSupport.Diabet" );
+		suggestion.setSuggestionClinicalPathway( "Diabet pathway" );
 		suggestion.setDepartment( "Diabet" );
 		insertLogical( suggestion );
 		triageBean.addSuggestions( suggestion );
