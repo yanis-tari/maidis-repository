@@ -203,7 +203,7 @@
     <entry>
       <string>$suggest_clinical_pathway</string>
       <list>
-        <null/>
+        <string>Cerebrovascular accident</string>
         <string></string>
         <string></string>
         <string></string>
@@ -233,7 +233,7 @@
     <entry>
       <string>$pathway_id</string>
       <list>
-        <string></string>
+        <string>decisionSupport.CerebrovascularAccident</string>
         <string></string>
         <string></string>
         <string></string>
