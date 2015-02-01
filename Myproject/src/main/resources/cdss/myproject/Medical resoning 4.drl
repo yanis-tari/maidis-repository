@@ -1,0 +1,44 @@
+package cdss.myproject;
+import cdss.Treatment;
+import cdss.Diagnosis;
+
+rule"Insulinotherapy"
+ruleflow-group"Treatment"
+no-loop true
+when
+diagnosis: cdss.Diagnosis(value=="Diabetic ketoacidosis" )
+treatment: cdss.Treatment(this!=null )
+then
+treatment.setName("Insulinotherapy");
+System.out.println("Insulinotherapy");
+end
+
+rule"Transfer to the surgical service"
+ruleflow-group"Treatment"
+no-loop true
+when
+diagnosis: cdss.Diagnosis(value=="Diabetic coma" )
+treatment: cdss.Treatment(this!=null )
+then
+treatment.setName("Diabetic coma");
+end
+
+rule"Hypoglycemia treatment"
+ruleflow-group"Treatment"
+no-loop true
+when
+diagnosis: cdss.Diagnosis(value=="Hypoglycemia" )
+treatment: cdss.Treatment(this!=null )
+then
+treatment.setName("Intravenous glucagon infusion");
+end
+
+rule"patient discharge"
+ruleflow-group"Treatment"
+when
+diagnosis:cdss.Diagnosis(value=="Good diagnosis" )
+treatment: cdss.Treatment(this!=null )
+then
+treatment.setName("All is right-Patient discharge");
+end
+

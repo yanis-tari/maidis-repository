@@ -1,0 +1,32 @@
+
+<form id="481588934">
+<property name="subject" value=""/>
+<property name="name" value="MedicalExamination.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="medicalExamination_name" type="InputText" id="1427171427">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (medicalExamination)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_medicalExamination/name"/>
+<property name="outputBinding" value="medicalExamination_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="medicalExamination_date" type="InputDate" id="1468179539">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;date (medicalExamination)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_medicalExamination/date"/>
+<property name="outputBinding" value="medicalExamination_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="medicalExamination_drAgreement" type="CheckBox" id="1588574514">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;drAgreement (medicalExamination)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_medicalExamination/drAgreement"/>
+<property name="outputBinding" value="medicalExamination_/drAgreement"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="_medicalExamination" name="#0000A0" type="dataModelerEntry" outId="medicalExamination_" value="cdss.MedicalExamination" id="medicalExamination"/>
+</form>

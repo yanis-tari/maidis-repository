@@ -1,0 +1,40 @@
+
+<form id="128454919">
+<property name="subject" value=""/>
+<property name="name" value="VitalSign.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="vitalSign_name" type="InputText" id="1081240116">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (vitalSign)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_vitalSign/name"/>
+<property name="outputBinding" value="vitalSign_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="vitalSign_value" type="InputTextFloat" id="1498430695">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;value (vitalSign)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_vitalSign/value"/>
+<property name="outputBinding" value="vitalSign_/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="2" name="vitalSign_unit" type="InputText" id="1793436443">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;unit (vitalSign)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_vitalSign/unit"/>
+<property name="outputBinding" value="vitalSign_/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="vitalSign_date" type="InputDate" id="62595157">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;date (vitalSign)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_vitalSign/date"/>
+<property name="outputBinding" value="vitalSign_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="_vitalSign" name="#0000A0" type="dataModelerEntry" outId="vitalSign_" value="cdss.VitalSign" id="vitalSign"/>
+</form>

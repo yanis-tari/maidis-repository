@@ -1,0 +1,441 @@
+
+<form id="1752139394">
+<property name="subject" value=""/>
+<property name="name" value="Diabetologicalexamination-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot; border: white&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_name_label_container&quot; style=&quot;padding-top:3px; padding-right:3px;&quot;&gt;$label{bloodGlucose_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_name_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodGlucose_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodGlucose_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodGlucose_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_unit_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodGlucose_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_unit_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodGlucose_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodGlucose_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodGlucose_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodGlucose_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_name_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodKetone_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_name_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodKetone_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodKetone_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodKetone_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_unit_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodKetone_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_unit_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodKetone_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodKetone_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodKetone_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodKetone_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodVenousPH_name_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodVenousPH_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodVenousPH_name_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodVenousPH_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodVenousPH_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodVenousPH_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodVenousPH_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodVenousPH_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodVenousPH_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodVenousPH_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodVenousPH_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodVenousPH_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_name_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bicarbonateLevel_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_name_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bicarbonateLevel_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bicarbonateLevel_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bicarbonateLevel_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_unit_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bicarbonateLevel_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_unit_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bicarbonateLevel_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;3&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bicarbonateLevel_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bicarbonateLevel_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bicarbonateLevel_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodOxygenSaturation_name_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodOxygenSaturation_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodOxygenSaturation_name_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodOxygenSaturation_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodOxygenSaturation_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodOxygenSaturation_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodOxygenSaturation_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodOxygenSaturation_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodOxygenSaturation_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodOxygenSaturation_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-bloodOxygenSaturation_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodOxygenSaturation_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-glasgowScore_name_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{glasgowScore_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-glasgowScore_name_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{glasgowScore_name}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-glasgowScore_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{glasgowScore_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-glasgowScore_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{glasgowScore_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;33%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-glasgowScore_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{glasgowScore_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1752139394-glasgowScore_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{glasgowScore_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; "/>
+<field position="0" name="bloodGlucose_name" type="InputText" id="2024775296">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="border: white;color:red;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;Blood glucose&quot;"/>
+<property name="inputBinding" value="_bloodGlucose/name"/>
+<property name="outputBinding" value="bloodGlucose_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="bloodGlucose_value" type="InputTextFloat" id="552157518">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=0.0"/>
+<property name="inputBinding" value="_bloodGlucose/value"/>
+<property name="outputBinding" value="bloodGlucose_/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="2" name="bloodGlucose_unit" type="InputText" id="259512894">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;mmol/l&quot;"/>
+<property name="inputBinding" value="_bloodGlucose/unit"/>
+<property name="outputBinding" value="bloodGlucose_/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="bloodGlucose_date" type="InputDate" id="1677633686">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=new Date()"/>
+<property name="inputBinding" value="_bloodGlucose/date"/>
+<property name="outputBinding" value="bloodGlucose_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="bloodKetone_name" type="InputText" id="1736791252">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="border : white; color:red;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;Blood ketone&quot;"/>
+<property name="inputBinding" value="_bloodKetone/name"/>
+<property name="outputBinding" value="bloodKetone_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="bloodKetone_value" type="InputTextFloat" id="1156934931">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=0.0"/>
+<property name="inputBinding" value="_bloodKetone/value"/>
+<property name="outputBinding" value="bloodKetone_/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="6" name="bloodKetone_unit" type="InputText" id="695749303">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;mmol/l&quot;"/>
+<property name="inputBinding" value="_bloodKetone/unit"/>
+<property name="outputBinding" value="bloodKetone_/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="bloodKetone_date" type="InputDate" id="1980743078">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=new Date()"/>
+<property name="inputBinding" value="_bloodKetone/date"/>
+<property name="outputBinding" value="bloodKetone_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="8" name="bicarbonateLevel_name" type="InputText" id="168690924">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="border: white; color:red;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;Bicarbonate level&quot;"/>
+<property name="inputBinding" value="_bicarbonateLevel/name"/>
+<property name="outputBinding" value="bicarbonateLevel_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="bicarbonateLevel_value" type="InputTextFloat" id="1153132229">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=0.0"/>
+<property name="inputBinding" value="_bicarbonateLevel/value"/>
+<property name="outputBinding" value="bicarbonateLevel_/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="10" name="bicarbonateLevel_unit" type="InputText" id="2010089005">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;mmol/l&quot;"/>
+<property name="inputBinding" value="_bicarbonateLevel/unit"/>
+<property name="outputBinding" value="bicarbonateLevel_/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="bicarbonateLevel_date" type="InputDate" id="2133241927">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=new Date()"/>
+<property name="inputBinding" value="_bicarbonateLevel/date"/>
+<property name="outputBinding" value="bicarbonateLevel_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="12" name="bloodOxygenSaturation_name" type="InputText" id="359821996">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="border: white; color: red;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;Blood oxygen saturation&quot;"/>
+<property name="inputBinding" value="_bloodOxygenSaturation/name"/>
+<property name="outputBinding" value="bloodOxygenSaturation_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="bloodOxygenSaturation_value" type="InputTextFloat" id="1713919297">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=0.0"/>
+<property name="inputBinding" value="_bloodOxygenSaturation/value"/>
+<property name="outputBinding" value="bloodOxygenSaturation_/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="14" name="bloodOxygenSaturation_date" type="InputDate" id="1369667949">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=new Date()"/>
+<property name="inputBinding" value="_bloodOxygenSaturation/date"/>
+<property name="outputBinding" value="bloodOxygenSaturation_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="15" name="bloodVenousPH_name" type="InputText" id="1923531836">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="border: white; color:red;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;Blood venous PH&quot;"/>
+<property name="inputBinding" value="_bloodVenousPH/name"/>
+<property name="outputBinding" value="bloodVenousPH_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="bloodVenousPH_value" type="InputTextFloat" id="1947136753">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=0.0"/>
+<property name="inputBinding" value="_bloodVenousPH/value"/>
+<property name="outputBinding" value="bloodVenousPH_/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="17" name="bloodVenousPH_date" type="InputDate" id="988202386">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=new Date()"/>
+<property name="inputBinding" value="_bloodVenousPH/date"/>
+<property name="outputBinding" value="bloodVenousPH_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="18" name="glasgowScore_name" type="InputText" id="1031919568">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="border: white; color:red;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=&quot;Glasgow score&quot;"/>
+<property name="inputBinding" value="_glasgowScore/name"/>
+<property name="outputBinding" value="glasgowScore_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="glasgowScore_value" type="InputTextFloat" id="334551989">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=0"/>
+<property name="inputBinding" value="_glasgowScore/value"/>
+<property name="outputBinding" value="glasgowScore_/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="20" name="glasgowScore_date" type="InputDate" id="1794860945">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value="=new Date()"/>
+<property name="inputBinding" value="_glasgowScore/date"/>
+<property name="outputBinding" value="glasgowScore_/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="_bicarbonateLevel" name="#FF8881" type="dataModelerEntry" outId="bicarbonateLevel_" value="cdss.VitalSign" id="bicarbonateLevel"/>
+<dataHolder inputId="_bloodGlucose" name="#0000A0" type="dataModelerEntry" outId="bloodGlucose_" value="cdss.VitalSign" id="bloodGlucose"/>
+<dataHolder inputId="_bloodKetone" name="#9BCAFA" type="dataModelerEntry" outId="bloodKetone_" value="cdss.VitalSign" id="bloodKetone"/>
+<dataHolder inputId="_bloodOxygenSaturation" name="#B29FE4" type="dataModelerEntry" outId="bloodOxygenSaturation_" value="cdss.VitalSign" id="bloodOxygenSaturation"/>
+<dataHolder inputId="_bloodVenousPH" name="#A7E690" type="dataModelerEntry" outId="bloodVenousPH_" value="cdss.VitalSign" id="bloodVenousPH"/>
+<dataHolder inputId="_glasgowScore" name="#FBB767" type="dataModelerEntry" outId="glasgowScore_" value="cdss.VitalSign" id="glasgowScore"/>
+</form>

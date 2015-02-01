@@ -1,0 +1,84 @@
+package cdss.myproject;
+import cdss.Symptom;
+import cdss.VitalSign;
+import cdss.PatientRecord;
+import cdss.Diagnosis;
+
+rule"Reinserting patient symptoms into the wm"
+ruleflow-group"Diagnosis"
+salience 5
+no-loop true
+when
+patient: cdss.PatientRecord( syl:symptoms)
+sy:cdss.Symptom( )from syl
+then
+insertLogical(sy);
+System.out.println("insert fact:"+ sy.getDescription());
+end
+
+rule"inserting again patient vital signs into the wm"
+ruleflow-group"Diagnosis"
+salience 5
+no-loop true
+when
+patient: cdss.PatientRecord( vsl:vitalSigns)
+vs:cdss.VitalSign( )from vsl
+then
+insertLogical(vs);
+System.out.println("insert fact:"+ vs.getName());
+end
+
+rule "Diabetic ketoacidosis"
+ dialect "mvel"
+ruleflow-group "Diagnosis"
+salience 2
+when
+vs1: VitalSign( name == "Blood glucose" , value >= 11.0 , unit == "mmol/l" )
+vs2: VitalSign( name == "Blood ketone" , value >= 3.0 , unit == "mmol/l" )
+ ( vs3: VitalSign( name == "Bicarbonate level" , value < 15.0 , unit == "mmol/l" ) or vs4: VitalSign( name == "Blood venous PH" , value < 7.3 ) ) 
+suggestedDiagnosis : Diagnosis( this!=null)
+then
+suggestedDiagnosis.setValue("Diabetic ketoacidosis");
+System.out.println("Diabetic ketoacidosis");     
+end
+
+
+rule "Diabetic coma"
+dialect "mvel"
+ruleflow-group "Diagnosis"
+salience 4
+when
+ (vs1 : VitalSign( name == "Blood ketone" , value >= 6.0 , unit == "mmol/l" ) or vs2 : VitalSign( name == "Bicarbonate level" , value < 5.0 , unit == "mmol/l" ) or vs3 : VitalSign( name == "Blood venous PH" , value < 7.1 ) or vs4 : VitalSign( name == "Blood oxygen saturation" , value < 92.0 ) or vs5 : VitalSign( name == "Glasgow score" , value < 12.0 ) )
+suggestedDiagnosis : Diagnosis( this != null )
+then
+suggestedDiagnosis.setValue("Diabetic coma");
+System.out.println("coma diabetique");
+ end
+
+
+rule"Hypoglycemia"
+dialect "mvel"
+ruleflow-group"Diagnosis"
+salience 2
+when
+vs1: VitalSign(name=="Blood glucose", value<= 4, unit=="mmol/")
+suggestedDiagnosis : Diagnosis( this != null)
+then
+suggestedDiagnosis.setValue("Hypoglycemia");
+end
+
+
+rule "Good diagnosis"
+dialect "mvel"
+ruleflow-group "Diagnosis"
+salience 2
+when
+VitalSign( name == "Blood glucose" , value > 4.0 , value < 11.0 , unit == "mmol/l" )
+VitalSign( name == "Blood ketone" , value <= 3.0 , unit == "mmol/l" )
+VitalSign( name == "Blood venous PH" , value == 7.3 )
+VitalSign( name == "Glasgow score" , value > 14.0 )
+ suggestedDiagnosis : Diagnosis( this != null )
+ then
+suggestedDiagnosis.setValue( "All is right" );
+end
+

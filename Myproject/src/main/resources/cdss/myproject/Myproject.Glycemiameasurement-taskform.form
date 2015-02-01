@@ -1,0 +1,40 @@
+
+<form id="712289128">
+<property name="subject" value=""/>
+<property name="name" value="Myproject.Glycemiameasurement-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="bloodGlucose_name" type="InputText" id="1660120202">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (bloodGlucose)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bloodGlucose/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="bloodGlucose_date" type="InputDate" id="686662506">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;date (bloodGlucose)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bloodGlucose/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="bloodGlucose_value" type="InputTextFloat" id="7897246">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;value (bloodGlucose)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bloodGlucose/value"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="2" name="bloodGlucose_unit" type="InputText" id="1908554308">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;unit (bloodGlucose)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="bloodGlucose/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="bloodGlucose" value="cdss.VitalSign" id="bloodGlucose"/>
+</form>

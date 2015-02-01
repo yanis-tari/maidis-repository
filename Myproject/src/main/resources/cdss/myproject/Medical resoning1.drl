@@ -1,0 +1,46 @@
+package cdss.myproject;
+import cdss.Symptom;
+import cdss.VitalSign;
+import cdss.PatientRecord;
+import cdss.Assignement;
+
+rule"inserting patient symptoms into the wm"
+ruleflow-group"NurseExaminations"
+salience 4
+no-loop true
+when
+patient: cdss.PatientRecord( syl:symptoms)
+sy:cdss.Symptom( )from syl
+then
+insertLogical(sy);
+System.out.println("insert fact:"+ sy.getDescription());
+end
+
+rule"inserting patient vital signs into the wm"
+ruleflow-group"NurseExaminations"
+salience 4
+no-loop true
+when
+patient: cdss.PatientRecord( vsl:vitalSigns)
+vs:cdss.VitalSign( )from vsl
+then
+insertLogical(vs);
+System.out.println("insert fact:"+ vs.getName());
+end
+
+rule"Nurse tests"
+ruleflow-group"NurseExaminations"
+salience 3
+no-loop true
+when
+syp1:cdss.Symptom(description=="vomiting" )
+syp2: cdss.Symptom(description=="loss of consciousness" )
+syp3: cdss.Symptom(description=="abdominal pain")
+suggestedMeasurement: cdss.VitalParameterMeasurement( this!=null)
+then
+suggestedMeasurement.setName("Blood glucose test");
+
+System.out.println(suggestedMeasurement.getName()+ "is required");
+end
+
+
