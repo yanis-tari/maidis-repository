@@ -1,0 +1,71 @@
+
+<form id="905412470">
+<property name="subject" value=""/>
+<property name="name" value="show_triage_result-taskform.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;div class=&quot;accordion&quot; style=&quot;min-width:1300px&quot;&gt;
+	&lt;div id=&quot;uid_-template_null-905412470-contact_patientConcerned_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{contact_patientConcerned}&lt;/div&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-905412470-contact_hasInferenceResults_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{contact_hasInferenceResults}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td valign=&quot;top&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-905412470-contact_hasInferenceResults_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{contact_hasInferenceResults}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt; $(function() {  $(&quot;.noBorder&quot;).parent(&quot;td&quot;).css(&quot;border&quot;,&quot;none&quot;);  });&lt;/script&gt;"/>
+<field position="0" name="contact_patientConcerned" type="Subform" id="200976875">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="contact_in/patientConcerned"/>
+<property name="outputBinding" value="contact_out/patientConcerned"/>
+<property name="defaultSubform" value="display_patient.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="contact_hasInferenceResults" type="MultipleSubform" id="208806539">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="contact_in/hasInferenceResults"/>
+<property name="outputBinding" value="contact_out/hasInferenceResults"/>
+<property name="defaultSubform" value="ligne_Inference_result.form"/>
+<property name="previewSubform" value="ligne_Inference_result.form"/>
+<property name="tableSubform" value="ligne_Inference_result.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;new inference result itemquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;add inference result itemquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;cancelquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="true"/>
+<property name="updateItems" value="true"/>
+<property name="visualizeItems" value="true"/>
+<property name="hideCreateItem" value="true"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="true"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<dataHolder inputId="contact_in" name="#A7E690" type="className" outId="contact_out" value="com.mds.model.Contact" id="contact"/>
+</form>

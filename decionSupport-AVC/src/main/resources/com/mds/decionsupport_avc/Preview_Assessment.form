@@ -1,0 +1,162 @@
+
+<form id="1447298105">
+<property name="subject" value=""/>
+<property name="name" value="Preview_Assessment.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;div&gt;
+&lt;div&gt;
+&lt;div style=&quot;float:left;&quot;&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1447298105-assessment_hasLabel_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{assessment_hasLabel}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td valign=&quot;top&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1447298105-assessment_hasLabel_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{assessment_hasLabel}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1447298105-assessment_endDateOfMedicalItem_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{assessment_endDateOfMedicalItem}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td valign=&quot;top&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1447298105-assessment_endDateOfMedicalItem_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{assessment_endDateOfMedicalItem}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1447298105-assessment_startDateOfMedicalItem_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{assessment_startDateOfMedicalItem}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td valign=&quot;top&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1447298105-assessment_startDateOfMedicalItem_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{assessment_startDateOfMedicalItem}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&quot;clear:both;&quot;&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-346155733-assessment_commentOfMedicalItem_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{assessment_commentOfMedicalItem}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td valign=&quot;top&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-346155733-assessment_commentOfMedicalItem_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{assessment_commentOfMedicalItem}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+"/>
+<field position="0" name="assessment_hasLabel" type="CustomInput" id="14504923">
+<property name="fieldRequired" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Assessmentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="assessment_in/hasLabel"/>
+<property name="outputBinding" value="assessment_out/hasLabel"/>
+<property name="customFieldType" value="com.mds.custom.field.SnomedHelper"/>
+<property name="fieldClass" value="java.lang.String"/>
+<property name="param1" value="width:400px;height:100px;"/>
+<property name="param2" value="width:400px;height:100px;"/>
+<property name="param3" value=""/>
+<property name="param4" value=""/>
+<property name="param5" value=""/>
+</field>
+<field position="1" name="assessment_endDateOfMedicalItem" type="InputDate" id="326442456">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;End datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="assessment_in/endDateOfMedicalItem"/>
+<property name="outputBinding" value="assessment_out/endDateOfMedicalItem"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="assessment_startDateOfMedicalItem" type="InputDate" id="559813491">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Begin datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="assessment_in/startDateOfMedicalItem"/>
+<property name="outputBinding" value="assessment_out/startDateOfMedicalItem"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="assessment_commentOfMedicalItem" type="HTMLEditor" id="1868984116">
+<property name="fieldRequired" value="false"/>
+<property name="height" value="150"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;commentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="600"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="assessment_in/commentOfMedicalItem"/>
+<property name="outputBinding" value="assessment_out/commentOfMedicalItem"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="assessment_in" name="#A7E690" type="className" outId="assessment_out" value="com.mds.model.Assessment" id="assessment"/>
+</form>

@@ -1,0 +1,195 @@
+
+<form id="139619544">
+<property name="subject" value=""/>
+<property name="name" value="ligne_Inference_result.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_operation_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{inferenceResult_operation}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_operation_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{inferenceResult_operation}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{inferenceResult_value}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{inferenceResult_value}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_desciption_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{inferenceResult_desciption}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_desciption_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{inferenceResult_desciption}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_service_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{inferenceResult_service}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_service_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{inferenceResult_service}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_ruleThatGiveTheResult_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{inferenceResult_ruleThatGiveTheResult}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_ruleThatGiveTheResult_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{inferenceResult_ruleThatGiveTheResult}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_relatedPathway_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{inferenceResult_relatedPathway}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-139619544-inferenceResult_relatedPathway_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{inferenceResult_startRelatedPathway} $field{inferenceResult_relatedPathway}&lt;/div&gt;
+			&lt;/td&gt;		
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+"/>
+<field position="0" name="inferenceResult_operation" type="InputText" id="1235944698">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Operationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="noBorder"/>
+<property name="cssStyle" value="border:none; background : none;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="inferenceResult_in/operation"/>
+<property name="outputBinding" value="inferenceResult_out/operation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="inferenceResult_value" type="InputText" id="1055389001">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Valuequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="noBorder"/>
+<property name="cssStyle" value="border:none; background : none;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="inferenceResult_in/value"/>
+<property name="outputBinding" value="inferenceResult_out/value"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="inferenceResult_desciption" type="InputTextArea" id="1320501641">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Desciptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="noBorder"/>
+<property name="cssStyle" value="border:none; background: none;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="inferenceResult_in/desciption"/>
+<property name="outputBinding" value="inferenceResult_out/desciption"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="inferenceResult_service" type="InputText" id="128235272">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Servicequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="noBorder"/>
+<property name="cssStyle" value="border:none; background : none;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="inferenceResult_in/service"/>
+<property name="outputBinding" value="inferenceResult_out/service"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="inferenceResult_ruleThatGiveTheResult" type="InputTextArea" id="1334355142">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Rulequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="noBorder"/>
+<property name="cssStyle" value="border:none; background : none;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="inferenceResult_in/ruleThatGiveTheResult"/>
+<property name="outputBinding" value="inferenceResult_out/ruleThatGiveTheResult"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="inferenceResult_relatedPathway" type="InputText" id="993217372">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Related clinical pathwayquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="noBorder"/>
+<property name="cssStyle" value="border:none; background : none;"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="inferenceResult_in/relatedPathway"/>
+<property name="outputBinding" value="inferenceResult_out/relatedPathway"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="inferenceResult_startRelatedPathway" type="CheckBox" id="575532202">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value="noBorder"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="inferenceResult_in/startRelatedPathway"/>
+<property name="outputBinding" value="inferenceResult_out/startRelatedPathway"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="inferenceResult_in" name="#FF8881" type="className" outId="inferenceResult_out" value="com.mds.model.InferenceResult" id="inferenceResult"/>
+</form>

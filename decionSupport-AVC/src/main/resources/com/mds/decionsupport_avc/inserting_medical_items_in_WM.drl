@@ -1,0 +1,16 @@
+package com.mds.decisionsupport;
+import java.lang.Number;
+import com.mds.model.Contact;
+import com.mds.model.MedicalItem;
+
+rule "inserting medicalitems in to WM"
+	dialect "mvel"
+	ruleflow-group "triage"
+	no-loop true
+	when
+		$contact : Contact( $miList: hasMedicalItems )		
+		$mi : MedicalItem( ) from $miList
+	then
+System.out.println("insert fact : "+$mi.getHasLabel());
+insert($mi);
+end

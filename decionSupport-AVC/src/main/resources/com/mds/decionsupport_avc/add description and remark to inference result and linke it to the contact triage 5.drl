@@ -1,0 +1,19 @@
+package com.mds.decisionsupport;
+
+import com.mds.model.Contact;
+import com.mds.model.InferenceResult;
+
+rule "add description and remark to inference result and linke it to the contact triage 5"
+	dialect "mvel"
+	ruleflow-group "triage"
+	no-loop true
+	when
+		$contact : Contact(  )
+		$ir :InferenceResult( value == "5" )
+	then
+		 $ir.setOperation( "Triage" );
+	       	 $ir.setDesciption( "No functional impairment or organic lesion justifying the use of hospital resources" );
+	         $ir.setRemark( "Consultation with no diagnostic or therapeutic procedure Medical intervention within 240 min" );
+		$ir.setDate(new java.util.Date());
+       		$contact.addInferenceResults($ir);
+end

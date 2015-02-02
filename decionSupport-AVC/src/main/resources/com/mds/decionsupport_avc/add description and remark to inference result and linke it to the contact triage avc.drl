@@ -1,0 +1,20 @@
+package com.mds.decisionsupport;
+import com.mds.model.Contact;
+import com.mds.model.InferenceResult;
+
+
+rule "add description and remark to inference result and linke it to the contact triage avc"
+	dialect "mvel"
+	ruleflow-group "triage"
+	no-loop true
+	when
+		$contact : Contact(  )
+		$ir :InferenceResult( value == "*" )
+	then
+		 $ir.setOperation( "Triage" );
+	       	 $ir.setDesciption( "Immediately life-threatening" );
+	         $ir.setRemark( "Actions focused on support of one or more vital functions Immediate medical and paramedical intervention" );
+		$ir.setDate(new java.util.Date());
+		$ir.setStartRelatedPathway(false);
+       		$contact.addInferenceResults($ir);
+end

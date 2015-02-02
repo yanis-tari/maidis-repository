@@ -1,0 +1,322 @@
+
+<form id="569590388">
+<property name="subject" value=""/>
+<property name="name" value="reassessment_NIHSS_and_measurement_blood_pressure-taskform.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="before"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;#cadre{height:100%; width:1000px;} #cadreNIHSS{width:750px;height:100%;} #cadreBP{width:250px; height:100%;} #nihssTable tr td:first-child{width:200px} 	.no-close .ui-dialog-titlebar-close { display: none;}&lt;/style&gt;
+
+&lt;table id=&quot;cadre&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td COLSPAN=2&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-569590388-contact_patientConcerned_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{contact_patientConcerned}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-569590388-contact_patientConcerned_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{contact_patientConcerned}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td id=&quot;cadreNIHSS&quot;&gt;
+
+&lt;div id=&quot;dialogNIHSS&quot; title=&quot;NIHSS&quot;&gt;
+  &lt;table id=&quot;nihssTable&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label1&quot;&gt;Level of consciousness &lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider1&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label1&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount1&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label2&quot;&gt;Orientation questions (two)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider2&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label2&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount2&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label3&quot;&gt;Response to commands (two)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider3&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label3&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount3&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label4&quot;&gt;Gaze&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider4&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label4&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount4&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label5&quot;&gt;Visual fields&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider5&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label5&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount5&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label6&quot;&gt;Facial movement&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider6&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label6&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount6&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label7&quot;&gt;Motor function (left arm)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider7&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label7&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount7&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label8&quot;&gt;Motor function (right arm)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider8&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label8&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount8&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label9&quot;&gt;Motor function (left leg)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider9&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label9&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount9&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label10&quot;&gt;Motor function (right leg)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider10&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label10&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount10&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label11&quot;&gt;Limb ataxia&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider11&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label11&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount11&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label12&quot;&gt;Sensory&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider12&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label12&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount12&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label13&quot;&gt;Language&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider13&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label13&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount13&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label14&quot;&gt;Articulation&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider14&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label14&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount14&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label15&quot;&gt;Extinction or inattention&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider15&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label15&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:250px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount15&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-569590388-nihss_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{nihss}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td valign=&quot;top&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-569590388-nihss_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{nihss}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;/td&gt;
+
+&lt;td id=&quot;cadreBP&quot;&gt;
+
+
+&lt;div id=&quot;dialogBP&quot; title=&quot;Measurement of blood pressure&quot;&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-569590388-bloodPressure_systolicBPvalue_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodPressure_systolicBPvalue}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;		
+						&lt;td valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-569590388-bloodPressure_systolicBPvalue_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodPressure_systolicBPvalue}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-569590388-bloodPressure_diastolicBPvalue_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodPressure_diastolicBPvalue}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;					
+						&lt;td valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-569590388-bloodPressure_diastolicBPvalue_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodPressure_diastolicBPvalue}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-569590388-bloodPressure_startDateOfMedicalItem_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{bloodPressure_startDateOfMedicalItem}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;tr&gt;
+					&lt;/tr&gt;	
+						&lt;td valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-569590388-bloodPressure_startDateOfMedicalItem_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{bloodPressure_startDateOfMedicalItem}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;script&gt;$(function() { var bpCadre=$(&quot;#cadreBP&quot;); var nihssCadre=$(&quot;#cadreNIHSS&quot;);	$( &quot;#dialogBP&quot; ).dialog({	dialogClass: &quot;no-close&quot;,minWidth: 250,		minHeight:200,  position: { my: &quot;right top&quot;, at: &quot;right top&quot;, of: bpCadre } }); 	$( &quot;#dialogNIHSS&quot; ).dialog({	dialogClass: &quot;no-close&quot;,	minWidth: 750,		minHeight:400	,  position: { my: &quot;left top&quot;, at: &quot;left top&quot;, of: nihssCadre } });	 function updateNihssScore() {			var nihss=0;				$( &quot;.nihssAmount&quot; ).each(function( index ) {					nihss=nihss+parseInt($( this ).val());									});			$(&quot;.nihssScore&quot;).val(nihss);	}; 				 	$( &quot;#Slider1&quot; ).slider({		value:0,		min: 0,		max: 3,		step: 1,		slide: function( event, ui ) {			if(ui.value==0){			$( &quot;#Label1&quot; ).val( &quot;alert&quot; );				}			if(ui.value==1){			$( &quot;#Label1&quot; ).val( &quot;drowsy&quot; );			}			if(ui.value==2){			$( &quot;#Label1&quot; ).val( &quot;obtunded&quot; );			}			if(ui.value==3){			$( &quot;#Label1&quot; ).val( &quot;coma/unresponsive&quot; );			}									$( &quot;#Amount1&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label1&quot; ).val( &quot;alert&quot; );	 $( &quot;#Amount1&quot; ).val( $( &quot;#Slider1&quot; ).slider( &quot;value&quot; ) );			 		$( &quot;#Slider2&quot; ).slider({		value:0,		min: 0,		max: 2,		step: 1,		slide: function( event, ui ) {			if(ui.value==0){			$( &quot;#Label2&quot; ).val( &quot;answers both correctly&quot; );				}			if(ui.value==1){			$( &quot;#Label2&quot; ).val( &quot;answers one correctly&quot; );			}			if(ui.value==2){			$( &quot;#Label2&quot; ).val( &quot;answers neither correctly&quot; );			}												$( &quot;#Amount2&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label2&quot; ).val( &quot;answers both correctly&quot; );	 $( &quot;#Amount2&quot; ).val( $( &quot;#Slider2&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider3&quot; ).slider({		value:0,		min: 0,		max: 2,		step: 1,		slide: function( event, ui ) {			if(ui.value==0){			$( &quot;#Label3&quot; ).val( &quot;performs both tasks correctly&quot; );				}			if(ui.value==1){			$( &quot;#Label3&quot; ).val( &quot;performs one task correctly&quot; );			}			if(ui.value==2){			$( &quot;#Label3&quot; ).val( &quot;performs neither&quot; );			}												$( &quot;#Amount3&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label3&quot; ).val( &quot;performs both tasks correctly&quot; );	 $( &quot;#Amount3&quot; ).val( $( &quot;#Slider3&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider4&quot; ).slider({		value:0,		min: 0,		max: 2,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label4&quot; ).val( &quot;partial gaze palsy&quot; );				}			if(ui.value==2){			$( &quot;#Label4&quot; ).val( &quot;complete gaze palsy&quot; );			}			if(ui.value==0){			$( &quot;#Label4&quot; ).val( &quot;normal horizontal movements&quot; );			}										$( &quot;#Amount4&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label4&quot; ).val( &quot;normal horizontal movements&quot; );	 $( &quot;#Amount4&quot; ).val( $( &quot;#Slider4&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider5&quot; ).slider({		value:0,		min: 0,		max: 3,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label5&quot; ).val( &quot;partial hemianopia&quot; );				}			if(ui.value==2){			$( &quot;#Label5&quot; ).val( &quot;complete hemianopia&quot; );			}			if(ui.value==3){			$( &quot;#Label5&quot; ).val( &quot;bilateral hemianopia&quot; );			}			if(ui.value==0){			$( &quot;#Label5&quot; ).val( &quot;no visual field defect&quot; );			}									$( &quot;#Amount5&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label5&quot; ).val( &quot;no visual field defect&quot; );	 $( &quot;#Amount5&quot; ).val( $( &quot;#Slider5&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider6&quot; ).slider({		value:0,		min: 0,		max: 3,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label6&quot; ).val( &quot;minor facial weakness&quot; );				}			if(ui.value==2){			$( &quot;#Label6&quot; ).val( &quot;partial facial weakness&quot; );			}			if(ui.value==3){			$( &quot;#Label6&quot; ).val( &quot;complete unilateral palsy&quot; );			}			if(ui.value==0){			$( &quot;#Label6&quot; ).val( &quot;normal&quot; );			}									$( &quot;#Amount6&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label6&quot; ).val( &quot;normal&quot; );	 $( &quot;#Amount6&quot; ).val( $( &quot;#Slider6&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider7&quot; ).slider({		value:0,		min: 0,		max: 4,		step: 1,		slide: function( event, ui ) {					if(ui.value==0){			$( &quot;#Label7&quot; ).val( &quot;no drift&quot; );				}			if(ui.value==1){			$( &quot;#Label7&quot; ).val( &quot;drift before 5 seconds&quot; );				}			if(ui.value==2){			$( &quot;#Label7&quot; ).val( &quot;falls before 10 seconds&quot; );			}			if(ui.value==3){			$( &quot;#Label7&quot; ).val( &quot;no effort against gravity&quot; );			}			if(ui.value==4){			$( &quot;#Label7&quot; ).val( &quot;no movement&quot; );			}									$( &quot;#Amount7&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label7&quot; ).val( &quot;no drift&quot; );	 $( &quot;#Amount7&quot; ).val( $( &quot;#Slider7&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider8&quot; ).slider({		value:0,		min: 0,		max: 4,		step: 1,		slide: function( event, ui ) {			if(ui.value==0){			$( &quot;#Label8&quot; ).val( &quot;no drift&quot; );				}			if(ui.value==1){			$( &quot;#Label8&quot; ).val( &quot;drift before 5 seconds&quot; );				}			if(ui.value==2){			$( &quot;#Label8&quot; ).val( &quot;falls before 10 seconds&quot; );			}			if(ui.value==3){			$( &quot;#Label8&quot; ).val( &quot;no effort against gravity&quot; );			}			if(ui.value==4){			$( &quot;#Label8&quot; ).val( &quot;no movement&quot; );			}												$( &quot;#Amount8&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label8&quot; ).val( &quot;no drift&quot; );	 $( &quot;#Amount8&quot; ).val( $( &quot;#Slider8&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider9&quot; ).slider({		value:0,		min: 0,		max: 4,		step: 1,		slide: function( event, ui ) {			if(ui.value==0){			$( &quot;#Label9&quot; ).val( &quot;no drift&quot; );				}			if(ui.value==1){			$( &quot;#Label9&quot; ).val( &quot;drift before 5 seconds&quot; );				}			if(ui.value==2){			$( &quot;#Label9&quot; ).val( &quot;falls before 5 seconds&quot; );			}			if(ui.value==3){			$( &quot;#Label9&quot; ).val( &quot;no effort against gravity&quot; );			}			if(ui.value==4){			$( &quot;#Label9&quot; ).val( &quot;no movement&quot; );			}									$( &quot;#Amount9&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label9&quot; ).val( &quot;no drift&quot; );	 $( &quot;#Amount9&quot; ).val( $( &quot;#Slider9&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider10&quot; ).slider({		value:0,		min: 0,		max: 4,		step: 1,		slide: function( event, ui ) {			if(ui.value==0){			$( &quot;#Label10&quot; ).val( &quot;no drift&quot; );				}			if(ui.value==1){			$( &quot;#Label10&quot; ).val( &quot;drift before 5 seconds&quot; );				}			if(ui.value==2){			$( &quot;#Label10&quot; ).val( &quot;falls before 5 seconds&quot; );			}			if(ui.value==3){			$( &quot;#Label10&quot; ).val( &quot;no effort against gravity&quot; );			}			if(ui.value==4){			$( &quot;#Label10&quot; ).val( &quot;no movement&quot; );			}									$( &quot;#Amount10&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label10&quot; ).val( &quot;no drift&quot; );	 $( &quot;#Amount10&quot; ).val( $( &quot;#Slider10&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider11&quot; ).slider({		value:0,		min: 0,		max: 2,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label11&quot; ).val( &quot;ataxia in one limb&quot; );				}			if(ui.value==2){			$( &quot;#Label11&quot; ).val( &quot;ataxia in two limbs&quot; );			}			if(ui.value==0){			$( &quot;#Label11&quot; ).val( &quot;no ataxia&quot; );			}												$( &quot;#Amount11&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label11&quot; ).val( &quot;no ataxia&quot; );	 $( &quot;#Amount11&quot; ).val( $( &quot;#Slider11&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider12&quot; ).slider({		value:0,		min: 0,		max: 2,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label12&quot; ).val( &quot;mild sensory loss&quot; );				}			if(ui.value==2){			$( &quot;#Label12&quot; ).val( &quot;severe sensory loss&quot; );			}			if(ui.value==0){			$( &quot;#Label12&quot; ).val( &quot;no sensory loss&quot; );			}											$( &quot;#Amount12&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label12&quot; ).val( &quot;no sensory loss&quot; );	 $( &quot;#Amount12&quot; ).val( $( &quot;#Slider12&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider13&quot; ).slider({		value:0,		min: 0,		max: 3,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label13&quot; ).val( &quot;mild aphasia&quot; );				}			if(ui.value==2){			$( &quot;#Label13&quot; ).val( &quot;severe aphasia&quot; );			}			if(ui.value==3){			$( &quot;#Label13&quot; ).val( &quot;mute or global aphasia&quot; );			}			if(ui.value==0){			$( &quot;#Label13&quot; ).val( &quot;normal&quot; );			}									$( &quot;#Amount13&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label13&quot; ).val( &quot;normal&quot; );	 $( &quot;#Amount13&quot; ).val( $( &quot;#Slider13&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider14&quot; ).slider({		value:0,		min: 0,		max: 2,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label14&quot; ).val( &quot;mild dysarthria&quot; );				}			if(ui.value==2){			$( &quot;#Label14&quot; ).val( &quot;severe dysarthria&quot; );			}			if(ui.value==0){			$( &quot;#Label14&quot; ).val( &quot;normal&quot; );			}									$( &quot;#Amount14&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label14&quot; ).val( &quot;normal&quot; );	 $( &quot;#Amount14&quot; ).val( $( &quot;#Slider14&quot; ).slider( &quot;value&quot; ) );			 $( &quot;#Slider15&quot; ).slider({		value:0,		min: 0,		max: 2,		step: 1,		slide: function( event, ui ) {			if(ui.value==1){			$( &quot;#Label15&quot; ).val( &quot;mild (loss 1 sensory modality)&quot; );				}			if(ui.value==2){			$( &quot;#Label15&quot; ).val( &quot;severe (loss 2 modalities)&quot; );			}			if(ui.value==0){			$( &quot;#Label15&quot; ).val( &quot;absent&quot; );			}									$( &quot;#Amount15&quot; ).val( ui.value);			updateNihssScore();		}	});			 	 $( &quot;#Label15&quot; ).val( &quot;absent&quot; );	 $( &quot;#Amount15&quot; ).val( $( &quot;#Slider15&quot; ).slider( &quot;value&quot; ) );			 updateNihssScore();				 });&lt;/script&gt;"/>
+<field position="0" name="contact_patientConcerned" type="Subform" id="127204535">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="contact_in/patientConcerned"/>
+<property name="outputBinding" value="contact_out/patientConcerned"/>
+<property name="defaultSubform" value="display_patient.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="bloodPressure_systolicBPvalue" type="InputTextInteger" id="811936379">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Systolicquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Systolic blood pressurquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="bloodPressure_in/systolicBPvalue"/>
+<property name="outputBinding" value="bloodPressure_out/systolicBPvalue"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="bloodPressure_diastolicBPvalue" type="InputTextInteger" id="1104471122">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Diastolicquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Diastolic blood pressurquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="bloodPressure_in/diastolicBPvalue"/>
+<property name="outputBinding" value="bloodPressure_out/diastolicBPvalue"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="bloodPressure_startDateOfMedicalItem" type="InputDate" id="1835027628">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="bloodPressure_in/startDateOfMedicalItem"/>
+<property name="outputBinding" value="bloodPressure_out/startDateOfMedicalItem"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="nihss" type="InputTextInteger" id="745298954">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;NIHSS Score :quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value="nihssScore"/>
+<property name="cssStyle" value="border:0; color:#f6931f; font-weight:bold; width:50px;"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="nihss_in"/>
+<property name="outputBinding" value="nihss_out"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="bloodPressure_in" name="#0000A0" type="className" outId="bloodPressure_out" value="com.mds.model.BloodPressure" id="bloodPressure"/>
+<dataHolder inputId="contact_in" name="#A7E690" type="className" outId="contact_out" value="com.mds.model.Contact" id="contact"/>
+<dataHolder inputId="nihss_in" name="#FF8881" type="basicType" outId="nihss_out" value="java.lang.Integer" id="nihss"/>
+</form>

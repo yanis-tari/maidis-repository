@@ -1,0 +1,85 @@
+
+<form id="1785533682">
+<property name="subject" value=""/>
+<property name="name" value="Imagerie_cerebrale-taskform.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="left"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="
+&lt;style scoped=&quot;&quot; type=&quot;text/css&quot;&gt;.custom-combobox {  position: relative;  display: inline-block;}  .custom-combobox-toggle {  position: absolute;  top: 0;  bottom: 0;  margin-left: -1px;  padding: 0;  *height: 1.7em;  *top: 0.1em;  }  .custom-combobox-input {  margin: 0;  padding: 0.3em;  } &lt;/style&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1785533682-contact_patientConcerned_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{contact_patientConcerned}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1785533682-contact_patientConcerned_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{contact_patientConcerned}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1785533682-irmResult_label_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{irmResult_label}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1785533682-irmResult_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{irmResult_label}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://smdspatst52.maidis.com:8080/jbpm-console/formModeler/js/custom_jqueryui_combobox.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;$(function() {    $( &quot;.combobox&quot; ).combobox();  $( &quot;.accordion&quot; ).accordion({ header: &quot;h1&quot;, heightStyle: &quot;content&quot;});    }); &lt;/script&gt;"/>
+<field position="0" name="contact_patientConcerned" type="Subform" id="2107480529">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="contact_in/patientConcerned"/>
+<property name="outputBinding" value="contact_out/patientConcerned"/>
+<property name="defaultSubform" value="display_patient.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="irmResult_label" type="InputText" id="584992801">
+<property name="fieldRequired" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Brain imaging resultquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value="{http://snomed.info/id/422504002,Ischemic stoke;http://snomed.info/id/274100004,cerebral hemorrhage;http://snomed.info/id/95455008,cerebral venous thrombosis;other,other}"/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="combobox"/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="irmResult_in"/>
+<property name="outputBinding" value="irmResult_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="contact_in" name="#FF8881" type="className" outId="contact_out" value="com.mds.model.Contact" id="contact"/>
+<dataHolder inputId="irmResult_in" name="#A7E690" type="basicType" outId="irmResult_out" value="java.lang.String" id="irmResult"/>
+</form>

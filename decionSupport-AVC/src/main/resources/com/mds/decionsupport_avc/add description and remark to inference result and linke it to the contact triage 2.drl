@@ -1,0 +1,20 @@
+package com.mds.decisionsupport;
+
+import com.mds.model.Contact;
+import com.mds.model.InferenceResult;
+
+
+rule "add description and remark to inference result and linke it to the contact triage 2"
+	dialect "mvel"
+	ruleflow-group "triage"
+	no-loop true
+	when
+		$contact : Contact(  )
+		$ir :InferenceResult( value == "2" )
+	then
+		 $ir.setOperation( "Triage" );
+	       	 $ir.setDesciption( "Marked impairment of a vital organ or imminently life-threatening or functionally disabling traumatic lesion" );
+	         $ir.setRemark( "Actions focused on treatment of the vital function or traumatic lesion Immediate paramedical and medical intervention within 20 min" );
+		$ir.setDate(new java.util.Date());
+       		$contact.addInferenceResults($ir);
+end
