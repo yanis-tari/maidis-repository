@@ -7,6 +7,18 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>decionSupport-AVC</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.mds.utils</groupId>
+      <artifactId>MdsJvRpc</artifactId>
+      <version>1.0.0-main</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mds.data_server</groupId>
+      <artifactId>MdsJvDataProxy</artifactId>
+      <version>1.0.0-main</version>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
