@@ -18,31 +18,6 @@
       <artifactId>MdsJvDataProxy</artifactId>
       <version>1.0.0-main</version>
     </dependency>
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-core</artifactId>
-      <version>2.10.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-core</artifactId>
-      <version>2.10.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.jena</groupId>
-      <artifactId>jena-iri</artifactId>
-      <version>0.9.5</version>
-    </dependency>
-    <dependency>
-      <groupId>virtjdbc</groupId>
-      <artifactId>virtjdbc</artifactId>
-      <version>4</version>
-    </dependency>
-    <dependency>
-      <groupId>virt_jena</groupId>
-      <artifactId>virt_jena</artifactId>
-      <version>2</version>
-    </dependency>
   </dependencies>
   <repositories>
     <repository>
