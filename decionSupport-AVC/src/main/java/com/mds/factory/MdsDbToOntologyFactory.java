@@ -248,7 +248,7 @@ public class MdsDbToOntologyFactory {
 				String measureUnit = instance.sql.GetStringValue(13);
 				double upperValue = instance.sql.GetFloatValue(14);
 				double lowerValue = instance.sql.GetFloatValue(15);		
-				
+/*				
 				switch(miCategory){
 					case M: 
 						mi = new Subjective();
@@ -269,17 +269,17 @@ public class MdsDbToOntologyFactory {
 							break;	
 
 							case ACR : 
-//								ACR   Acte Réalisé
+//								ACR   Acte Rï¿½alisï¿½
 								System.out.println("ACR"+miText+" ::"+attrName+"::"+valueType+" :: "+stringValue+"::"+numValue+"::"+measureUnit+"|");
 							break;	
 							
 							case AL : 
-//								AL   Allergie non médicamenteuse
+//								AL   Allergie non mï¿½dicamenteuse
 								System.out.println("AL"+miText+" ::"+attrName+"::"+valueType+" :: "+stringValue+"::"+numValue+"::"+measureUnit+"|");
 							break;	
 							
 							case AM : 
-//								AM   Allergie médicamenteuse
+//								AM   Allergie mï¿½dicamenteuse
 								System.out.println("AM"+miText+" ::"+attrName+"::"+valueType+" :: "+stringValue+"::"+numValue+"::"+measureUnit+"|");
 							break;	
 							
@@ -289,7 +289,7 @@ public class MdsDbToOntologyFactory {
 							break;	
 							
 							case MEA : 
-//								MEA   Administration Médicament
+//								MEA   Administration Mï¿½dicament
 								System.out.println("MEA"+miText+" ::"+attrName+"::"+valueType+" :: "+stringValue+"::"+numValue+"::"+measureUnit+"|");
 							break;	
 							
@@ -314,7 +314,7 @@ public class MdsDbToOntologyFactory {
 							break;	
 							
 							case XBR : 
-//								XBR   Examen Réalisé
+//								XBR   Examen Rï¿½alisï¿½
 								System.out.println("XBR"+miText+" ::"+attrName+"::"+valueType+" :: "+stringValue+"::"+numValue+"::"+measureUnit+"|");
 							break;	
 							
@@ -489,7 +489,7 @@ public class MdsDbToOntologyFactory {
 							}
 					break;
 				}
-				
+				*/
 				
 			}
 			mi_id = instance.sql.GetIntValue(col);

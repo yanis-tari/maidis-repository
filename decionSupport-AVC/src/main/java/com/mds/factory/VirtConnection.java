@@ -7,7 +7,7 @@ import com.mds.gao.binding.Jenabean;
 
 public class VirtConnection {
 	
-	  private static String url = "jdbc:virtuoso://smdspatst52:1111";
+	  private static String url = "jdbc:virtuoso://localhost:1111";
 	 
 	  private static String user = "dba";
 	 
