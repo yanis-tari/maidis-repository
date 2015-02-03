@@ -1,0 +1,237 @@
+
+<form id="1919161503">
+<property name="subject" value=""/>
+<property name="name" value="glasgow_and_NIHSS_scores_evaluation-taskform.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;#glasgowTable tr td{padding:10px;} #nihssTable tr td:first-child{width:200px}
+&lt;/style&gt;
+&lt;p&gt;
+$field{avc_patient}
+&lt;/p&gt;
+&lt;div id=&quot;accordion&quot; style=&quot;min-width:1000px;min-height:400px;&quot;&gt;
+&lt;h1 style=&quot;letter-spacing: 0.01em;&quot;&gt;&lt;a href=&quot;#&quot;&gt;Glasgow coma score&lt;/a&gt;&lt;/h1&gt;
+
+&lt;div&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; id=&quot;glasgowTable&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;EyeLabel&quot;&gt;Eye &lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;EyeSlider&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;EyeLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;EyeAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;VerbalLabel&quot;&gt;Verbal &lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;VerbalSlider&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;VerbalLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;VerbalAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;MotorLabel&quot;&gt;Motor &lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;MotorSlider&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;MotorLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;MotorAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-glasgowScore_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{avc_glasgowScore}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-glasgowScore_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{avc_glasgowScore}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h1 style=&quot;letter-spacing: 0.01em;&quot;&gt;&lt;a href=&quot;#&quot;&gt;National Institutes of Health Stroke Scale &lt;strong&gt;(NIHSS)&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;div&gt;
+&lt;table id=&quot;nihssTable&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label1&quot;&gt;Level of consciousness &lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider1&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label1&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount1&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label2&quot;&gt;Orientation questions (two)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider2&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label2&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount2&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label3&quot;&gt;Response to commands (two)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider3&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label3&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount3&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label4&quot;&gt;Gaze&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider4&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label4&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount4&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label5&quot;&gt;Visual fields&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider5&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label5&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount5&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label6&quot;&gt;Facial movement&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider6&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label6&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount6&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label7&quot;&gt;Motor function (left arm)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider7&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label7&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount7&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label8&quot;&gt;Motor function (right arm)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider8&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label8&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount8&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label9&quot;&gt;Motor function (left leg)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider9&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label9&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount9&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label10&quot;&gt;Motor function (right leg)&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider10&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label10&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount10&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label11&quot;&gt;Limb ataxia&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider11&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label11&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount11&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label12&quot;&gt;Sensory&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider12&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label12&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount12&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label13&quot;&gt;Language&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider13&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label13&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount13&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label14&quot;&gt;Articulation&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider14&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label14&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount14&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;label for=&quot;Label15&quot;&gt;Extinction or inattention&lt;/label&gt;&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;Slider15&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label15&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount15&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-nihssScore_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{avc_nihssScore}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-nihssScore_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{avc_nihssScore}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;$(function() { $( &quot;#accordion&quot; ).accordion({ header: &quot;h1&quot;, heightStyle: &quot;content&quot;});  function updateGlasgowScore() {   var gs=0;    $( &quot;.glasgowAmount&quot; ).each(function( index ) {     gs=gs+parseInt($( this ).val());         });   $(&quot;.glasgowScore&quot;).val(gs); };   function updateNihssScore() {   var nihss=0;    $( &quot;.nihssAmount&quot; ).each(function( index ) {     nihss=nihss+parseInt($( this ).val());         });   $(&quot;.nihssScore&quot;).val(nihss); };  $( &quot;#EyeSlider&quot; ).slider({  value:4,  min: 1,  max: 4,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#EyeLabel&quot; ).val( &quot;Does not open eyes&quot; );    }   if(ui.value==2){   $( &quot;#EyeLabel&quot; ).val( &quot;Opens eyes in response to painful stimuli&quot; );   }   if(ui.value==3){   $( &quot;#EyeLabel&quot; ).val( &quot;Opens eyes in response to voice&quot; );   }   if(ui.value==4){   $( &quot;#EyeLabel&quot; ).val( &quot;Opens eyes spontaneously&quot; );   }      $( &quot;#EyeAmount&quot; ).val( ui.value);   updateGlasgowScore();  } });  $( &quot;#EyeLabel&quot; ).val( &quot;Opens eyes spontaneously&quot; );    $( &quot;#EyeAmount&quot; ).val( $( &quot;#EyeSlider&quot; ).slider( &quot;value&quot; ) );  $( &quot;#VerbalSlider&quot; ).slider({  value:5,  min: 1,  max: 5,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#VerbalLabel&quot; ).val( &quot;Makes no sounds&quot; );    }   if(ui.value==2){   $( &quot;#VerbalLabel&quot; ).val( &quot;Incomprehensible sounds&quot; );   }   if(ui.value==3){   $( &quot;#VerbalLabel&quot; ).val( &quot;Utters inappropriate words&quot; );   }   if(ui.value==4){   $( &quot;#VerbalLabel&quot; ).val( &quot;Confused, disoriented&quot; );   }   if(ui.value==5){   $( &quot;#VerbalLabel&quot; ).val( &quot;Oriented, converses normally&quot; );   }      $( &quot;#VerbalAmount&quot; ).val( ui.value);      updateGlasgowScore();  } });  $( &quot;#VerbalLabel&quot; ).val( &quot;Oriented, converses normally&quot; );  $( &quot;#VerbalAmount&quot; ).val( $( &quot;#VerbalSlider&quot; ).slider( &quot;value&quot; ) );  $( &quot;#MotorSlider&quot; ).slider({  value:6,  min: 1,  max: 6,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#MotorLabel&quot; ).val( &quot;Makes no movements&quot; );    }   if(ui.value==2){   $( &quot;#MotorLabel&quot; ).val( &quot;Extension to painful stimuli (decerebrate response)&quot; );   }   if(ui.value==3){   $( &quot;#MotorLabel&quot; ).val( &quot;Abnormal flexion to painful stimuli (decorticate response)&quot; );   }   if(ui.value==4){   $( &quot;#MotorLabel&quot; ).val( &quot;Flexion / Withdrawal to painful stimuli&quot; );   }   if(ui.value==5){   $( &quot;#MotorLabel&quot; ).val( &quot;Localizes painful stimuli&quot; );   }   if(ui.value==6){   $( &quot;#MotorLabel&quot; ).val( &quot;Obeys commands&quot; );   }      $( &quot;#MotorAmount&quot; ).val( ui.value);   updateGlasgowScore();  } });    $( &quot;#MotorLabel&quot; ).val( &quot;Obeys commands&quot; );  $( &quot;#MotorAmount&quot; ).val( $( &quot;#MotorSlider&quot; ).slider( &quot;value&quot; ) ); updateGlasgowScore();                   $( &quot;#Slider1&quot; ).slider({  value:0,  min: 0,  max: 3,  step: 1,  slide: function( event, ui ) {   if(ui.value==0){   $( &quot;#Label1&quot; ).val( &quot;alert&quot; );    }   if(ui.value==1){   $( &quot;#Label1&quot; ).val( &quot;drowsy&quot; );   }   if(ui.value==2){   $( &quot;#Label1&quot; ).val( &quot;obtunded&quot; );   }   if(ui.value==3){   $( &quot;#Label1&quot; ).val( &quot;coma/unresponsive&quot; );   }         $( &quot;#Amount1&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label1&quot; ).val( &quot;alert&quot; );  $( &quot;#Amount1&quot; ).val( $( &quot;#Slider1&quot; ).slider( &quot;value&quot; ) );      $( &quot;#Slider2&quot; ).slider({  value:0,  min: 0,  max: 2,  step: 1,  slide: function( event, ui ) {   if(ui.value==0){   $( &quot;#Label2&quot; ).val( &quot;answers both correctly&quot; );    }   if(ui.value==1){   $( &quot;#Label2&quot; ).val( &quot;answers one correctly&quot; );   }   if(ui.value==2){   $( &quot;#Label2&quot; ).val( &quot;answers neither correctly&quot; );   }            $( &quot;#Amount2&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label2&quot; ).val( &quot;answers both correctly&quot; );  $( &quot;#Amount2&quot; ).val( $( &quot;#Slider2&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider3&quot; ).slider({  value:0,  min: 0,  max: 2,  step: 1,  slide: function( event, ui ) {   if(ui.value==0){   $( &quot;#Label3&quot; ).val( &quot;performs both tasks correctly&quot; );    }   if(ui.value==1){   $( &quot;#Label3&quot; ).val( &quot;performs one task correctly&quot; );   }   if(ui.value==2){   $( &quot;#Label3&quot; ).val( &quot;performs neither&quot; );   }            $( &quot;#Amount3&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label3&quot; ).val( &quot;performs both tasks correctly&quot; );  $( &quot;#Amount3&quot; ).val( $( &quot;#Slider3&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider4&quot; ).slider({  value:0,  min: 0,  max: 2,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label4&quot; ).val( &quot;partial gaze palsy&quot; );    }   if(ui.value==2){   $( &quot;#Label4&quot; ).val( &quot;complete gaze palsy&quot; );   }   if(ui.value==0){   $( &quot;#Label4&quot; ).val( &quot;normal horizontal movements&quot; );   }          $( &quot;#Amount4&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label4&quot; ).val( &quot;normal horizontal movements&quot; );  $( &quot;#Amount4&quot; ).val( $( &quot;#Slider4&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider5&quot; ).slider({  value:0,  min: 0,  max: 3,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label5&quot; ).val( &quot;partial hemianopia&quot; );    }   if(ui.value==2){   $( &quot;#Label5&quot; ).val( &quot;complete hemianopia&quot; );   }   if(ui.value==3){   $( &quot;#Label5&quot; ).val( &quot;bilateral hemianopia&quot; );   }   if(ui.value==0){   $( &quot;#Label5&quot; ).val( &quot;no visual field defect&quot; );   }         $( &quot;#Amount5&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label5&quot; ).val( &quot;no visual field defect&quot; );  $( &quot;#Amount5&quot; ).val( $( &quot;#Slider5&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider6&quot; ).slider({  value:0,  min: 0,  max: 3,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label6&quot; ).val( &quot;minor facial weakness&quot; );    }   if(ui.value==2){   $( &quot;#Label6&quot; ).val( &quot;partial facial weakness&quot; );   }   if(ui.value==3){   $( &quot;#Label6&quot; ).val( &quot;complete unilateral palsy&quot; );   }   if(ui.value==0){   $( &quot;#Label6&quot; ).val( &quot;normal&quot; );   }         $( &quot;#Amount6&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label6&quot; ).val( &quot;normal&quot; );  $( &quot;#Amount6&quot; ).val( $( &quot;#Slider6&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider7&quot; ).slider({  value:0,  min: 0,  max: 4,  step: 1,  slide: function( event, ui ) {     if(ui.value==0){   $( &quot;#Label7&quot; ).val( &quot;no drift&quot; );    }   if(ui.value==1){   $( &quot;#Label7&quot; ).val( &quot;drift before 5 seconds&quot; );    }   if(ui.value==2){   $( &quot;#Label7&quot; ).val( &quot;falls before 10 seconds&quot; );   }   if(ui.value==3){   $( &quot;#Label7&quot; ).val( &quot;no effort against gravity&quot; );   }   if(ui.value==4){   $( &quot;#Label7&quot; ).val( &quot;no movement&quot; );   }         $( &quot;#Amount7&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label7&quot; ).val( &quot;no drift&quot; );  $( &quot;#Amount7&quot; ).val( $( &quot;#Slider7&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider8&quot; ).slider({  value:0,  min: 0,  max: 4,  step: 1,  slide: function( event, ui ) {   if(ui.value==0){   $( &quot;#Label8&quot; ).val( &quot;no drift&quot; );    }   if(ui.value==1){   $( &quot;#Label8&quot; ).val( &quot;drift before 5 seconds&quot; );    }   if(ui.value==2){   $( &quot;#Label8&quot; ).val( &quot;falls before 10 seconds&quot; );   }   if(ui.value==3){   $( &quot;#Label8&quot; ).val( &quot;no effort against gravity&quot; );   }   if(ui.value==4){   $( &quot;#Label8&quot; ).val( &quot;no movement&quot; );   }            $( &quot;#Amount8&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label8&quot; ).val( &quot;no drift&quot; );  $( &quot;#Amount8&quot; ).val( $( &quot;#Slider8&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider9&quot; ).slider({  value:0,  min: 0,  max: 4,  step: 1,  slide: function( event, ui ) {   if(ui.value==0){   $( &quot;#Label9&quot; ).val( &quot;no drift&quot; );    }   if(ui.value==1){   $( &quot;#Label9&quot; ).val( &quot;drift before 5 seconds&quot; );    }   if(ui.value==2){   $( &quot;#Label9&quot; ).val( &quot;falls before 5 seconds&quot; );   }   if(ui.value==3){   $( &quot;#Label9&quot; ).val( &quot;no effort against gravity&quot; );   }   if(ui.value==4){   $( &quot;#Label9&quot; ).val( &quot;no movement&quot; );   }         $( &quot;#Amount9&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label9&quot; ).val( &quot;no drift&quot; );  $( &quot;#Amount9&quot; ).val( $( &quot;#Slider9&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider10&quot; ).slider({  value:0,  min: 0,  max: 4,  step: 1,  slide: function( event, ui ) {   if(ui.value==0){   $( &quot;#Label10&quot; ).val( &quot;no drift&quot; );    }   if(ui.value==1){   $( &quot;#Label10&quot; ).val( &quot;drift before 5 seconds&quot; );    }   if(ui.value==2){   $( &quot;#Label10&quot; ).val( &quot;falls before 5 seconds&quot; );   }   if(ui.value==3){   $( &quot;#Label10&quot; ).val( &quot;no effort against gravity&quot; );   }   if(ui.value==4){   $( &quot;#Label10&quot; ).val( &quot;no movement&quot; );   }         $( &quot;#Amount10&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label10&quot; ).val( &quot;no drift&quot; );  $( &quot;#Amount10&quot; ).val( $( &quot;#Slider10&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider11&quot; ).slider({  value:0,  min: 0,  max: 2,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label11&quot; ).val( &quot;ataxia in one limb&quot; );    }   if(ui.value==2){   $( &quot;#Label11&quot; ).val( &quot;ataxia in two limbs&quot; );   }   if(ui.value==0){   $( &quot;#Label11&quot; ).val( &quot;no ataxia&quot; );   }            $( &quot;#Amount11&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label11&quot; ).val( &quot;no ataxia&quot; );  $( &quot;#Amount11&quot; ).val( $( &quot;#Slider11&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider12&quot; ).slider({  value:0,  min: 0,  max: 2,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label12&quot; ).val( &quot;mild sensory loss&quot; );    }   if(ui.value==2){   $( &quot;#Label12&quot; ).val( &quot;severe sensory loss&quot; );   }   if(ui.value==0){   $( &quot;#Label12&quot; ).val( &quot;no sensory loss&quot; );   }           $( &quot;#Amount12&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label12&quot; ).val( &quot;no sensory loss&quot; );  $( &quot;#Amount12&quot; ).val( $( &quot;#Slider12&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider13&quot; ).slider({  value:0,  min: 0,  max: 3,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label13&quot; ).val( &quot;mild aphasia&quot; );    }   if(ui.value==2){   $( &quot;#Label13&quot; ).val( &quot;severe aphasia&quot; );   }   if(ui.value==3){   $( &quot;#Label13&quot; ).val( &quot;mute or global aphasia&quot; );   }   if(ui.value==0){   $( &quot;#Label13&quot; ).val( &quot;normal&quot; );   }         $( &quot;#Amount13&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label13&quot; ).val( &quot;normal&quot; );  $( &quot;#Amount13&quot; ).val( $( &quot;#Slider13&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider14&quot; ).slider({  value:0,  min: 0,  max: 2,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label14&quot; ).val( &quot;mild dysarthria&quot; );    }   if(ui.value==2){   $( &quot;#Label14&quot; ).val( &quot;severe dysarthria&quot; );   }   if(ui.value==0){   $( &quot;#Label14&quot; ).val( &quot;normal&quot; );   }         $( &quot;#Amount14&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label14&quot; ).val( &quot;normal&quot; );  $( &quot;#Amount14&quot; ).val( $( &quot;#Slider14&quot; ).slider( &quot;value&quot; ) );    $( &quot;#Slider15&quot; ).slider({  value:0,  min: 0,  max: 2,  step: 1,  slide: function( event, ui ) {   if(ui.value==1){   $( &quot;#Label15&quot; ).val( &quot;mild (loss 1 sensory modality)&quot; );    }   if(ui.value==2){   $( &quot;#Label15&quot; ).val( &quot;severe (loss 2 modalities)&quot; );   }   if(ui.value==0){   $( &quot;#Label15&quot; ).val( &quot;absent&quot; );   }         $( &quot;#Amount15&quot; ).val( ui.value);   updateNihssScore();  } });      $( &quot;#Label15&quot; ).val( &quot;absent&quot; );  $( &quot;#Amount15&quot; ).val( $( &quot;#Slider15&quot; ).slider( &quot;value&quot; ) );    updateNihssScore();     });&lt;/script&gt;"/>
+<field position="0" name="avc_patient" type="Subform" id="1737217035">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;patient (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="avc_in/patient"/>
+<property name="outputBinding" value="avc_out/patient"/>
+<property name="defaultSubform" value="display_patient.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="avc_nihssScore" type="InputTextInteger" id="1519701330">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nihssScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Nihss scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value="nihssScore"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="avc_in/nihssScore"/>
+<property name="outputBinding" value="avc_out/nihssScore"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="avc_glasgowScore" type="InputTextInteger" id="860677781">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;glasgowScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Glasgow scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value="glasgowScore"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="avc_in/glasgowScore"/>
+<property name="outputBinding" value="avc_out/glasgowScore"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="avc_in" name="#0000A0" type="dataModelerEntry" outId="avc_out" value="com.mds.beans.Avc" id="avc"/>
+</form>
