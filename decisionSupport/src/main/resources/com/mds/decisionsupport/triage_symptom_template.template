@@ -245,21 +245,21 @@
         <string>3</string>
         <string>4-3</string>
         <string>4</string>
-        <string></string>
-        <string></string>
-        <string></string>
-        <string></string>
-        <string></string>
-        <string></string>
-        <string></string>
-        <string></string>
-        <string></string>
+        <string>*</string>
+        <string>*</string>
+        <string>*</string>
+        <string>*</string>
+        <string>*</string>
+        <string>*</string>
+        <string>*</string>
+        <string>*</string>
+        <string>*</string>
       </list>
     </entry>
     <entry>
       <string>$pathway_id</string>
       <list>
-        <string></string>
+        <null/>
         <string></string>
         <string></string>
         <string></string>
