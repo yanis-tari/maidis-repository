@@ -7,6 +7,9 @@
       <import>
         <type>com.mds.beans.SimpleExam</type>
       </import>
+      <import>
+        <type>org.jbpm.document.Document</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
