@@ -18,6 +18,11 @@
       <artifactId>decisionSupport</artifactId>
       <version>1.0.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-document</artifactId>
+      <version>6.1.0.Final</version>
+    </dependency>
   </dependencies>
   <repositories>
     <repository>
