@@ -9,37 +9,37 @@ public class Triage implements java.io.Serializable {
     static final long serialVersionUID = 1L;
 
     @org.kie.api.definition.type.Position(1)
-	private com.mds.beans.Contact contact;
+	protected com.mds.beans.Contact contact;
 
     @org.kie.api.definition.type.Position(0)
-	private com.mds.beans.Patient patient;
+    protected com.mds.beans.Patient patient;
 
     @org.kie.api.definition.type.Position(2)
-	private java.util.List<com.mds.beans.Pami> pamiList;
+    protected java.util.List<com.mds.beans.Pami> pamiList;
 
 	@org.kie.api.definition.type.Label("triage value")
 	@org.kie.api.definition.type.Position(3)
-	private java.lang.String triageValue;
+	protected java.lang.String triageValue;
 
 	@org.kie.api.definition.type.Label("Triage description")
 	@org.kie.api.definition.type.Position(4)
-	private java.lang.String triageDescription;
+	protected java.lang.String triageDescription;
 
 	@org.kie.api.definition.type.Label("triage date")
 	@org.kie.api.definition.type.Position(5)
-	private java.util.Date triageDate;
+	protected java.util.Date triageDate;
 
 	@org.kie.api.definition.type.Label(value = "Suggestions")
 	@org.kie.api.definition.type.Position(value = 6)
-	private java.util.List<com.mds.beans.TriageSuggestion> suggestions;
+	protected java.util.List<com.mds.beans.TriageSuggestion> suggestions;
 
 	@org.kie.api.definition.type.Label(value = "adopted suggestion")
 	@org.kie.api.definition.type.Position(value = 7)
-	private com.mds.beans.TriageSuggestion adoptedSuggestion;
+	protected com.mds.beans.TriageSuggestion adoptedSuggestion;
 
 	@org.kie.api.definition.type.Label(value = "start the selected clinical pathway")
 	@org.kie.api.definition.type.Position(value = 8)
-	private java.lang.Boolean startTheSelectedClinicalPathway;
+	protected java.lang.Boolean startTheSelectedClinicalPathway;
 
 	public com.mds.beans.Contact getContact() {
         return this.contact;
