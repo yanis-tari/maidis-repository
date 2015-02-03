@@ -49,7 +49,6 @@ public class Avc extends Triage implements java.io.Serializable {
 	}
 
     public Avc(com.mds.beans.Triage triage) {
-    	super();
     	this.patient = triage.getPatient();
 		this.contact = triage.getContact();
 		this.pamiList = triage.getPamiList();
