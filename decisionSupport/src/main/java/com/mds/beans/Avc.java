@@ -16,6 +16,9 @@ public class Avc extends Triage implements java.io.Serializable {
 
     @org.kie.api.definition.type.Position(0)
 	private java.lang.String irmResult;
+    
+    @org.kie.api.definition.type.Position(3)
+   	private org.jbpm.document.Document irmReport;
 
     @org.kie.api.definition.type.Position(2)
 	private java.lang.Integer nihssScore;
@@ -44,14 +47,23 @@ public class Avc extends Triage implements java.io.Serializable {
         this.nihssScore = nihssScore;
     }
 
+    
+    public org.jbpm.document.Document getIrmReport() {
+        return this.irmReport;
+    }
+    
+    public void setIrmReport(org.jbpm.document.Document irmReport) {
+        this.irmReport = irmReport;
+    }
     public Avc() {
 	}
 
 	public Avc(java.lang.String irmResult, java.lang.Integer glasgowScore,
-			java.lang.Integer nihssScore) {
+			java.lang.Integer nihssScore, org.jbpm.document.Document irmReport) {
 		this.irmResult = irmResult;
 		this.glasgowScore = glasgowScore;
 		this.nihssScore = nihssScore;
+		this.irmReport = irmReport;
 	}
 
 }
