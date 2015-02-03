@@ -87,8 +87,8 @@
         </fieldValue>
         <fieldValue>
           <field>department</field>
-          <value>Cardiology</value>
-          <nature>1</nature>
+          <value>$department</value>
+          <nature>7</nature>
           <type>String</type>
         </fieldValue>
         <fieldValue>
@@ -214,6 +214,26 @@
         <string>CVA</string>
         <string>CVA</string>
         <string>CVA</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$department</string>
+      <list>
+        <string>Cardiology</string>
+        <string>Cardiology</string>
+        <string>Cardiology</string>
+        <string>Cardiology</string>
+        <string>Cardiology</string>
+        <string>Cardiology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
+        <string>Neurology</string>
       </list>
     </entry>
     <entry>
