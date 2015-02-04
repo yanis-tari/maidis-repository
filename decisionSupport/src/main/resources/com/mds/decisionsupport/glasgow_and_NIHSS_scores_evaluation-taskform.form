@@ -7,9 +7,8 @@
 <property name="status" value="0"/>
 <property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;#glasgowTable tr td{padding:10px;} #nihssTable tr td:first-child{width:200px}
 &lt;/style&gt;
-&lt;p&gt;
-$field{avc_patient}
-&lt;/p&gt;
+&lt;p&gt;$field{avc_patient}&lt;/p&gt;
+
 &lt;div id=&quot;accordion&quot; style=&quot;min-width:1000px;min-height:400px;&quot;&gt;
 &lt;h1 style=&quot;letter-spacing: 0.01em;&quot;&gt;&lt;a href=&quot;#&quot;&gt;Glasgow coma score&lt;/a&gt;&lt;/h1&gt;
 
@@ -21,21 +20,21 @@ $field{avc_patient}
 			&lt;td&gt;
 			&lt;div id=&quot;EyeSlider&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;EyeLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;EyeAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;EyeLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;EyeAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;VerbalLabel&quot;&gt;Verbal &lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;VerbalSlider&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;VerbalLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;VerbalAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;VerbalLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;VerbalAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;MotorLabel&quot;&gt;Motor &lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;MotorSlider&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;MotorLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;MotorAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;MotorLabel&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;glasgowAmount&quot; id=&quot;MotorAmount&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -64,105 +63,105 @@ $field{avc_patient}
 			&lt;td&gt;
 			&lt;div id=&quot;Slider1&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label1&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount1&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label1&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount1&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label2&quot;&gt;Orientation questions (two)&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider2&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label2&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount2&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label2&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount2&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label3&quot;&gt;Response to commands (two)&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider3&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label3&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount3&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label3&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount3&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label4&quot;&gt;Gaze&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider4&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label4&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount4&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label4&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount4&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label5&quot;&gt;Visual fields&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider5&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label5&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount5&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label5&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount5&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label6&quot;&gt;Facial movement&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider6&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label6&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount6&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label6&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount6&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label7&quot;&gt;Motor function (left arm)&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider7&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label7&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount7&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label7&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount7&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label8&quot;&gt;Motor function (right arm)&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider8&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label8&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount8&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label8&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount8&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label9&quot;&gt;Motor function (left leg)&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider9&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label9&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount9&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label9&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount9&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label10&quot;&gt;Motor function (right leg)&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider10&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label10&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount10&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label10&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount10&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label11&quot;&gt;Limb ataxia&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider11&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label11&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount11&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label11&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount11&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label12&quot;&gt;Sensory&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider12&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label12&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount12&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label12&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount12&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label13&quot;&gt;Language&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider13&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label13&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount13&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label13&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount13&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label14&quot;&gt;Articulation&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider14&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label14&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount14&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label14&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount14&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;&lt;label for=&quot;Label15&quot;&gt;Extinction or inattention&lt;/label&gt;&lt;/td&gt;
 			&lt;td&gt;
 			&lt;div id=&quot;Slider15&quot; style=&quot;width:300px;&quot;&gt;&amp;nbsp;&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td&gt;&lt;input id=&quot;Label15&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount15&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;input id=&quot;Label15&quot; readonly=&quot;readonly&quot; style=&quot;border:0; color:#f6931f; font-weight:bold; width:400px; background-color: transparent;&quot; type=&quot;text&quot; /&gt; &lt;input class=&quot;nihssAmount&quot; id=&quot;Amount15&quot; type=&quot;hidden&quot; /&gt;&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -186,7 +185,7 @@ $field{avc_patient}
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;patient (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;patient (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -201,7 +200,7 @@ $field{avc_patient}
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nihssScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Nihss scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nihssScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Nihss scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -219,7 +218,7 @@ $field{avc_patient}
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;glasgowScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Glasgow scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;glasgowScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Glasgow scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
