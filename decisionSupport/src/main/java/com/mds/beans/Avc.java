@@ -73,4 +73,20 @@ public class Avc extends Triage implements java.io.Serializable {
 		this.nihssScore = nihssScore;
 	}
 
+	@Override
+	public String toString() {
+		return "Avc [glasgowScore=" + glasgowScore + ", irmResult=" + irmResult
+				+ ", nihssScore=" + nihssScore + ", patientidentity="
+				+ patientidentity + ", contact=" + contact + ", patient="
+				+ patient + ", pamiList=" + pamiList + ", triageValue="
+				+ triageValue + ", triageDescription=" + triageDescription
+				+ ", triageDate=" + triageDate + ", suggestions=" + suggestions
+				+ ", adoptedSuggestion=" + adoptedSuggestion
+				+ ", startTheSelectedClinicalPathway="
+				+ startTheSelectedClinicalPathway + "]";
+	}
+
+	
+	
+	
 }

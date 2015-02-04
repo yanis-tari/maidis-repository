@@ -150,4 +150,17 @@ public class Triage implements java.io.Serializable {
 		this.startTheSelectedClinicalPathway = startTheSelectedClinicalPathway;
 	}
 
+	@Override
+	public String toString() {
+		return "Triage [contact=" + contact + ", patient=" + patient
+				+ ", pamiList=" + pamiList + ", triageValue=" + triageValue
+				+ ", triageDescription=" + triageDescription + ", triageDate="
+				+ triageDate + ", suggestions=" + suggestions
+				+ ", adoptedSuggestion=" + adoptedSuggestion
+				+ ", startTheSelectedClinicalPathway="
+				+ startTheSelectedClinicalPathway + "]";
+	}
+
+	
+	
 }

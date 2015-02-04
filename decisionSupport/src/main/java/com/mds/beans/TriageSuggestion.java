@@ -164,4 +164,17 @@ public class TriageSuggestion implements java.io.Serializable {
 	        }
 	}
 
+	@Override
+	public String toString() {
+		return "TriageSuggestion [description=" + description
+				+ ", suggestionClinicalPathway=" + suggestionClinicalPathway
+				+ ", suggestionClinicalPathwayID="
+				+ suggestionClinicalPathwayID + ", value=" + value
+				+ ", startThePathway=" + startThePathway + ", action=" + action
+				+ ", department=" + department + ", rule=" + rule + "]";
+	}
+	
+	
+	
+
 }
