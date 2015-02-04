@@ -20,6 +20,10 @@ public class Avc extends Triage implements java.io.Serializable {
     @org.kie.api.definition.type.Position(2)
 	private java.lang.Integer nihssScore;
 
+    @org.kie.api.definition.type.Position(3)
+   	private java.lang.String patientidentity;
+
+    
     public java.lang.Integer getGlasgowScore() {
         return this.glasgowScore;
     }
@@ -58,6 +62,8 @@ public class Avc extends Triage implements java.io.Serializable {
 		this.suggestions = triage.getSuggestions();
 		this.adoptedSuggestion =triage.getAdoptedSuggestion();
 		this.startTheSelectedClinicalPathway = triage.getStartTheSelectedClinicalPathway();
+		if(triage.getPatient() != null  && triage.getPatient().getFirstName() != null && triage.getPatient().getLastName() != null)
+			this.patientidentity = triage.getPatient().getFirstName()+" "+triage.getPatient().getLastName();
    	}
     
 	public Avc(java.lang.String irmResult, java.lang.Integer glasgowScore,
