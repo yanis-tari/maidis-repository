@@ -8,12 +8,25 @@
 <property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;.readOnly{background-color:transparent;border:none;}
 &lt;/style&gt;
 &lt;div class=&quot;ui-widget&quot;&gt;
-			
 &lt;div class=&quot;ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-all ui-state-hover&quot; style=&quot;margin-top: 10px; margin-bottom:10px; padding: 5px;&quot;&gt;
 &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;ui-corner-all&quot; width=&quot;1%&quot;&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&lt;span class=&quot;ui-icon ui-icon-person&quot; style=&quot;float: left; margin-right: .7em;&quot;&gt;&lt;/span&gt;&lt;/td&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_civility}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;  color:#fff; font-size: medium; &quot;&gt;$field{patient_civility}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
 			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
 			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
 				&lt;tbody&gt;
@@ -28,7 +41,7 @@
 				&lt;/tbody&gt;
 			&lt;/table&gt;
 			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:80%; border-left: 1px solid #d2dbf4; padding-left:10px; font-size: medium;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:80%; border-left: 1px solid #d2dbf4; padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
 			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
@@ -55,21 +68,7 @@
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
 			&lt;/table&gt;
-			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:80%; border-left: 1px solid #d2dbf4; padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_adress_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_adress}&lt;/div&gt;
-						&lt;/td&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_adress_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_adress}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
+			&lt;/td&gt;			
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -157,6 +156,27 @@
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/adress"/>
 <property name="outputBinding" value="patient_out/adress"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="patient_civility" type="InputText" id="249846120">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot; Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="readOnly"/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="patient_in/civility"/>
+<property name="outputBinding" value="patient_out/civility"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="patient_in" name="#A7E690" type="className" outId="patient_out" value="com.mds.beans.Patient" id="patient"/>
