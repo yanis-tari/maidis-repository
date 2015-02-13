@@ -48,7 +48,7 @@
             </constraints>
           </compositeConstraint>
           <fieldConstraint>
-            <value>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003</value>
+            <value>http://snomed.info/id/78564009,http://snomed.info/id/429525003,http://snomed.info/id/429614003,http://snomed.info/id/422119006,http://snomed.info/id/364075005,http://snomed.info/id/399017001,http://snomed.info/id/444981005,http://snomed.info/id/428420003,HER</value>
             <operator>in</operator>
             <constraintValueType>1</constraintValueType>
             <expression>
