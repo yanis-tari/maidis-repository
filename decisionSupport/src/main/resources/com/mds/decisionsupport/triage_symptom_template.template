@@ -29,6 +29,37 @@
             <fieldName>miCode</fieldName>
             <fieldType>String</fieldType>
           </fieldConstraint>
+          <compositeConstraint>
+            <compositeJunctionType>||</compositeJunctionType>
+            <constraints>
+              <fieldConstraint>
+                <value>$snomedCode</value>
+                <operator>==</operator>
+                <constraintValueType>7</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>Pami</factType>
+                <fieldName>miCode</fieldName>
+                <fieldType>String</fieldType>
+              </fieldConstraint>
+              <fieldConstraint>
+                <value>$ICD10Code</value>
+                <operator>==</operator>
+                <constraintValueType>7</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>Pami</factType>
+                <fieldName>miCode</fieldName>
+                <fieldType>String</fieldType>
+              </fieldConstraint>
+            </constraints>
+          </compositeConstraint>
         </constraints>
       </constraintList>
       <factType>Pami</factType>
@@ -177,6 +208,26 @@
       </list>
     </entry>
     <entry>
+      <string>$snomedCode</string>
+      <list>
+        <string>http://snomed.info/id/29857009</string>
+        <string>http://snomed.info/id/21631000119105</string>
+        <string>http://snomed.info/id/61599003</string>
+        <string>http://snomed.info/id/419045004</string>
+        <string>http://snomed.info/id/82014009</string>
+        <string>http://snomed.info/id/80313002</string>
+        <string>http://snomed.info/id/34063005</string>
+        <string>http://snomed.info/id/33653009</string>
+        <string>http://snomed.info/id/20022000</string>
+        <string>http://snomed.info/id/278287000</string>
+        <string>http://snomed.info/id/278286009</string>
+        <string>http://snomed.info/id/20262006</string>
+        <string>http://snomed.info/id/29951000119107</string>
+        <string>http://snomed.info/id/11145003</string>
+        <string>http://snomed.info/id/25064002</string>
+      </list>
+    </entry>
+    <entry>
       <string>__ID_KOL_NAME__</string>
       <list>
         <string>6</string>
@@ -194,6 +245,26 @@
         <string>18</string>
         <string>19</string>
         <string>20</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$ICD10Code</string>
+      <list>
+        <string>R07.4</string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string>R00.2</string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string></string>
+        <string>R51</string>
       </list>
     </entry>
     <entry>
