@@ -139,6 +139,9 @@
       <boundName>mySuggestion</boundName>
       <isBound>true</isBound>
     </assertLogical>
+    <freeForm>
+      <text>System.out.println(&quot;pulse nvalue = &quot;+myExam.getnValue());</text>
+    </freeForm>
     <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
       <fieldValues>
         <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
