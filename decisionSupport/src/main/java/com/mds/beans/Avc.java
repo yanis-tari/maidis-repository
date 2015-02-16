@@ -113,4 +113,18 @@ public class Avc extends Triage implements java.io.Serializable {
 		this.nihssScoreReassessment = nihssScoreReassessment;
 	}
 	
+	 public Avc(com.mds.beans.Triage triage) {
+	    	this.patient = triage.getPatient();
+			this.contact = triage.getContact();
+			this.pamiList = triage.getPamiList();
+			this.triageValue = triage.getTriageValue();
+			this.triageDescription = triage.getTriageDescription();
+			this.triageDate =triage.getTriageDate();
+			this.suggestions = triage.getSuggestions();
+			this.adoptedSuggestion =triage.getAdoptedSuggestion();
+			this.startTheSelectedClinicalPathway = triage.getStartTheSelectedClinicalPathway();
+			if(triage.getPatient() != null  && triage.getPatient().getFirstName() != null && triage.getPatient().getLastName() != null)
+				this.patientidentity = triage.getPatient().getFirstName()+" "+triage.getPatient().getLastName();
+	   	}
+	
 }
