@@ -29,7 +29,7 @@
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
+<property name="rangeFormula" value="{http://snomed.info/id/422504002,Ischemic stoke;http://snomed.info/id/274100004,cerebral hemorrhage;http://snomed.info/id/95455008,cerebral venous thrombosis;other,other}"/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
