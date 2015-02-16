@@ -161,6 +161,22 @@ public class TriageSuggestion implements java.io.Serializable {
 	        		description="No functional impairment or organic lesion justifying the use of hospital resources";
 	        		action="Consultation with no diagnostic or therapeutic procedure Medical intervention within 240 min";
 	        	}	
+	        	
+	        	if(value.contains("-"))
+	        	{	
+	        		String[] values = value.split("-");
+	        		try { 
+		       	      Integer max = Integer.parseInt(values[0]);
+		       	      Integer min =  Integer.parseInt(values[1]);
+		       	      
+		       	      description="";
+		       	      action="leaves the choice of triage level ( "+max+" or "+min+") to the nurse";
+		       	    } catch(NumberFormatException e) { 
+			       	      description="";
+			       	      action="leaves the choice of triage level to the nurse";	       	        
+		       	    }
+	        		
+	        	}	
 	        }
 	}
 
