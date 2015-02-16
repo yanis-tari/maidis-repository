@@ -22,7 +22,18 @@ public class Avc extends Triage implements java.io.Serializable {
 
     @org.kie.api.definition.type.Position(3)
    	private java.lang.String patientidentity;
+    
+    @org.kie.api.definition.type.Position(4)
+   	private org.jbpm.document.Document irmReport;
 
+    public org.jbpm.document.Document getIrmReport() {
+        return this.irmReport;
+    }
+    
+    public void setIrmReport(org.jbpm.document.Document irmReport) {
+        this.irmReport = irmReport;
+    }
+    
     
     public java.lang.Integer getGlasgowScore() {
         return this.glasgowScore;
