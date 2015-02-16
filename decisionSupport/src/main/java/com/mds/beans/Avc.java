@@ -21,9 +21,12 @@ public class Avc extends Triage implements java.io.Serializable {
 	private java.lang.Integer nihssScore;
 
     @org.kie.api.definition.type.Position(3)
-   	private java.lang.String patientidentity;    
+	private java.lang.String patientidentity;    
     
-    public java.lang.Integer getGlasgowScore() {
+    @org.kie.api.definition.type.Position(value = 4)
+	private java.lang.String irmReport;
+
+	public java.lang.Integer getGlasgowScore() {
         return this.glasgowScore;
     }
     
@@ -48,31 +51,7 @@ public class Avc extends Triage implements java.io.Serializable {
     }
 
     
-    public Avc() {
-	}
-
-    public Avc(com.mds.beans.Triage triage) {
-    	this.patient = triage.getPatient();
-		this.contact = triage.getContact();
-		this.pamiList = triage.getPamiList();
-		this.triageValue = triage.getTriageValue();
-		this.triageDescription = triage.getTriageDescription();
-		this.triageDate =triage.getTriageDate();
-		this.suggestions = triage.getSuggestions();
-		this.adoptedSuggestion =triage.getAdoptedSuggestion();
-		this.startTheSelectedClinicalPathway = triage.getStartTheSelectedClinicalPathway();
-		if(triage.getPatient() != null  && triage.getPatient().getFirstName() != null && triage.getPatient().getLastName() != null)
-			this.patientidentity = triage.getPatient().getFirstName()+" "+triage.getPatient().getLastName();
-   	}
-    
-	public Avc(java.lang.String irmResult, java.lang.Integer glasgowScore,
-			java.lang.Integer nihssScore) {
-		this.irmResult = irmResult;
-		this.glasgowScore = glasgowScore;
-		this.nihssScore = nihssScore;
-	}
-
-	@Override
+    @Override
 	public String toString() {
 		return "Avc [glasgowScore=" + glasgowScore + ", irmResult=" + irmResult
 				+ ", nihssScore=" + nihssScore + ", patientidentity="
@@ -83,6 +62,27 @@ public class Avc extends Triage implements java.io.Serializable {
 				+ ", adoptedSuggestion=" + adoptedSuggestion
 				+ ", startTheSelectedClinicalPathway="
 				+ startTheSelectedClinicalPathway + "]";
+	}
+
+	public java.lang.String getIrmReport() {
+		return this.irmReport;
+	}
+
+	public void setIrmReport(java.lang.String irmReport) {
+		this.irmReport = irmReport;
+	}
+
+	public Avc() {
+	}
+
+	public Avc(java.lang.String irmResult, java.lang.Integer glasgowScore,
+			java.lang.Integer nihssScore, java.lang.String patientidentity,
+			java.lang.String irmReport) {
+		this.irmResult = irmResult;
+		this.glasgowScore = glasgowScore;
+		this.nihssScore = nihssScore;
+		this.patientidentity = patientidentity;
+		this.irmReport = irmReport;
 	}
 
 	
