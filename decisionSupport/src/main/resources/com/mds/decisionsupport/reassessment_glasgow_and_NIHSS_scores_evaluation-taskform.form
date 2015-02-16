@@ -43,10 +43,10 @@
 	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;td&gt;
-			&lt;div id=&quot;uid_-template_null-1364817267-glasgowScore_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{avc_glasgowScore}&lt;/div&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-glasgowScore_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{avc_glasgowScoreReassessment}&lt;/div&gt;
 			&lt;/td&gt;
 			&lt;td&gt;
-			&lt;div id=&quot;uid_-template_null-1364817267-glasgowScore_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{avc_glasgowScore}&lt;/div&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-glasgowScore_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{avc_glasgowScoreReassessment}&lt;/div&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
@@ -170,10 +170,10 @@
 	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;td&gt;
-			&lt;div id=&quot;uid_-template_null-1364817267-nihssScore_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{avc_nihssScore}&lt;/div&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-nihssScore_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{avc_nihssScoreReassessment}&lt;/div&gt;
 			&lt;/td&gt;
 			&lt;td&gt;
-			&lt;div id=&quot;uid_-template_null-1364817267-nihssScore_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{avc_nihssScore}&lt;/div&gt;
+			&lt;div id=&quot;uid_-template_null-1364817267-nihssScore_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{avc_nihssScoreReassessment}&lt;/div&gt;
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
@@ -196,7 +196,7 @@
 <property name="defaultSubform" value="display_patient.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="1" name="avc_nihssScore" type="InputTextInteger" id="1519701330">
+<field position="1" name="avc_nihssScoreReassessment" type="InputTextInteger" id="1519701330">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -214,7 +214,7 @@
 <property name="outputBinding" value="avc_out/nihssScoreReassessment"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="2" name="avc_glasgowScore" type="InputTextInteger" id="860677781">
+<field position="2" name="avc_glasgowScoreReassessment" type="InputTextInteger" id="860677781">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -232,5 +232,44 @@
 <property name="outputBinding" value="avc_out/glasgowScoreReassessment"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
+
+<field position="3" name="avc_nihssScore" type="InputTextInteger" id="1519701332">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nihssScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Nihss scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value="nihssScore"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="avc_in/nihssScore"/>
+<property name="outputBinding" value="avc_out/nihssScore"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+
+<field position="4" name="avc_glasgowScore" type="InputTextInteger" id="860677782">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;glasgowScore (avc)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Glasgow scorequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value="glasgowScore"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="avc_in/glasgow"/>
+<property name="outputBinding" value="avc_out/glasgowScore"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+
 <dataHolder inputId="avc_in" name="#0000A0" type="dataModelerEntry" outId="avc_out" value="com.mds.beans.Avc" id="avcIS"/>
 </form>
