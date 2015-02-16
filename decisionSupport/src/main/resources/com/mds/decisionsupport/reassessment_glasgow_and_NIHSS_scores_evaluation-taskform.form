@@ -280,7 +280,7 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value="background-color:transparent; border:none;"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="avc_in/glasgow"/>
+<property name="inputBinding" value="avc_in/glasgowScore"/>
 <property name="outputBinding" value="avc_out/glasgowScore"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
