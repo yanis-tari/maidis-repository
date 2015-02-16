@@ -12,7 +12,7 @@
       <groupId>com.mds</groupId>
       <artifactId>medical-record-model</artifactId>
       <version>0.0.9</version>
-    </dependency>   
+    </dependency>
   </dependencies>
   <repositories>
     <repository>
