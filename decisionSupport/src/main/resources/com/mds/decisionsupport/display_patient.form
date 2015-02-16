@@ -12,7 +12,7 @@
 &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;ui-corner-all&quot; width=&quot;1%&quot;&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&amp;nbsp;&lt;/td&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&lt;span class=&quot;ui-icon ui-icon-person&quot;&gt;&lt;/span&gt;&lt;/td&gt;
 			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
 			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
 				&lt;tbody&gt;
@@ -79,7 +79,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;first name : quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;first name : quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -101,7 +101,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;last name :quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;last name :quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -123,7 +123,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birth date : quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birth date : quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
