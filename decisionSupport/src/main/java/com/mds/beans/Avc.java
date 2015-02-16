@@ -23,8 +23,14 @@ public class Avc extends Triage implements java.io.Serializable {
     @org.kie.api.definition.type.Position(3)
 	private java.lang.String patientidentity;    
     
-    @org.kie.api.definition.type.Position(value = 4)
+    @org.kie.api.definition.type.Position(4)
 	private java.lang.String irmReport;
+
+	@org.kie.api.definition.type.Position(value = 5)
+	private java.lang.Integer glasgowScoreReassessment;
+
+	@org.kie.api.definition.type.Position(value = 6)
+	private java.lang.Integer nihssScoreReassessment;
 
 	public java.lang.Integer getGlasgowScore() {
         return this.glasgowScore;
@@ -72,32 +78,39 @@ public class Avc extends Triage implements java.io.Serializable {
 		this.irmReport = irmReport;
 	}
 
+	public java.lang.Integer getGlasgowScoreReassessment() {
+		return this.glasgowScoreReassessment;
+	}
+
+	public void setGlasgowScoreReassessment(
+			java.lang.Integer glasgowScoreReassessment) {
+		this.glasgowScoreReassessment = glasgowScoreReassessment;
+	}
+
+	public java.lang.Integer getNihssScoreReassessment() {
+		return this.nihssScoreReassessment;
+	}
+
+	public void setNihssScoreReassessment(
+			java.lang.Integer nihssScoreReassessment) {
+		this.nihssScoreReassessment = nihssScoreReassessment;
+	}
+
 	public Avc() {
 	}
 
 	public Avc(java.lang.String irmResult, java.lang.Integer glasgowScore,
 			java.lang.Integer nihssScore, java.lang.String patientidentity,
-			java.lang.String irmReport) {
+			java.lang.String irmReport,
+			java.lang.Integer glasgowScoreReassessment,
+			java.lang.Integer nihssScoreReassessment) {
 		this.irmResult = irmResult;
 		this.glasgowScore = glasgowScore;
 		this.nihssScore = nihssScore;
 		this.patientidentity = patientidentity;
 		this.irmReport = irmReport;
+		this.glasgowScoreReassessment = glasgowScoreReassessment;
+		this.nihssScoreReassessment = nihssScoreReassessment;
 	}
-
-	
-	 public Avc(com.mds.beans.Triage triage) {
-	    	this.patient = triage.getPatient();
-			this.contact = triage.getContact();
-			this.pamiList = triage.getPamiList();
-			this.triageValue = triage.getTriageValue();
-			this.triageDescription = triage.getTriageDescription();
-			this.triageDate =triage.getTriageDate();
-			this.suggestions = triage.getSuggestions();
-			this.adoptedSuggestion =triage.getAdoptedSuggestion();
-			this.startTheSelectedClinicalPathway = triage.getStartTheSelectedClinicalPathway();
-			if(triage.getPatient() != null  && triage.getPatient().getFirstName() != null && triage.getPatient().getLastName() != null)
-				this.patientidentity = triage.getPatient().getFirstName()+" "+triage.getPatient().getLastName();
-	   	}
 	
 }
