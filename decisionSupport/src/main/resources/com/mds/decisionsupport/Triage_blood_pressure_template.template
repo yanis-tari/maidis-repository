@@ -48,7 +48,7 @@
             </constraints>
           </compositeConstraint>
           <fieldConstraint>
-            <value>http://snomed.info/id/314440001,http://snomed.info/id/72313002,http://snomed.info/id/314439003,http://snomed.info/id/407554009,http://snomed.info/id/315612005,http://snomed.info/id/314438006,http://snomed.info/id/407556006,http://snomed.info/id/400974009,http://snomed.info/id/399304008,http://snomed.info/id/314442009,http://snomed.info/id/314447003,http://snomed.info/id/314441002,http://snomed.info/id/314444005,http://snomed.info/id/314448008,http://snomed.info/id/314443004,http://snomed.info/id/314446007,http://snomed.info/id/413606001,http://snomed.info/id/314449000,http://snomed.info/id/314445006</value>
+            <value>http://snomed.info/id/314440001,http://snomed.info/id/72313002,http://snomed.info/id/314439003,http://snomed.info/id/407554009,http://snomed.info/id/315612005,http://snomed.info/id/314438006,http://snomed.info/id/407556006,http://snomed.info/id/400974009,http://snomed.info/id/399304008,http://snomed.info/id/314442009,http://snomed.info/id/314447003,http://snomed.info/id/314441002,http://snomed.info/id/314444005,http://snomed.info/id/314448008,http://snomed.info/id/314443004,http://snomed.info/id/314446007,http://snomed.info/id/413606001,http://snomed.info/id/314449000,http://snomed.info/id/314445006,BPS</value>
             <operator>in</operator>
             <constraintValueType>1</constraintValueType>
             <expression>
