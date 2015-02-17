@@ -10,8 +10,7 @@ rule "AvcIschemicTreatment"
 	   	ruleflow-group "avcIschemicTreatment"
 	       salience 1
 when
-	not Pami( miCode in ( "http://snomed.info/id/371632003" ) )
-	avcBean : com.mds.beans.Avc( )
+	avcBean : com.mds.beans.Avc( Pami( miCode in ( "http://snomed.info/id/371632003" ) not memberOf pamiList )
 then
 System.out.println("test");
 end
