@@ -1,6 +1,9 @@
 package com.mds.decisionsupport;
 
 import java.lang.Number;
+import com.mds.beans.Pami;
+import com.mds.beans.Triage;
+import com.mds.beans.TriageSuggestion;
 
 rule "Triage_AVC_Symptoms_tmp"
 	dialect "mvel"
