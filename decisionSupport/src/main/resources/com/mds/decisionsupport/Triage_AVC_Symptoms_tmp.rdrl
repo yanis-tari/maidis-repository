@@ -1,0 +1,9 @@
+package com.mds.decisionsupport;
+
+import java.lang.Number;
+
+rule "Triage_AVC_Symptoms_tmp"
+	dialect "mvel"
+	when
+	then
+end
