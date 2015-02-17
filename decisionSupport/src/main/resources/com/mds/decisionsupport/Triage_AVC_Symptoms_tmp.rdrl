@@ -8,6 +8,6 @@ import com.mds.beans.TriageSuggestion;
 rule "Triage_AVC_Symptoms_tmp"
 	dialect "mvel"
 	when
-		exists (Aphasia : Pami( miCode == "http://snomed.info/id/87486003" ) and Ataxia : Pami( miCode == "http://snomed.info/id/20262006" ) and Hemiparesis : Pami( miCode == "http://snomed.info/id/20022000" ) and SensoryLoss : Pami( miCode == "http://snomed.info/id/33653009" ) and Consciousness : Pami( miCode in ( "http://snomed.info/id/230461009", "http://snomed.info/id/25064002" ) ))
+		Aphasia : Pami( miCode == "http://snomed.info/id/87486003" ) and Ataxia : Pami( miCode == "http://snomed.info/id/20262006" ) and Hemiparesis : Pami( miCode == "http://snomed.info/id/20022000" ) and SensoryLoss : Pami( miCode == "http://snomed.info/id/33653009" ) and Consciousness : Pami( miCode in ( "http://snomed.info/id/230461009", "http://snomed.info/id/25064002" ) )
 	then
 end
