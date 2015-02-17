@@ -68,6 +68,7 @@ when
 	 )
 	
 then
-avcBean.setTreatmentSuggestion("Fibrinolysis, followed by antithrombotic therapy, 24 hours later");
+System.out.println("Treatment with anti thrombotic only");
+avcBean.setTreatmentSuggestion("Treatment with anti thrombotic only");
 end
 
