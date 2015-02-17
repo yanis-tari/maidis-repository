@@ -42,8 +42,9 @@ rule "AvcIschemicTreatmentAntiThrombotic"
 	       salience 1
 when
 	
-	avcBean : com.mds.beans.Avc(  mis :  pamiList , nihssScoreReassessment <6 ,nihssScoreReassessment <22, nihssScoreReassessment >= nihssScore, glasgowScore > 9)
-	not Pami( 
+	avcBean : com.mds.beans.Avc(  mis :  pamiList && ( nihssScoreReassessment <6 || nihssScoreReassessment <22 || nihssScoreReassessment >= nihssScore || glasgowScore > 9))
+
+	Pami( 
 			miCode in ( 
 					"http://snomed.info/id/371632003",
 					"http://snomed.info/id/82271004",
