@@ -30,6 +30,6 @@ when
 					)
 		) from mis
 then
-System.out.println("Fibrinolysis, followed by antithrombotic therapy, 24 hours later");
+
 avcBean.treatmentSuggestion("Fibrinolysis, followed by antithrombotic therapy, 24 hours later");
 end
