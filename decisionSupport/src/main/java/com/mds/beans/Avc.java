@@ -26,11 +26,14 @@ public class Avc extends Triage implements java.io.Serializable {
     @org.kie.api.definition.type.Position(4)
 	private java.lang.String irmReport;
 
-	@org.kie.api.definition.type.Position(value = 5)
+	@org.kie.api.definition.type.Position(5)
 	private java.lang.Integer glasgowScoreReassessment;
 
-	@org.kie.api.definition.type.Position(value = 6)
+	@org.kie.api.definition.type.Position(6)
 	private java.lang.Integer nihssScoreReassessment;
+
+	@org.kie.api.definition.type.Position(value = 7)
+	private java.lang.String treatmentSuggestion;
 
 	public java.lang.Integer getGlasgowScore() {
         return this.glasgowScore;
@@ -96,6 +99,14 @@ public class Avc extends Triage implements java.io.Serializable {
 		this.nihssScoreReassessment = nihssScoreReassessment;
 	}
 
+	public java.lang.String getTreatmentSuggestion() {
+		return this.treatmentSuggestion;
+	}
+
+	public void setTreatmentSuggestion(java.lang.String treatmentSuggestion) {
+		this.treatmentSuggestion = treatmentSuggestion;
+	}
+
 	public Avc() {
 	}
 
@@ -103,7 +114,8 @@ public class Avc extends Triage implements java.io.Serializable {
 			java.lang.Integer nihssScore, java.lang.String patientidentity,
 			java.lang.String irmReport,
 			java.lang.Integer glasgowScoreReassessment,
-			java.lang.Integer nihssScoreReassessment) {
+			java.lang.Integer nihssScoreReassessment,
+			java.lang.String treatmentSuggestion) {
 		this.irmResult = irmResult;
 		this.glasgowScore = glasgowScore;
 		this.nihssScore = nihssScore;
@@ -111,20 +123,7 @@ public class Avc extends Triage implements java.io.Serializable {
 		this.irmReport = irmReport;
 		this.glasgowScoreReassessment = glasgowScoreReassessment;
 		this.nihssScoreReassessment = nihssScoreReassessment;
+		this.treatmentSuggestion = treatmentSuggestion;
 	}
-	
-	 public Avc(com.mds.beans.Triage triage) {
-	    	this.patient = triage.getPatient();
-			this.contact = triage.getContact();
-			this.pamiList = triage.getPamiList();
-			this.triageValue = triage.getTriageValue();
-			this.triageDescription = triage.getTriageDescription();
-			this.triageDate =triage.getTriageDate();
-			this.suggestions = triage.getSuggestions();
-			this.adoptedSuggestion =triage.getAdoptedSuggestion();
-			this.startTheSelectedClinicalPathway = triage.getStartTheSelectedClinicalPathway();
-			if(triage.getPatient() != null  && triage.getPatient().getFirstName() != null && triage.getPatient().getLastName() != null)
-				this.patientidentity = triage.getPatient().getFirstName()+" "+triage.getPatient().getLastName();
-	   	}
 	
 }
