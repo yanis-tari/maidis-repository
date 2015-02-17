@@ -8,5 +8,10 @@ import com.mds.beans.TriageSuggestion;
 rule "Triage_AVC_symptoms"
 	dialect "mvel"
 	when
+		Aphasia : Pami( miCode in ( "http://snomed.info/id/87486003" ) )
+		Ataxia : Pami( miCode in ( "http://snomed.info/id/20262006" ) )
+		Hemiparesis : Pami( miCode in ( "http://snomed.info/id/20022000" ) )
+		SensoryLoss : Pami( miCode in ( "" ) )
+		triageBean : Triage( pamiList != null && pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis )
 	then
 end
