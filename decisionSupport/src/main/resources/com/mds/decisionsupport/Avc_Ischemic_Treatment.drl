@@ -33,36 +33,3 @@ then
 System.out.println("Fibrinolysis, followed by antithrombotic therapy, 24 hours later");
 avcBean.treatmentSuggestion("Fibrinolysis, followed by antithrombotic therapy, 24 hours later");
 end
-
-
-
-rule "AvcIschemicTreatmentAntiThrombotic"
-		dialect "mvel"
-	   	ruleflow-group "avcIschemicTreatment"
-	       salience 1
-when
-	
-	avcBean : com.mds.beans.Avc(  mis :  pamiList && ( nihssScoreReassessment <6 || nihssScoreReassessment <22 || nihssScoreReassessment >= nihssScore || glasgowScore > 9))
-
-	Pami( 
-			miCode in ( 
-					"http://snomed.info/id/371632003",
-					"http://snomed.info/id/82271004",
-					"http://snomed.info/id/422504002",
-					"http://snomed.info/id/230690007",
-					"http://snomed.info/id/22298006",
-					"http://snomed.info/id/74474003",
-					"http://snomed.info/id/252301006",
-					"http://snomed.info/id/257556004",
-					"http://snomed.info/id/57931004",
-					"http://snomed.info/id/1386000",
-					"http://snomed.info/id/131148009",
-					"http://snomed.info/id/307571006",
-					"http://snomed.info/id/91175000"
-					)
-		) from mis
-then
-System.out.println("Fibrinolysis, followed by antithrombotic therapy, 24 hours later");
-avcBean.treatmentSuggestion("Fibrinolysis, followed by antithrombotic therapy, 24 hours later");
-end
-
