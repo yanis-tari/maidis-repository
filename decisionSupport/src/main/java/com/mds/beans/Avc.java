@@ -11,28 +11,28 @@ public class Avc extends Triage implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Position(1)
+    @org.kie.api.definition.type.Position(9)
 	private java.lang.Integer glasgowScore;
 
-    @org.kie.api.definition.type.Position(0)
+    @org.kie.api.definition.type.Position(10)
 	private java.lang.String irmResult;
 
-    @org.kie.api.definition.type.Position(2)
+    @org.kie.api.definition.type.Position(11)
 	private java.lang.Integer nihssScore;
 
-    @org.kie.api.definition.type.Position(3)
+    @org.kie.api.definition.type.Position(12)
 	private java.lang.String patientidentity;    
     
-    @org.kie.api.definition.type.Position(4)
+    @org.kie.api.definition.type.Position(13)
 	private java.lang.String irmReport;
 
-	@org.kie.api.definition.type.Position(5)
+	@org.kie.api.definition.type.Position(14)
 	private java.lang.Integer glasgowScoreReassessment;
 
-	@org.kie.api.definition.type.Position(6)
+	@org.kie.api.definition.type.Position(15)
 	private java.lang.Integer nihssScoreReassessment;
 
-	@org.kie.api.definition.type.Position(value = 7)
+	@org.kie.api.definition.type.Position(value = 16)
 	private java.lang.String treatmentSuggestion;
 
 	public java.lang.Integer getGlasgowScore() {
