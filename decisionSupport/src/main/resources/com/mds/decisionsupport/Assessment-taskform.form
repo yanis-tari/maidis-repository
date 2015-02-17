@@ -1,0 +1,136 @@
+
+<form id="1380044866">
+<property name="subject" value=""/>
+<property name="name" value="Assessment-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="avcIS_irmReport" type="InputText" id="1309838851">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;irmReport (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/irmReport"/>
+<property name="outputBinding" value="avc_out/irmReport"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="avcIS_triageValue" type="InputText" id="643846645">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;triageValue (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/triageValue"/>
+<property name="outputBinding" value="avc_out/triageValue"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="avcIS_pamiList" type="MultipleSubform" id="917347367">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pamiList (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/pamiList"/>
+<property name="outputBinding" value="avc_out/pamiList"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="3" name="avcIS_glasgowScoreReassessment" type="InputTextInteger" id="1458042848">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;glasgowScoreReassessment (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/glasgowScoreReassessment"/>
+<property name="outputBinding" value="avc_out/glasgowScoreReassessment"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="13" name="avcIS_triageDate" type="InputDate" id="1785518642">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;triageDate (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/triageDate"/>
+<property name="outputBinding" value="avc_out/triageDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="7" name="avcIS_nihssScoreReassessment" type="InputTextInteger" id="1859257858">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nihssScoreReassessment (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/nihssScoreReassessment"/>
+<property name="outputBinding" value="avc_out/nihssScoreReassessment"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="avcIS_nihssScore" type="InputTextInteger" id="796521295">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nihssScore (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/nihssScore"/>
+<property name="outputBinding" value="avc_out/nihssScore"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="10" name="avcIS_startTheSelectedClinicalPathway" type="CheckBox" id="1881876626">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;startTheSelectedClinicalPathway (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/startTheSelectedClinicalPathway"/>
+<property name="outputBinding" value="avc_out/startTheSelectedClinicalPathway"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="avcIS_adoptedSuggestion" type="Subform" id="1817508425">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;adoptedSuggestion (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/adoptedSuggestion"/>
+<property name="outputBinding" value="avc_out/adoptedSuggestion"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="9" name="avcIS_patient" type="Subform" id="1556404264">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;patient (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/patient"/>
+<property name="outputBinding" value="avc_out/patient"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="5" name="avcIS_irmResult" type="InputText" id="1371893911">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;irmResult (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/irmResult"/>
+<property name="outputBinding" value="avc_out/irmResult"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="avcIS_glasgowScore" type="InputTextInteger" id="5035568">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;glasgowScore (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/glasgowScore"/>
+<property name="outputBinding" value="avc_out/glasgowScore"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="14" name="avcIS_triageDescription" type="InputText" id="918551506">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;triageDescription (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/triageDescription"/>
+<property name="outputBinding" value="avc_out/triageDescription"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="avcIS_contact" type="Subform" id="773385125">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;contact (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/contact"/>
+<property name="outputBinding" value="avc_out/contact"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="11" name="avcIS_suggestions" type="MultipleSubform" id="241968728">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;suggestions (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/suggestions"/>
+<property name="outputBinding" value="avc_out/suggestions"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="12" name="avcIS_treatmentSuggestion" type="InputText" id="1294988022">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;treatmentSuggestion (avcIS)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/treatmentSuggestion"/>
+<property name="outputBinding" value="avc_out/treatmentSuggestion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="avc_in" name="#0000A0" type="dataModelerEntry" outId="avc_out" value="com.mds.beans.Avc" id="avcIS"/>
+</form>
