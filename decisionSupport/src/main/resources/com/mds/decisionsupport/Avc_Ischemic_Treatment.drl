@@ -3,3 +3,15 @@ import com.mds.beans.Pami;
 import com.mds.beans.Triage;
 import com.mds.beans.TriageSuggestion;
 import com.mds.beans.Avc;
+
+
+rule "AvcIschemicTreatment"
+		dialect "mvel"
+	   	ruleflow-group "avcIschemicTreatment"
+	       salience 1
+when
+	not Pami( miCode in ( "http://snomed.info/id/371632003" ) )
+	avcBean : com.mds.beans.Avc( )
+then
+System.out.println("test");
+end
