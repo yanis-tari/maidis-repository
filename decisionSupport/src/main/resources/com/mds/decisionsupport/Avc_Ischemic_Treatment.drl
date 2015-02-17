@@ -3,23 +3,3 @@ import com.mds.beans.Pami;
 import com.mds.beans.Triage;
 import com.mds.beans.TriageSuggestion;
 import com.mds.beans.Avc;
-
-rule "Avc_Ischemic_Treatment"
-		dialect "mvel"
-	    ruleflow-group "avcIschemicTreatment"
-	    salience 1
-	    when
-	not Pami( miCode in ( "http://snomed.info/id/371632003" ) )
-	avcBean : com.mds.beans.Avc( )
-	    then
-/*
-	        TriageSuggestion suggestion = new TriageSuggestion();
-	        suggestion.setValue( "1" );
-	        suggestion.setDepartment( "stroke unit" );
-	        suggestion.setSuggestionClinicalPathway( "cerebrovascular accident" );
-	        suggestion.setSuggestionClinicalPathwayID( "cerebrovascular.accident" );
-	        suggestion.setRule( "Stroke symptoms ==> 1" );
-	        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );
-	        avcBean.addSuggestions( suggestion );
-*/
-end
