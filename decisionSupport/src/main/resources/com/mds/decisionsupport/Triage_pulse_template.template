@@ -190,7 +190,7 @@
       <isBound>true</isBound>
     </assertLogical>
     <freeForm>
-      <text>System.out.println(&quot;pulse nvalue = &quot;+myExam.getnValue());</text>
+      <text>System.out.println(&quot;pulse nvalue = &quot;+myExam.getnValue()+&quot; pami id =  &quot;+myExam.getMi_Id());</text>
     </freeForm>
     <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
       <fieldValues>
