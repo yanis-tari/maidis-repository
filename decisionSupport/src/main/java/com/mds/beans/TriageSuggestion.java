@@ -64,15 +64,6 @@ public class TriageSuggestion implements java.io.Serializable {
 	public void setRuleId(java.lang.String ruleId) {
 		this.ruleId = ruleId;
 	}
-
-	public java.lang.String getRule() {
-		return rule;
-	}
-
-	public void setRule(java.lang.String rule) {
-		this.rule = rule;
-	}
-
 	
 	public java.lang.String getRule() {
 		return rule;
