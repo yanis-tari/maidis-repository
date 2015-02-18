@@ -37,7 +37,7 @@ rule "Triage_AVC_symptoms"
 	        SensoryLoss : Pami( miCode in ( "http://snomed.info/id/33653009","R20.0","R200" ) )
 	        HeadacheORHomonymousHemianopiaORLossOfConsciousness : Pami( miCode in ( "http://snomed.info/id/230461009", "http://snomed.info/id/25064002","R51", "http://snomed.info/id/34063005", "http://snomed.info/id/246664003", "http://snomed.info/id/246666001", "http://snomed.info/id/246665002", "http://snomed.info/id/164004005","H53.461","H53.469","H534", "http://snomed.info/id/419045004", "http://snomed.info/id/32834005", "http://snomed.info/id/40863000", "http://snomed.info/id/7862002", "http://snomed.info/id/275946007","R55" ) )	        
 	        triageBean : Triage( pamiList != null && suggestionList : suggestions && pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis && pamiList contains SensoryLoss && pamiList contains HeadacheORHomonymousHemianopiaORLossOfConsciousness )
-			not ( TriageSuggestion ( setRuleId == "Triage_AVC_symptoms" ) from suggestionList)        
+			not ( TriageSuggestion ( ruleId == "Triage_AVC_symptoms" ) from suggestionList)        
 	    then
 			System.out.println("AVC Symptoms rule !!!!!!!!!!!!!!!!!!!!!!!!!!");
 			System.out.println("Aphasia = "+Aphasia.miCode);
