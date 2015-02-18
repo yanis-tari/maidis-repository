@@ -40,6 +40,38 @@ public class TriageSuggestion implements java.io.Serializable {
 	@org.kie.api.definition.type.Label(value = "rule")
 	@org.kie.api.definition.type.Position(value = 7)
 	private java.lang.String rule;
+	
+	@org.kie.api.definition.type.Label(value = "rule text")
+	@org.kie.api.definition.type.Position(value = 8)
+	private java.lang.String ruleText;
+
+	@org.kie.api.definition.type.Label(value = "rule id")
+	@org.kie.api.definition.type.Position(value = 9)
+	private java.lang.String ruleId;
+	
+	public java.lang.String getRuleText() {
+		return ruleText;
+	}
+
+	public void setRuleText(java.lang.String ruleText) {
+		this.ruleText = ruleText;
+	}
+	
+	public java.lang.String getRuleId() {
+		return ruleId;
+	}
+
+	public void setRuleId(java.lang.String ruleId) {
+		this.ruleId = ruleId;
+	}
+
+	public java.lang.String getRule() {
+		return rule;
+	}
+
+	public void setRule(java.lang.String rule) {
+		this.rule = rule;
+	}
 
 	
 	public java.lang.String getRule() {
