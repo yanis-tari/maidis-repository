@@ -100,6 +100,57 @@
         <parameters/>
       </window>
     </fact>
+    <compositePattern>
+      <type>not</type>
+      <patterns>
+        <fromCompositePattern>
+          <factPattern>
+            <constraintList>
+              <constraints>
+                <fieldConstraint>
+                  <value>$ruleID</value>
+                  <operator>==</operator>
+                  <constraintValueType>7</constraintValueType>
+                  <expression>
+                    <parts/>
+                    <index>2147483647</index>
+                  </expression>
+                  <parameters/>
+                  <fieldBinding>ruleId</fieldBinding>
+                  <factType>TriageSuggestion</factType>
+                  <fieldName>ruleId</fieldName>
+                  <fieldType>String</fieldType>
+                </fieldConstraint>
+              </constraints>
+            </constraintList>
+            <factType>TriageSuggestion</factType>
+            <isNegated>false</isNegated>
+            <window>
+              <parameters/>
+            </window>
+          </factPattern>
+          <expression>
+            <parts>
+              <variable>
+                <next class="collection">
+                  <prev class="variable" reference="../.."/>
+                  <name>suggestions</name>
+                  <classType>java.util.List</classType>
+                  <genericType>Collection</genericType>
+                  <parametricType>TriageSuggestion</parametricType>
+                </next>
+                <name>myTriage</name>
+                <classType>Triage</classType>
+                <genericType>Triage</genericType>
+                <fact reference="../../../../../../../fact[2]"/>
+              </variable>
+              <collection reference="../variable/next"/>
+            </parts>
+            <index>2147483647</index>
+          </expression>
+        </fromCompositePattern>
+      </patterns>
+    </compositePattern>
   </lhs>
   <rhs>
     <assertLogical>
@@ -132,6 +183,12 @@
           <field>rule</field>
           <value>$rule</value>
           <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+        <fieldValue>
+          <field>ruleId</field>
+          <value>ruleId</value>
+          <nature>3</nature>
           <type>String</type>
         </fieldValue>
       </fieldValues>
@@ -217,6 +274,13 @@
       <list>
         <null/>
         <null/>
+      </list>
+    </entry>
+    <entry>
+      <string>$ruleID</string>
+      <list>
+        <string>systolic blood pressure 90 75</string>
+        <string>systolic blood pressure less than 75</string>
       </list>
     </entry>
   </table>
