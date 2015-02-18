@@ -44,9 +44,7 @@ rule "Triage_AVC_symptoms"
 			System.out.println("Ataxia = "+Ataxia.miCode);
 			System.out.println("Hemiparesis = "+Hemiparesis.miCode);
 			System.out.println("SensoryLoss = "+SensoryLoss.miCode);
-			System.out.println("HeadacheORHomonymousHemianopiaORLossOfConsciousness = "+HeadacheORHomonymousHemianopiaORLossOfConsciousness.miCode);
-			
-			System.out.println("Nbr suggestions = "+triageBean.suggestions.size);
+			System.out.println("HeadacheORHomonymousHemianopiaORLossOfConsciousness = "+HeadacheORHomonymousHemianopiaORLossOfConsciousness.miCode);					
 			System.out.println("################################## ");
 		
         	TriageSuggestion suggestion = new TriageSuggestion();
