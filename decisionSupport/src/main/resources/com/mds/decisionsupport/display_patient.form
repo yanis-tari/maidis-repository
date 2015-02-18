@@ -13,7 +13,7 @@
 	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&amp;nbsp;&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;23%&quot;&gt;
 			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
@@ -21,6 +21,7 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_civility}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;civility&quot;&gt;&lt;/div&gt;
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;  color:#fff; font-size: medium; &quot;&gt;$field{patient_civility}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
@@ -35,6 +36,7 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_firstName}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;fname&quot;&gt;&lt;/div&gt;
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_firstName}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
@@ -49,7 +51,8 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_lastName}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_lastName}&lt;/div&gt;
+							&lt;div id=&quot;lname&quot;&gt;&lt;/div&gt;
+							&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_lastName}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
@@ -63,6 +66,7 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_birthDate}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;bdate&quot;&gt;&lt;/div&gt;
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_birthDate}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
@@ -74,12 +78,12 @@
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script&gt;$(function() { $( &quot;#uid_-template_null-1665539227-patient_civility_container&quot; ).val($( &quot;.civility&quot; ).val()); $( &quot;#uid_-template_null-1665539227-patient_firstName_container&quot; ).val($( &quot;.fname&quot; ).val());  $( &quot;#uid_-template_null-1665539227-patient_lastName_container&quot; ).val($( &quot;.lname&quot; ).val());  $( &quot;#uid_-template_null-1665539227-patient_birthDate_container&quot; ).val($( &quot;.bdate&quot; ).val()); });&lt;/script&gt;"/>
+&lt;script&gt;$(function() { $( &quot;#civility&quot; ).val($( &quot;.civility&quot; ).val()); $( &quot;#fname&quot; ).val($( &quot;.fname&quot; ).val());  $( &quot;#lname&quot; ).val($( &quot;.lname&quot; ).val());  $( &quot;#bdate&quot; ).val($( &quot;.bdate&quot; ).val()); });&lt;/script&gt;"/>
 <field position="0" name="patient_firstName" type="InputText" id="596183240">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;first name : quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;first name : quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -101,7 +105,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;last name :quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;last name :quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -123,7 +127,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birth date : quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birth date : quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -140,7 +144,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot; Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot; Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
