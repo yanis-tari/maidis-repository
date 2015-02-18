@@ -4,6 +4,26 @@ import com.mds.beans.Pami;
 import com.mds.beans.Triage;
 import com.mds.beans.TriageSuggestion;
 
+rule "Triage_AVC_symptoms_init"
+		dialect "mvel"
+	    ruleflow-group "triage"
+	    no-loop  true
+	    salience 10
+	    when
+	      not TriageSuggestion( rule == "Stroke symptoms ==> 1" )
+	    then
+			System.out.println("AVC Symptoms rule !!!!!!!!!!!!!!!!!!!!!!!!!!");
+	        TriageSuggestion suggestion = new TriageSuggestion();
+	        suggestion.setValue( "1" );
+	        suggestion.setDepartment( "stroke unit" );
+	        suggestion.setSuggestionClinicalPathway( "cerebrovascular accident" );
+	        suggestion.setSuggestionClinicalPathwayID( "cerebrovascular.accident" );
+	        suggestion.setRule( "Stroke symptoms ==> 1" );
+	        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );	        
+	        insert(suggestion);
+end
+
+
 
 rule "Triage_AVC_symptoms"
 		dialect "mvel"
@@ -26,15 +46,8 @@ rule "Triage_AVC_symptoms"
 	        triageBean : Triage( pamiList != null && suggestions not contains suggestion &&  pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis && pamiList contains SensoryLoss && pamiList contains HeadacheORHomonymousHemianopiaORLossOfConsciousness )
 			        
 	    then
-		System.out.println("AVC Symptoms rule !!!!!!!!!!!!!!!!!!!!!!!!!!");
-	        TriageSuggestion suggestion = new TriageSuggestion();
-	        suggestion.setValue( "1" );
-	        suggestion.setDepartment( "stroke unit" );
-	        suggestion.setSuggestionClinicalPathway( "cerebrovascular accident" );
-	        suggestion.setSuggestionClinicalPathwayID( "cerebrovascular.accident" );
-	        suggestion.setRule( "Stroke symptoms ==> 1" );
-	        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );	        
+			System.out.println("AVC Symptoms rule !!!!!!!!!!!!!!!!!!!!!!!!!!");
+        
 	        triageBean.addSuggestions( suggestion );
-	        update(triageBean);
-	        insert(suggestion);
+	        update(triageBean);	    
 end
