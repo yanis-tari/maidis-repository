@@ -33,8 +33,8 @@ rule "Triage_AVC_symptoms"
 	        suggestion.setSuggestionClinicalPathway( "cerebrovascular accident" );
 	        suggestion.setSuggestionClinicalPathwayID( "cerebrovascular.accident" );
 	        suggestion.setRule( "Stroke symptoms ==> 1" );
-	        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );
-	        
+	        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );	        
 	        triageBean.addSuggestions( suggestion );
 	        update(triageBean);
+	        insert(suggestion);
 end
