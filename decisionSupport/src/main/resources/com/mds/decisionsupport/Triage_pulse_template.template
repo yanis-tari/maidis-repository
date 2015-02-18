@@ -100,6 +100,56 @@
         <parameters/>
       </window>
     </fact>
+    <compositePattern>
+      <type>not</type>
+      <patterns>
+        <fromCompositePattern>
+          <factPattern>
+            <constraintList>
+              <constraints>
+                <fieldConstraint>
+                  <value>$ruleId</value>
+                  <operator>==</operator>
+                  <constraintValueType>7</constraintValueType>
+                  <expression>
+                    <parts/>
+                    <index>2147483647</index>
+                  </expression>
+                  <parameters/>
+                  <factType>TriageSuggestion</factType>
+                  <fieldName>rule</fieldName>
+                  <fieldType>String</fieldType>
+                </fieldConstraint>
+              </constraints>
+            </constraintList>
+            <factType>TriageSuggestion</factType>
+            <isNegated>false</isNegated>
+            <window>
+              <parameters/>
+            </window>
+          </factPattern>
+          <expression>
+            <parts>
+              <variable>
+                <next class="collection">
+                  <prev class="variable" reference="../.."/>
+                  <name>suggestions</name>
+                  <classType>java.util.List</classType>
+                  <genericType>Collection</genericType>
+                  <parametricType>TriageSuggestion</parametricType>
+                </next>
+                <name>myTriage</name>
+                <classType>Triage</classType>
+                <genericType>Triage</genericType>
+                <fact reference="../../../../../../../fact[2]"/>
+              </variable>
+              <collection reference="../variable/next"/>
+            </parts>
+            <index>2147483647</index>
+          </expression>
+        </fromCompositePattern>
+      </patterns>
+    </compositePattern>
   </lhs>
   <rhs>
     <assertLogical>
@@ -176,11 +226,11 @@
     <entry>
       <string>$rule</string>
       <list>
-        <string>Pulse &gt; 180 bpm  ==&gt; triage level 1</string>
-        <string>Pulse 120–140 / 141–180 bpm ==&gt; triage level 3/2</string>
-        <string>Pulse 120–140 / 141–180 bpm ==&gt; triage level 3/2</string>
-        <string>Pulse 50–40 / &lt; 40 bpm ==&gt; triage level 3/2</string>
-        <string>Pulse 50–40 / &lt; 40 bpm ==&gt; triage level 3/2</string>
+        <string>If pulse greater than 180 bpm  Then triage level 1</string>
+        <string>If pulse in range 120–140  bpm Then triage level 3</string>
+        <string>If pulse in range 141–180 bpm Then triage level 2</string>
+        <string>If pulse in range 50–40 bpm Then  triage level 3</string>
+        <string>If pulse less than 40 bpm Then triage level 2</string>
       </list>
     </entry>
     <entry>
@@ -206,7 +256,7 @@
     <entry>
       <string>$suggest_clinical_pathway</string>
       <list>
-        <string>Cerebrovascular accident</string>
+        <null/>
         <string></string>
         <string></string>
         <string></string>
@@ -236,11 +286,21 @@
     <entry>
       <string>$pathway_id</string>
       <list>
-        <string>decisionSupport.CerebrovascularAccident</string>
+        <null/>
         <string></string>
         <string></string>
         <string></string>
         <string></string>
+      </list>
+    </entry>
+    <entry>
+      <string>$ruleId</string>
+      <list>
+        <string>If pulse greater than 180 bpm  Then triage level 1</string>
+        <string>If pulse in range 120–140  bpm Then triage level 3</string>
+        <string>If pulse in range 141–180 bpm Then triage level 2</string>
+        <string>If pulse in range 50–40 bpm Then  triage level 3</string>
+        <string>If pulse less than 40 bpm Then triage level 2</string>
       </list>
     </entry>
   </table>
