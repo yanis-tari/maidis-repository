@@ -22,9 +22,9 @@ rule "Triage_AVC_symptoms"
 				or 
 			HeadacheORHomonymousHemianopiaORLossOfConsciousness : Pami( miCode in ( "http://snomed.info/id/419045004", "http://snomed.info/id/32834005", "http://snomed.info/id/40863000", "http://snomed.info/id/7862002", "http://snomed.info/id/275946007","R55" ) ) 
 			)
-			
-	        triageBean : Triage( pamiList != null && suggestions : suggestions  &&  pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis && pamiList contains SensoryLoss && pamiList contains HeadacheORHomonymousHemianopiaORLossOfConsciousness )
-			not TriageSuggestion( rule == "Stroke symptoms ==> 1" ) from suggestions	        
+			suggestion :  TriageSuggestion( rule == "Stroke symptoms ==> 1" ) 	
+	        triageBean : Triage( pamiList != null && suggestions not contains suggestion &&  pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis && pamiList contains SensoryLoss && pamiList contains HeadacheORHomonymousHemianopiaORLossOfConsciousness )
+			        
 	    then
 		System.out.println("AVC Symptoms rule !!!!!!!!!!!!!!!!!!!!!!!!!!");
 	        TriageSuggestion suggestion = new TriageSuggestion();
