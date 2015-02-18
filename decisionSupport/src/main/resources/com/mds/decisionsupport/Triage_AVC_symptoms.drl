@@ -7,7 +7,8 @@ import com.mds.beans.TriageSuggestion;
 
 rule "Triage_AVC_symptoms"
 		dialect "mvel"
-	    ruleflow-group "triage"	    
+	    ruleflow-group "triage"
+	    no-loop  true
 	    salience 1
 	    when
 	        Aphasia : Pami( miCode in ( "http://snomed.info/id/87486003","R47.01","R470" ) )
