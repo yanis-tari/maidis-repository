@@ -45,6 +45,8 @@ rule "Triage_AVC_symptoms"
 			System.out.println("Hemiparesis = "+Hemiparesis.miCode);
 			System.out.println("SensoryLoss = "+SensoryLoss.miCode);
 			System.out.println("HeadacheORHomonymousHemianopiaORLossOfConsciousness = "+HeadacheORHomonymousHemianopiaORLossOfConsciousness.miCode);
+			
+			System.out.println("Nbr suggestions = "+triageBean.suggestions.size);
 			System.out.println("################################## ");
 		
         	TriageSuggestion suggestion = new TriageSuggestion();
@@ -56,5 +58,6 @@ rule "Triage_AVC_symptoms"
 	        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );	  
         
 	        triageBean.addSuggestions( suggestion );
+	        update(triageBean);
 	        	    
 end
