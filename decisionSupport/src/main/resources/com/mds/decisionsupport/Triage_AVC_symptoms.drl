@@ -7,7 +7,7 @@ import com.mds.beans.TriageSuggestion;
 
 rule "Triage_AVC_symptoms"
 		dialect "mvel"
-	    ruleflow-group "triage"
+	    ruleflow-group "triage"	    
 	    salience 1
 	    when
 	        Aphasia : Pami( miCode in ( "http://snomed.info/id/87486003","R47.01","R470" ) )
@@ -35,4 +35,5 @@ rule "Triage_AVC_symptoms"
 	        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );
 	        
 	        triageBean.addSuggestions( suggestion );
+	        update(triageBean);
 end
