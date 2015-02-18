@@ -8,8 +8,8 @@ import com.mds.beans.SimpleExam;
 	
 rule "InsertingTriagePamis"
 	    dialect "mvel"
-	    ruleflow-group "triage"
-	    no-loop  true
+	    ruleflow-group "triage"	    
+	    lock-on-active true;
 	    salience 10
 	    when
 	        $triageBean : Triage( $pamis : pamiList != null )	
