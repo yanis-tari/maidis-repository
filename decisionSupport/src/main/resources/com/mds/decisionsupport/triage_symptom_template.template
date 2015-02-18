@@ -190,10 +190,10 @@
     <entry>
       <string>$ICD10Code</string>
       <list>
-        <string>R07.4</string>
-        <string>##</string>
-        <string>##</string>
-        <string>##</string>
+        <string>R07.9</string>
+        <string>I99.8</string>
+        <string>I80.9</string>
+        <string>R55</string>
         <string>##</string>
         <string>R00.2</string>
       </list>
