@@ -108,7 +108,7 @@
             <constraintList>
               <constraints>
                 <fieldConstraint>
-                  <value>$ruleID</value>
+                  <value>$ruleId</value>
                   <operator>==</operator>
                   <constraintValueType>7</constraintValueType>
                   <expression>
@@ -116,9 +116,8 @@
                     <index>2147483647</index>
                   </expression>
                   <parameters/>
-                  <fieldBinding>ruleId</fieldBinding>
                   <factType>TriageSuggestion</factType>
-                  <fieldName>ruleId</fieldName>
+                  <fieldName>rule</fieldName>
                   <fieldType>String</fieldType>
                 </fieldConstraint>
               </constraints>
@@ -185,12 +184,6 @@
           <nature>7</nature>
           <type>String</type>
         </fieldValue>
-        <fieldValue>
-          <field>ruleId</field>
-          <value>ruleId</value>
-          <nature>3</nature>
-          <type>String</type>
-        </fieldValue>
       </fieldValues>
       <factType>TriageSuggestion</factType>
       <boundName>mySuggestion</boundName>
@@ -230,8 +223,8 @@
     <entry>
       <string>$rule</string>
       <list>
-        <string>Systolic blood pressure: 90–75 / &gt; 75 mmHg  ==&gt; triage level 2/1</string>
-        <string>Systolic blood pressure: 90–75 / &gt; 75 mmHg  ==&gt; triage level 2/1</string>
+        <string>If systolic blood pressure in 90–75 mmHg  then triage level 2</string>
+        <string>If systolic blood pressure less than 75 mmHg  then triage level 1</string>
       </list>
     </entry>
     <entry>
@@ -277,10 +270,10 @@
       </list>
     </entry>
     <entry>
-      <string>$ruleID</string>
+      <string>$ruleId</string>
       <list>
-        <string>systolic blood pressure 90 75</string>
-        <string>systolic blood pressure less than 75</string>
+        <string>If systolic blood pressure in 90–75 mmHg  then triage level 2</string>
+        <string>If systolic blood pressure less than 75 mmHg  then triage level 1</string>
       </list>
     </entry>
   </table>
