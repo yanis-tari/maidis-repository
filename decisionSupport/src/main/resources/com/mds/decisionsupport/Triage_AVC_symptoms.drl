@@ -29,7 +29,7 @@ rule "Triage_AVC_symptoms"
 		dialect "mvel"
 	    ruleflow-group "triage"
 	    no-loop  true
-	    salience 1
+	    salience 5
 	    when
 	        Aphasia : Pami( miCode in ( "http://snomed.info/id/87486003","R47.01","R470" ) )
 	        Ataxia : Pami( miCode in ( "http://snomed.info/id/20262006","R27.0","R270" ) )
