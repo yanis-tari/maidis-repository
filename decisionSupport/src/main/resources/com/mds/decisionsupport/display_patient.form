@@ -5,8 +5,8 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="left"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;.readOnly{display:none;}
-&lt;/style&gt; 
+<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;.readOnly{background-color:transparent;border:none;color: #fff;font-weight: bold; width:40px; overflow: visible}
+&lt;/style&gt;
 &lt;div class=&quot;ui-widget&quot;&gt;
 &lt;div class=&quot;ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-all ui-state-hover&quot; style=&quot;margin-top: 10px; margin-bottom:10px; padding: 5px;&quot;&gt;
 &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;ui-corner-all&quot; width=&quot;1%&quot;&gt;
@@ -21,7 +21,6 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_civility}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-							&lt;div id=&quot;civility&quot;&gt;&lt;/div&gt;
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;  color:#fff; font-size: medium; &quot;&gt;$field{patient_civility}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
@@ -36,7 +35,6 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_firstName}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-							&lt;div id=&quot;fname&quot;&gt;&lt;/div&gt;
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_firstName}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
@@ -51,8 +49,7 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_lastName}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-							&lt;div id=&quot;lname&quot;&gt;&lt;/div&gt;
-							&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_lastName}&lt;/div&gt;
+						&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_lastName}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
@@ -66,7 +63,6 @@
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_birthDate}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;bdate&quot;&gt;&lt;/div&gt;
 						&lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_birthDate}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
@@ -78,7 +74,7 @@
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script&gt;$(function() { $( &quot;#civility&quot; ).val($( &quot;.civility&quot; ).val()); $( &quot;#fname&quot; ).val($( &quot;.fname&quot; ).val());  $( &quot;#lname&quot; ).val($( &quot;.lname&quot; ).val());  $( &quot;#bdate&quot; ).val($( &quot;.bdate&quot; ).val()); });&lt;/script&gt;"/>
+"/>
 <field position="0" name="patient_firstName" type="InputText" id="596183240">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
