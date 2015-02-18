@@ -23,7 +23,7 @@ rule "Triage_AVC_symptoms"
 		        suggestion.setDepartment( "stroke unit" );
 		        suggestion.setSuggestionClinicalPathway( "cerebrovascular accident" );
 		        suggestion.setSuggestionClinicalPathwayID( "cerebrovascular.accident" );
-		        suggestion.setRule( "Stroke symptoms ==> 1" );
+		        suggestion.setRule( "If stroke symptoms Then triage level 1" );
 		        suggestion.setRuleText( "If stroke symptoms Then triage level 1" );
 		        suggestion.setRuleId( "Triage_AVC_symptoms" );
 		        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );	          
