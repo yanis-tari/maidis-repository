@@ -7,6 +7,12 @@
       <import>
         <type>com.mds.beans.SimpleExam</type>
       </import>
+      <import>
+        <type>com.mds.beans.Pami</type>
+      </import>
+      <import>
+        <type>com.mds.rest.client.MedicalRecordServiceClient</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
