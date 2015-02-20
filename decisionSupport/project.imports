@@ -13,6 +13,9 @@
       <import>
         <type>com.mds.rest.client.MedicalRecordServiceClient</type>
       </import>
+      <import>
+        <type>java.util.Date</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
