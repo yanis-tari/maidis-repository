@@ -18,12 +18,10 @@
 					&lt;tbody&gt;
 						&lt;tr&gt;
 							&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-							&lt;div id=&quot;uid_-template_null-277492817-patient_pin_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_pin}&lt;/div&gt;
-							&lt;/td&gt;
-						&lt;/tr&gt;
-						&lt;tr&gt;
+								&lt;div id=&quot;uid_-template_null-277492817-patient_pin_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_pin}&lt;/div&gt;
+							&lt;/td&gt;					
 							&lt;td valign=&quot;top&quot;&gt;
-							&lt;div id=&quot;uid_-template_null-277492817-patient_pin_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$field{patient_pin}&lt;/div&gt;
+								&lt;div id=&quot;uid_-template_null-277492817-patient_pin_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$field{patient_pin}&lt;/div&gt;
 							&lt;/td&gt;
 						&lt;/tr&gt;
 					&lt;/tbody&gt;
@@ -34,10 +32,10 @@
 				&lt;tbody&gt;
 					&lt;tr&gt;
 						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_civility}&lt;/div&gt;
+							&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_civility}&lt;/div&gt;
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;  color:#fff; font-size: medium; &quot;&gt;$field{patient_civility}&lt;/div&gt;
+							&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;  color:#fff; font-size: medium; &quot;&gt;$field{patient_civility}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
@@ -910,7 +908,7 @@
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -932,7 +930,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -954,7 +952,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;firstName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;firstName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -976,7 +974,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lastName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lastName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -998,7 +996,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birthDate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birthDate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -1023,8 +1021,18 @@
 <field position="6" name="patient_patientInsurance_Id" type="InputTextInteger" id="1307999033">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;patientInsurance_Id (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;patientInsurance_Id (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Insurancequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/patientInsurance_Id"/>
 <property name="outputBinding" value="patient_out/patientInsurance_Id"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -1032,8 +1040,18 @@
 <field position="7" name="patient_gender" type="InputTextInteger" id="343061083">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;gender (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gender (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Genderquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/gender"/>
 <property name="outputBinding" value="patient_out/gender"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -1041,8 +1059,21 @@
 <field position="8" name="patient_nationality" type="InputText" id="1217607677">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;nationality (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nationality (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Nationalityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/nationality"/>
 <property name="outputBinding" value="patient_out/nationality"/>
 <property name="fieldClass" value="java.lang.String"/>
@@ -1050,8 +1081,18 @@
 <field position="9" name="patient_status" type="InputTextInteger" id="485427540">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;status (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;status (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Statusquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/status"/>
 <property name="outputBinding" value="patient_out/status"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -1059,8 +1100,18 @@
 <field position="10" name="patient_maritalStatus" type="InputTextInteger" id="1425135346">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;maritalStatus (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;maritalStatus (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Marital statusquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/maritalStatus"/>
 <property name="outputBinding" value="patient_out/maritalStatus"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -1068,8 +1119,18 @@
 <field position="11" name="patient_nbChildren" type="InputTextInteger" id="574158877">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;nbChildren (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nbChildren (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Number of childrenquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/nbChildren"/>
 <property name="outputBinding" value="patient_out/nbChildren"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -1077,8 +1138,21 @@
 <field position="12" name="patient_profession" type="InputText" id="2014625393">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;profession (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;profession (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Professionquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/profession"/>
 <property name="outputBinding" value="patient_out/profession"/>
 <property name="fieldClass" value="java.lang.String"/>
@@ -1089,7 +1163,7 @@
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;remark (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;remark (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Remarkquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -1108,8 +1182,15 @@
 </field>
 <field position="14" name="patient_active" type="CheckBox" id="1452265252">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;active (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;active (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Patient is activequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/active"/>
 <property name="outputBinding" value="patient_out/active"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1117,8 +1198,15 @@
 <field position="15" name="patient_careDone" type="CheckBox" id="80717070">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;careDone (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;careDone (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Care donequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/careDone"/>
 <property name="outputBinding" value="patient_out/careDone"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1126,8 +1214,15 @@
 <field position="16" name="patient_anonym" type="CheckBox" id="549469473">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;anonym (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;anonym (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Anonym patientquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/anonym"/>
 <property name="outputBinding" value="patient_out/anonym"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1135,8 +1230,15 @@
 <field position="17" name="patient_invoiced" type="CheckBox" id="1464484862">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;invoiced (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;invoiced (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Invoiced patientquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/invoiced"/>
 <property name="outputBinding" value="patient_out/invoiced"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1144,8 +1246,15 @@
 <field position="18" name="patient_dead" type="CheckBox" id="1197688016">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;dead (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;dead (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;patient is deadquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/dead"/>
 <property name="outputBinding" value="patient_out/dead"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1153,8 +1262,15 @@
 <field position="19" name="patient_eDRate" type="CheckBox" id="592002617">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;eDRate (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;eDRate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value="invisible"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/eDRate"/>
 <property name="outputBinding" value="patient_out/eDRate"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1162,8 +1278,15 @@
 <field position="20" name="patient_notRealPatient" type="CheckBox" id="217271442">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;notRealPatient (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;notRealPatient (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value="invisible"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/notRealPatient"/>
 <property name="outputBinding" value="patient_out/notRealPatient"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1171,8 +1294,15 @@
 <field position="21" name="patient_employed" type="CheckBox" id="2086519498">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;employed (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;employed (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value="invisible"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/employed"/>
 <property name="outputBinding" value="patient_out/employed"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
@@ -1180,8 +1310,15 @@
 <field position="22" name="patient_deleted" type="CheckBox" id="1553777534">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;deleted (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;deleted (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="styleclass" value="invisible"/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/deleted"/>
 <property name="outputBinding" value="patient_out/deleted"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
