@@ -152,8 +152,7 @@ public class Triage implements java.io.Serializable {
 
 	@Override
 	public String toString() {
-		return "Triage [contact=" + contact + ", patient=" + patient
-				+ ", pamiList=" + pamiList + ", triageValue=" + triageValue
+		return "Triage [ patient=" + patient+ ",contact=" + contact + ", pamiList=" + pamiList + ", triageValue=" + triageValue
 				+ ", triageDescription=" + triageDescription + ", triageDate="
 				+ triageDate + ", suggestions=" + suggestions
 				+ ", adoptedSuggestion=" + adoptedSuggestion
