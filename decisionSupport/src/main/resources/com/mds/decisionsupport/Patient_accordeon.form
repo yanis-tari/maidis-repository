@@ -290,7 +290,7 @@
 <field position="3" name="patient_lastName" type="InputText" id="1782253058">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="Last name;"/>
+<property name="label" value="Last name"/>
 <property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/lastName"/>
