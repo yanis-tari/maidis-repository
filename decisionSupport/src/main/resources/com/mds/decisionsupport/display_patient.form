@@ -1219,8 +1219,8 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/active"/>
-<property name="outputBinding" value="patient_out/active"/>
+<property name="inputBinding" value="patient_in/isActive"/>
+<property name="outputBinding" value="patient_out/isActive"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="15" name="patient_careDone" type="CheckBox" id="80717070">
@@ -1235,8 +1235,8 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/careDone"/>
-<property name="outputBinding" value="patient_out/careDone"/>
+<property name="inputBinding" value="patient_in/isCareDone"/>
+<property name="outputBinding" value="patient_out/isCareDone"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="16" name="patient_anonym" type="CheckBox" id="549469473">
@@ -1251,8 +1251,8 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/anonym"/>
-<property name="outputBinding" value="patient_out/anonym"/>
+<property name="inputBinding" value="patient_in/isAnonym"/>
+<property name="outputBinding" value="patient_out/isAnonym"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="17" name="patient_invoiced" type="CheckBox" id="1464484862">
@@ -1267,8 +1267,8 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/invoiced"/>
-<property name="outputBinding" value="patient_out/invoiced"/>
+<property name="inputBinding" value="patient_in/isInvoiced"/>
+<property name="outputBinding" value="patient_out/isInvoiced"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="18" name="patient_dead" type="CheckBox" id="1197688016">
@@ -1283,8 +1283,8 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/dead"/>
-<property name="outputBinding" value="patient_out/dead"/>
+<property name="inputBinding" value="patient_in/isDead"/>
+<property name="outputBinding" value="patient_out/isDead"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="19" name="patient_eDRate" type="CheckBox" id="592002617">
@@ -1299,8 +1299,8 @@
 <property name="styleclass" value="invisible"/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/eDRate"/>
-<property name="outputBinding" value="patient_out/eDRate"/>
+<property name="inputBinding" value="patient_in/isEDRate"/>
+<property name="outputBinding" value="patient_out/isEDRate"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="20" name="patient_notRealPatient" type="CheckBox" id="217271442">
@@ -1315,8 +1315,8 @@
 <property name="styleclass" value="invisible"/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/notRealPatient"/>
-<property name="outputBinding" value="patient_out/notRealPatient"/>
+<property name="inputBinding" value="patient_in/isNotRealPatient"/>
+<property name="outputBinding" value="patient_out/isNotRealPatient"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="21" name="patient_employed" type="CheckBox" id="2086519498">
@@ -1331,8 +1331,8 @@
 <property name="styleclass" value="invisible"/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/employed"/>
-<property name="outputBinding" value="patient_out/employed"/>
+<property name="inputBinding" value="patient_in/isEmployed"/>
+<property name="outputBinding" value="patient_out/isEmployed"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="22" name="patient_deleted" type="CheckBox" id="1553777534">
@@ -1347,8 +1347,8 @@
 <property name="styleclass" value="invisible"/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="patient_in/deleted"/>
-<property name="outputBinding" value="patient_out/deleted"/>
+<property name="inputBinding" value="patient_in/isDeleted"/>
+<property name="outputBinding" value="patient_out/isDeleted"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <field position="23" name="patient_bank" type="InputText" id="1002228000">
