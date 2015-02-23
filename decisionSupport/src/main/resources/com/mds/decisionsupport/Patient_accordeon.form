@@ -5,10 +5,12 @@
 <property name="displayMode" value="aligned"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
+
 <field position="46" name="patient_accessKey" type="InputText" id="1021427569">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;accessKey (patient)quot;"/>
+<property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/accessKey"/>
 <property name="outputBinding" value="patient_out/accessKey"/>
@@ -312,6 +314,7 @@
 <field position="37" name="patient_localMiddleName" type="InputText" id="1842920078">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;localMiddleName (patient)quot;"/>
+<property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/localMiddleName"/>
 <property name="outputBinding" value="patient_out/localMiddleName"/>
