@@ -9,7 +9,7 @@
 <field position="46" name="patient_accessKey" type="InputText" id="1021427569">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;accessKey (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/accessKey"/>
@@ -38,9 +38,9 @@
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;bank (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value=""/>
+<property name="errorMessage" value=""/>
+<property name="title" value=""/>
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
@@ -58,7 +58,7 @@
 <field position="47" name="patient_bankPlace" type="InputText" id="943736569">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;bankPlace (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/bankPlace"/>
@@ -68,7 +68,7 @@
 <field position="51" name="patient_birthCity" type="InputText" id="99815351">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;birthCity (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/birthCity"/>
@@ -78,7 +78,7 @@
 <field position="50" name="patient_birthCountry" type="InputText" id="1396330759">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;birthCountry (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/birthCountry"/>
@@ -89,6 +89,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;birthDate (patient)quot;"/>
+<property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/birthDate"/>
 <property name="outputBinding" value="patient_out/birthDate"/>
@@ -105,7 +106,7 @@
 </field>
 <field position="24" name="patient_checkSum" type="InputText" id="1778868750">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;checkSum (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/checkSum"/>
@@ -116,6 +117,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;civility (patient)quot;"/>
+<property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/civility"/>
 <property name="outputBinding" value="patient_out/civility"/>
@@ -123,7 +125,7 @@
 </field>
 <field position="25" name="patient_color" type="InputTextInteger" id="1441493933">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;color (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/color"/>
@@ -132,7 +134,7 @@
 </field>
 <field position="26" name="patient_creationDate" type="InputDate" id="1320863064">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;creationDate (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/creationDate"/>
@@ -150,7 +152,7 @@
 </field>
 <field position="27" name="patient_deathDate" type="InputDate" id="90237747">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;deathDate (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/deathDate"/>
@@ -159,7 +161,7 @@
 </field>
 <field position="28" name="patient_defaultAccessKey" type="InputText" id="67009043">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;defaultAccessKey (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/defaultAccessKey"/>
@@ -177,7 +179,7 @@
 </field>
 <field position="29" name="patient_destInvoice" type="InputTextInteger" id="2068882727">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;destInvoice (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/destInvoice"/>
@@ -186,7 +188,7 @@
 </field>
 <field position="30" name="patient_destMail" type="InputTextInteger" id="1077787305">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;destMail (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/destMail"/>
@@ -214,7 +216,7 @@
 <field position="49" name="patient_employer" type="InputText" id="1294196457">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;employer (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/employer"/>
@@ -223,7 +225,7 @@
 </field>
 <field position="31" name="patient_externalFileId" type="InputText" id="593083746">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;externalFileId (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/externalFileId"/>
@@ -232,7 +234,7 @@
 </field>
 <field position="32" name="patient_externalFileSource" type="InputText" id="1317982466">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;externalFileSource (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/externalFileSource"/>
@@ -241,7 +243,7 @@
 </field>
 <field position="33" name="patient_familyChief_Id" type="InputTextInteger" id="1046014106">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;familyChief_Id (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/familyChief_Id"/>
@@ -252,6 +254,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;firstName (patient)quot;"/>
+<property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/firstName"/>
 <property name="outputBinding" value="patient_out/firstName"/>
@@ -268,7 +271,7 @@
 </field>
 <field position="34" name="patient_globalId" type="InputText" id="1698533734">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;globalId (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/globalId"/>
@@ -288,6 +291,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;lastName (patient)quot;"/>
+<property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/lastName"/>
 <property name="outputBinding" value="patient_out/lastName"/>
@@ -295,7 +299,7 @@
 </field>
 <field position="35" name="patient_localFirstName" type="InputText" id="149232868">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;localFirstName (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/localFirstName"/>
@@ -304,7 +308,7 @@
 </field>
 <field position="36" name="patient_localLastName" type="InputText" id="490040041">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;localLastName (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/localLastName"/>
@@ -313,7 +317,7 @@
 </field>
 <field position="37" name="patient_localMiddleName" type="InputText" id="1842920078">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;localMiddleName (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/localMiddleName"/>
@@ -322,7 +326,7 @@
 </field>
 <field position="38" name="patient_maidenName" type="InputText" id="1739854542">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;maidenName (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/maidenName"/>
@@ -331,7 +335,7 @@
 </field>
 <field position="39" name="patient_mailCivility" type="InputText" id="457179644">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;mailCivility (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/mailCivility"/>
@@ -340,7 +344,7 @@
 </field>
 <field position="40" name="patient_mailFirstName" type="InputText" id="1183599507">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;mailFirstName (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/mailFirstName"/>
@@ -350,7 +354,7 @@
 <field position="44" name="patient_mailLastName" type="InputText" id="85333412">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;mailLastName (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/mailLastName"/>
@@ -369,7 +373,7 @@
 <field position="48" name="patient_middleName" type="InputText" id="1465139">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;middleName (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/middleName"/>
@@ -473,7 +477,7 @@
 </field>
 <field position="41" name="patient_timeStamp" type="InputDate" id="490189126">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;timeStamp (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/timeStamp"/>
@@ -482,7 +486,7 @@
 </field>
 <field position="42" name="patient_userStamp" type="InputTextInteger" id="380334837">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;userStamp (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/userStamp"/>
@@ -492,7 +496,7 @@
 <field position="45" name="patient_user_Id" type="InputTextInteger" id="940750979">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;user_Id (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/user_Id"/>
@@ -501,7 +505,7 @@
 </field>
 <field position="43" name="patient_versionId" type="InputText" id="57777984">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;versionId (patient)quot;"/>
+<property name="label" value=""/>
 <property name="styleclass" value="invisible"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/versionId"/>
