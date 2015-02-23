@@ -62,10 +62,9 @@ public class Avc extends Triage implements java.io.Serializable {
     
     @Override
 	public String toString() {
-		return "Avc [glasgowScore=" + glasgowScore + ", irmResult=" + irmResult
+		return "Avc [ patient="	+ patient +", glasgowScore=" + glasgowScore + ", irmResult=" + irmResult
 				+ ", nihssScore=" + nihssScore + ", patientidentity="
-				+ patientidentity + ", contact=" + contact + ", patient="
-				+ patient + ", pamiList=" + pamiList + ", triageValue="
+				+ patientidentity + ", contact=" + contact +  ", pamiList=" + pamiList + ", triageValue="
 				+ triageValue + ", triageDescription=" + triageDescription
 				+ ", triageDate=" + triageDate + ", suggestions=" + suggestions
 				+ ", adoptedSuggestion=" + adoptedSuggestion
@@ -127,6 +126,18 @@ public class Avc extends Triage implements java.io.Serializable {
 	}
 	
 	public Avc(com.mds.beans.Triage triage) {
+		if(triage != null && triage.getPatient() != null){
+			if(triage.getPatient().getPatient_Id() != null)
+			{
+				System.out.println("Avc constructor patient_Id ="+triage.getPatient().getPatient_Id());
+				
+			}else{
+				System.out.println("triage.getPatient().getPatient_Id() == null");
+			}
+		}else{
+			System.out.println("triage == null or triage.getPatient() == null");
+			
+		}
     	this.patient = triage.getPatient();
 		this.contact = triage.getContact();
 		this.pamiList = triage.getPamiList();
