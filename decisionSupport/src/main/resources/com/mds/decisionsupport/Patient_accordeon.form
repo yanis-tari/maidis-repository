@@ -88,7 +88,7 @@
 <field position="4" name="patient_birthDate" type="InputDate" id="195698818">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;birthDate (patient)quot;"/>
+<property name="label" value="Birth date"/>
 <property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/birthDate"/>
@@ -116,7 +116,7 @@
 <field position="1" name="patient_civility" type="InputText" id="1223586434">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;civility (patient)quot;"/>
+<property name="label" value="Civility"/>
 <property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/civility"/>
@@ -253,7 +253,7 @@
 <field position="2" name="patient_firstName" type="InputText" id="1978357788">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;firstName (patient)quot;"/>
+<property name="label" value="First name"/>
 <property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/firstName"/>
@@ -290,7 +290,7 @@
 <field position="3" name="patient_lastName" type="InputText" id="1782253058">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;lastName (patient)quot;"/>
+<property name="label" value="Last name;"/>
 <property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/lastName"/>
@@ -428,7 +428,8 @@
 <field position="0" name="patient_pin" type="InputText" id="2054885596">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;pin (patient)quot;"/>
+<property name="label" value="Pin"/>
+<property name="styleclass" value="headerInput"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="patient_in/pin"/>
 <property name="outputBinding" value="patient_out/pin"/>
