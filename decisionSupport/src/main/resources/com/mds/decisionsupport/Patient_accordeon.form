@@ -4,4 +4,421 @@
 <property name="name" value="Patient_accordeon.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="patient_accessKey" type="InputText" id="1021427569">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;accessKey (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/accessKey"/>
+<property name="outputBinding" value="patient_out/accessKey"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="patient_active" type="CheckBox" id="1452265252">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;active (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/active"/>
+<property name="outputBinding" value="patient_out/active"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="patient_anonym" type="CheckBox" id="549469473">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;anonym (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/anonym"/>
+<property name="outputBinding" value="patient_out/anonym"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="patient_bank" type="InputText" id="1002228000">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bank (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/bank"/>
+<property name="outputBinding" value="patient_out/bank"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="patient_bankPlace" type="InputText" id="943736569">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bankPlace (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/bankPlace"/>
+<property name="outputBinding" value="patient_out/bankPlace"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="patient_birthCity" type="InputText" id="99815351">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;birthCity (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/birthCity"/>
+<property name="outputBinding" value="patient_out/birthCity"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="patient_birthCountry" type="InputText" id="1396330759">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;birthCountry (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/birthCountry"/>
+<property name="outputBinding" value="patient_out/birthCountry"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="patient_birthDate" type="InputDate" id="195698818">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;birthDate (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/birthDate"/>
+<property name="outputBinding" value="patient_out/birthDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="8" name="patient_careDone" type="CheckBox" id="80717070">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;careDone (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/careDone"/>
+<property name="outputBinding" value="patient_out/careDone"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="patient_checkSum" type="InputText" id="1778868750">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;checkSum (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/checkSum"/>
+<property name="outputBinding" value="patient_out/checkSum"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="patient_civility" type="InputText" id="1223586434">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;civility (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/civility"/>
+<property name="outputBinding" value="patient_out/civility"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="patient_color" type="InputTextInteger" id="1441493933">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;color (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/color"/>
+<property name="outputBinding" value="patient_out/color"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="12" name="patient_creationDate" type="InputDate" id="1320863064">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;creationDate (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/creationDate"/>
+<property name="outputBinding" value="patient_out/creationDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="13" name="patient_dead" type="CheckBox" id="1197688016">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dead (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/dead"/>
+<property name="outputBinding" value="patient_out/dead"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="14" name="patient_deathDate" type="InputDate" id="90237747">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;deathDate (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/deathDate"/>
+<property name="outputBinding" value="patient_out/deathDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="15" name="patient_defaultAccessKey" type="InputText" id="67009043">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;defaultAccessKey (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/defaultAccessKey"/>
+<property name="outputBinding" value="patient_out/defaultAccessKey"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="patient_deleted" type="CheckBox" id="1553777534">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;deleted (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/deleted"/>
+<property name="outputBinding" value="patient_out/deleted"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="17" name="patient_destInvoice" type="InputTextInteger" id="2068882727">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;destInvoice (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/destInvoice"/>
+<property name="outputBinding" value="patient_out/destInvoice"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="18" name="patient_destMail" type="InputTextInteger" id="1077787305">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;destMail (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/destMail"/>
+<property name="outputBinding" value="patient_out/destMail"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="19" name="patient_eDRate" type="CheckBox" id="592002617">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;eDRate (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/eDRate"/>
+<property name="outputBinding" value="patient_out/eDRate"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="20" name="patient_employed" type="CheckBox" id="2086519498">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;employed (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/employed"/>
+<property name="outputBinding" value="patient_out/employed"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="21" name="patient_employer" type="InputText" id="1294196457">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;employer (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/employer"/>
+<property name="outputBinding" value="patient_out/employer"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="22" name="patient_externalFileId" type="InputText" id="593083746">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;externalFileId (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/externalFileId"/>
+<property name="outputBinding" value="patient_out/externalFileId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="23" name="patient_externalFileSource" type="InputText" id="1317982466">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;externalFileSource (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/externalFileSource"/>
+<property name="outputBinding" value="patient_out/externalFileSource"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="24" name="patient_familyChief_Id" type="InputTextInteger" id="1046014106">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;familyChief_Id (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/familyChief_Id"/>
+<property name="outputBinding" value="patient_out/familyChief_Id"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="25" name="patient_firstName" type="InputText" id="1978357788">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;firstName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/firstName"/>
+<property name="outputBinding" value="patient_out/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="26" name="patient_gender" type="InputTextInteger" id="343061083">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gender (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/gender"/>
+<property name="outputBinding" value="patient_out/gender"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="27" name="patient_globalId" type="InputText" id="1698533734">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;globalId (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/globalId"/>
+<property name="outputBinding" value="patient_out/globalId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="28" name="patient_invoiced" type="CheckBox" id="1464484862">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;invoiced (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/invoiced"/>
+<property name="outputBinding" value="patient_out/invoiced"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="29" name="patient_lastName" type="InputText" id="1782253058">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/lastName"/>
+<property name="outputBinding" value="patient_out/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="30" name="patient_localFirstName" type="InputText" id="149232868">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;localFirstName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/localFirstName"/>
+<property name="outputBinding" value="patient_out/localFirstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="31" name="patient_localLastName" type="InputText" id="490040041">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;localLastName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/localLastName"/>
+<property name="outputBinding" value="patient_out/localLastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="32" name="patient_localMiddleName" type="InputText" id="1842920078">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;localMiddleName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/localMiddleName"/>
+<property name="outputBinding" value="patient_out/localMiddleName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="33" name="patient_maidenName" type="InputText" id="1739854542">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;maidenName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/maidenName"/>
+<property name="outputBinding" value="patient_out/maidenName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="34" name="patient_mailCivility" type="InputText" id="457179644">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mailCivility (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/mailCivility"/>
+<property name="outputBinding" value="patient_out/mailCivility"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="35" name="patient_mailFirstName" type="InputText" id="1183599507">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mailFirstName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/mailFirstName"/>
+<property name="outputBinding" value="patient_out/mailFirstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="36" name="patient_mailLastName" type="InputText" id="85333412">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mailLastName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/mailLastName"/>
+<property name="outputBinding" value="patient_out/mailLastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="37" name="patient_maritalStatus" type="InputTextInteger" id="1425135346">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;maritalStatus (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/maritalStatus"/>
+<property name="outputBinding" value="patient_out/maritalStatus"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="38" name="patient_middleName" type="InputText" id="1465139">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;middleName (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/middleName"/>
+<property name="outputBinding" value="patient_out/middleName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="39" name="patient_nationality" type="InputText" id="1217607677">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nationality (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/nationality"/>
+<property name="outputBinding" value="patient_out/nationality"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="40" name="patient_nbChildren" type="InputTextInteger" id="574158877">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nbChildren (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/nbChildren"/>
+<property name="outputBinding" value="patient_out/nbChildren"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="41" name="patient_notRealPatient" type="CheckBox" id="217271442">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;notRealPatient (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/notRealPatient"/>
+<property name="outputBinding" value="patient_out/notRealPatient"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="42" name="patient_patientInsurance_Id" type="InputTextInteger" id="1307999033">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;patientInsurance_Id (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/patientInsurance_Id"/>
+<property name="outputBinding" value="patient_out/patientInsurance_Id"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="43" name="patient_patient_Id" type="InputTextInteger" id="803779883">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;patient_Id (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/patient_Id"/>
+<property name="outputBinding" value="patient_out/patient_Id"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="44" name="patient_pin" type="InputText" id="2054885596">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pin (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/pin"/>
+<property name="outputBinding" value="patient_out/pin"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="45" name="patient_profession" type="InputText" id="2014625393">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;profession (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/profession"/>
+<property name="outputBinding" value="patient_out/profession"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="46" name="patient_remark" type="InputText" id="138397173">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;remark (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/remark"/>
+<property name="outputBinding" value="patient_out/remark"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="47" name="patient_status" type="InputTextInteger" id="485427540">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/status"/>
+<property name="outputBinding" value="patient_out/status"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="48" name="patient_timeStamp" type="InputDate" id="490189126">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;timeStamp (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/timeStamp"/>
+<property name="outputBinding" value="patient_out/timeStamp"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="49" name="patient_userStamp" type="InputTextInteger" id="380334837">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;userStamp (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/userStamp"/>
+<property name="outputBinding" value="patient_out/userStamp"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="50" name="patient_user_Id" type="InputTextInteger" id="940750979">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;user_Id (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/user_Id"/>
+<property name="outputBinding" value="patient_out/user_Id"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="51" name="patient_versionId" type="InputText" id="57777984">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;versionId (patient)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="patient_in/versionId"/>
+<property name="outputBinding" value="patient_out/versionId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="patient_in" name="#A7E690" type="className" outId="patient_out" value="com.mds.beans.Patient" id="patient"/>
 </form>
