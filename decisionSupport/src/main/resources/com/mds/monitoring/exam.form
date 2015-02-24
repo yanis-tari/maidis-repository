@@ -85,5 +85,5 @@
 <property name="outputBinding" value="exam_out/miDate"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<dataHolder inputId="exam_in" name="#A7E690" type="className" outId="exam_out" value="com.mds.beans.SimpleExam" id="exam"/>
+<dataHolder inputId="exam_in" name="#A7E690" type="className" outId="exam_out" value="com.mds.beans.VitalSignMonitoring" id="exam"/>
 </form>
