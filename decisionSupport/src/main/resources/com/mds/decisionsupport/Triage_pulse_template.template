@@ -256,7 +256,7 @@
     <entry>
       <string>$suggest_clinical_pathway</string>
       <list>
-        <null/>
+        <string>monitoring</string>
         <string></string>
         <string></string>
         <string></string>
@@ -286,7 +286,7 @@
     <entry>
       <string>$pathway_id</string>
       <list>
-        <null/>
+        <string>monitoring-process</string>
         <string></string>
         <string></string>
         <string></string>
