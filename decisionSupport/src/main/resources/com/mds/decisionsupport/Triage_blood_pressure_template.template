@@ -21,7 +21,7 @@
             <constraints>
               <fieldConstraint>
                 <value>$min</value>
-                <operator>&gt;=</operator>
+                <operator>&gt;</operator>
                 <constraintValueType>7</constraintValueType>
                 <expression>
                   <parts/>
@@ -29,12 +29,12 @@
                 </expression>
                 <parameters/>
                 <factType>SimpleExam</factType>
-                <fieldName>nValue</fieldName>
+                <fieldName>NValue</fieldName>
                 <fieldType>Double</fieldType>
               </fieldConstraint>
               <fieldConstraint>
                 <value>$max</value>
-                <operator>&lt;=</operator>
+                <operator>&lt;</operator>
                 <constraintValueType>7</constraintValueType>
                 <expression>
                   <parts/>
@@ -42,7 +42,7 @@
                 </expression>
                 <parameters/>
                 <factType>SimpleExam</factType>
-                <fieldName>nValue</fieldName>
+                <fieldName>NValue</fieldName>
                 <fieldType>Double</fieldType>
               </fieldConstraint>
             </constraints>
