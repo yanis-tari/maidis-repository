@@ -4,4 +4,5 @@
 <property name="name" value="monitoring_item.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="monitoringItem_in" name="#0000A0" type="dataModelerEntry" outId="monitoringItem_out" value="com.mds.beans.VitalSignMonitoringRange" id="monitoringItem"/>
 </form>
