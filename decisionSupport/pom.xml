@@ -13,6 +13,11 @@
       <artifactId>medical-record-model</artifactId>
       <version>0.0.9</version>
     </dependency>
+    <dependency>
+      <groupId>com.mds</groupId>
+      <artifactId>Monitoring</artifactId>
+      <version>1.0.0</version>
+    </dependency>
   </dependencies>
   <repositories>
     <repository>
