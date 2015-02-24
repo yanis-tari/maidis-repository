@@ -13,8 +13,12 @@ public class Monitoring implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(0)
 	private java.util.List<com.mds.beans.NurseActe> nurseActe;
 
-	@org.kie.api.definition.type.Position(value = 1)
+	@org.kie.api.definition.type.Position(1)
 	private java.util.List<com.mds.beans.VitalSignMonitoringRange> items;
+
+	@org.kie.api.definition.type.Label(value = "patient")
+	@org.kie.api.definition.type.Position(value = 2)
+	private com.mds.beans.Patient patient;
 
 	public java.util.List<com.mds.beans.NurseActe> getNurseActe() {
 		return this.nurseActe;
@@ -33,13 +37,23 @@ public class Monitoring implements java.io.Serializable {
 		this.items = items;
 	}
 
+	public com.mds.beans.Patient getPatient() {
+		return this.patient;
+	}
+
+	public void setPatient(com.mds.beans.Patient patient) {
+		this.patient = patient;
+	}
+
 	public Monitoring() {
 	}
 
 	public Monitoring(java.util.List<com.mds.beans.NurseActe> nurseActe,
-			java.util.List<com.mds.beans.VitalSignMonitoringRange> items) {
+			java.util.List<com.mds.beans.VitalSignMonitoringRange> items,
+			com.mds.beans.Patient patient) {
 		this.nurseActe = nurseActe;
 		this.items = items;
+		this.patient = patient;
 	}
 
 }
