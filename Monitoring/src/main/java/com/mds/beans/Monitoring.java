@@ -13,9 +13,8 @@ public class Monitoring implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(0)
 	private java.util.List<com.mds.beans.NurseActe> nurseActe;
 
-	@org.kie.api.definition.type.Label(value = "Realized exams")
 	@org.kie.api.definition.type.Position(value = 1)
-	private java.util.List<com.mds.beans.SimpleExam> realizedExams;
+	private java.util.List<com.mds.beans.VitalSignMonitoringRange> items;
 
 	public java.util.List<com.mds.beans.NurseActe> getNurseActe() {
 		return this.nurseActe;
@@ -25,22 +24,22 @@ public class Monitoring implements java.io.Serializable {
 		this.nurseActe = nurseActe;
 	}
 
-	public java.util.List<com.mds.beans.SimpleExam> getRealizedExams() {
-		return this.realizedExams;
+	public java.util.List<com.mds.beans.VitalSignMonitoringRange> getItems() {
+		return this.items;
 	}
 
-	public void setRealizedExams(
-			java.util.List<com.mds.beans.SimpleExam> realizedExams) {
-		this.realizedExams = realizedExams;
+	public void setItems(
+			java.util.List<com.mds.beans.VitalSignMonitoringRange> items) {
+		this.items = items;
 	}
 
 	public Monitoring() {
 	}
 
 	public Monitoring(java.util.List<com.mds.beans.NurseActe> nurseActe,
-			java.util.List<com.mds.beans.SimpleExam> realizedExams) {
+			java.util.List<com.mds.beans.VitalSignMonitoringRange> items) {
 		this.nurseActe = nurseActe;
-		this.realizedExams = realizedExams;
+		this.items = items;
 	}
 
 }
