@@ -9,7 +9,23 @@ public class Monitoring implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    public Monitoring() {
+    @org.kie.api.definition.type.Label(value = "nurse actes")
+	@org.kie.api.definition.type.Position(value = 0)
+	private java.util.List<com.mds.beans.NurseActe> nurseActe;
+
+	public java.util.List<com.mds.beans.NurseActe> getNurseActe() {
+		return this.nurseActe;
+	}
+
+	public void setNurseActe(java.util.List<com.mds.beans.NurseActe> nurseActe) {
+		this.nurseActe = nurseActe;
+	}
+
+	public Monitoring() {
+	}
+
+	public Monitoring(java.util.List<com.mds.beans.NurseActe> nurseActe) {
+		this.nurseActe = nurseActe;
 	}
 
 }
