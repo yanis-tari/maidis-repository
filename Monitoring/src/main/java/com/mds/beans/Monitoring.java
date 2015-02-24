@@ -9,9 +9,13 @@ public class Monitoring implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Label(value = "nurse actes")
-	@org.kie.api.definition.type.Position(value = 0)
+    @org.kie.api.definition.type.Label("nurse actes")
+	@org.kie.api.definition.type.Position(0)
 	private java.util.List<com.mds.beans.NurseActe> nurseActe;
+
+	@org.kie.api.definition.type.Label(value = "Realized exams")
+	@org.kie.api.definition.type.Position(value = 1)
+	private java.util.List<com.mds.beans.SimpleExam> realizedExams;
 
 	public java.util.List<com.mds.beans.NurseActe> getNurseActe() {
 		return this.nurseActe;
@@ -21,11 +25,22 @@ public class Monitoring implements java.io.Serializable {
 		this.nurseActe = nurseActe;
 	}
 
+	public java.util.List<com.mds.beans.SimpleExam> getRealizedExams() {
+		return this.realizedExams;
+	}
+
+	public void setRealizedExams(
+			java.util.List<com.mds.beans.SimpleExam> realizedExams) {
+		this.realizedExams = realizedExams;
+	}
+
 	public Monitoring() {
 	}
 
-	public Monitoring(java.util.List<com.mds.beans.NurseActe> nurseActe) {
+	public Monitoring(java.util.List<com.mds.beans.NurseActe> nurseActe,
+			java.util.List<com.mds.beans.SimpleExam> realizedExams) {
 		this.nurseActe = nurseActe;
+		this.realizedExams = realizedExams;
 	}
 
 }
