@@ -7,8 +7,8 @@
 <property name="status" value="0"/>
 <property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;.headerInput{background-color:transparent;border:none;color: #fff;font-weight: bold; width:70px; overflow: visible} .invisible{display:none;}
 &lt;/style&gt;
-&lt;div id=&quot;patientAccordeon&quot;&gt;
-&lt;h3 id=&quot;header&quot;&gt;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;ui-corner-all&quot; width=&quot;1%&quot; id=&quot;headerTab&quot;&gt;
+&lt;div id=&quot;patientAccordeon&quot; onclick=&quot;resizeParent();&quot;&gt;
+&lt;h3 id=&quot;header&quot; onclick=&quot;resizeParent();&quot;&gt;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;ui-corner-all&quot; width=&quot;1%&quot; id=&quot;headerTab&quot; onclick=&quot;resizeParent();&quot;&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&amp;nbsp;&lt;/td&gt;
@@ -931,7 +931,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true,   });   $(&apos;#header , #headerTab&apos;).click(function(){ resizeParent(); }); }); &lt;/script&gt;"/>
+&lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true,   }); }); &lt;/script&gt;"/>
 <field position="0" name="patient_pin" type="InputText" id="2054885596">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
