@@ -1,0 +1,32 @@
+
+<form id="137128117">
+<property name="subject" value=""/>
+<property name="name" value="VitalSignsMonitoring-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="monitoring_items" type="MultipleSubform" id="1942197126">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;items (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoring_in/items"/>
+<property name="outputBinding" value="monitoring_out/items"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="1" name="monitoring_nurseActe" type="MultipleSubform" id="185035849">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nurseActe (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoring_in/nurseActe"/>
+<property name="outputBinding" value="monitoring_out/nurseActe"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="2" name="monitoring_patient" type="Subform" id="1519296989">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;patient (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoring_in/patient"/>
+<property name="outputBinding" value="monitoring_out/patient"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="monitoring_in" name="#0000A0" type="dataModelerEntry" outId="monitoring_out" value="com.mds.beans.Monitoring" id="monitoring"/>
+</form>
