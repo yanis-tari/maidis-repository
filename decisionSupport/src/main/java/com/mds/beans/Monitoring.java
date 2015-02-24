@@ -9,24 +9,12 @@ public class Monitoring implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Label("nurse actes")
-	@org.kie.api.definition.type.Position(0)
-	private java.util.List<com.mds.beans.NurseActe> nurseActe;
-
-	@org.kie.api.definition.type.Position(1)
+    @org.kie.api.definition.type.Position(0)
 	private java.util.List<com.mds.beans.VitalSignMonitoringRange> items;
 
-	@org.kie.api.definition.type.Label(value = "patient")
-	@org.kie.api.definition.type.Position(value = 2)
+	@org.kie.api.definition.type.Label("patient")
+	@org.kie.api.definition.type.Position(1)
 	private com.mds.beans.Patient patient;
-
-	public java.util.List<com.mds.beans.NurseActe> getNurseActe() {
-		return this.nurseActe;
-	}
-
-	public void setNurseActe(java.util.List<com.mds.beans.NurseActe> nurseActe) {
-		this.nurseActe = nurseActe;
-	}
 
 	public java.util.List<com.mds.beans.VitalSignMonitoringRange> getItems() {
 		return this.items;
@@ -48,10 +36,9 @@ public class Monitoring implements java.io.Serializable {
 	public Monitoring() {
 	}
 
-	public Monitoring(java.util.List<com.mds.beans.NurseActe> nurseActe,
+	public Monitoring(
 			java.util.List<com.mds.beans.VitalSignMonitoringRange> items,
 			com.mds.beans.Patient patient) {
-		this.nurseActe = nurseActe;
 		this.items = items;
 		this.patient = patient;
 	}
