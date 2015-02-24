@@ -44,7 +44,7 @@
 <property name="cssStyle" value=""/>
 <property name="inputBinding" value="monitoring_in/patient"/>
 <property name="outputBinding" value="monitoring_out/patient"/>
-<property name="defaultSubform" value="display_patient.form"/>
+<property name="defaultSubform" value="../display_patient.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="monitoring_in" name="#0000A0" type="dataModelerEntry" outId="monitoring_out" value="com.mds.beans.Monitoring" id="monitoring"/>
