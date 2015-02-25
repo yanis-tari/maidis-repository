@@ -53,4 +53,10 @@ public class MonitoringRange implements java.io.Serializable {
         this.min = min;
     }
 
+	@Override
+	public String toString() {
+		return "MonitoringRange [action=" + action + ", max=" + max + ", min="
+				+ min + "]";
+	}
+
 }

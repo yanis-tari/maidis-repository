@@ -41,4 +41,13 @@ public class VitalSignMonitoring extends SimpleExam implements java.io.Serializa
 		}
 		ranges.add(range);
 	}
+
+	@Override
+	public String toString() {
+		return "VitalSignMonitoring [ranges=" + ranges + ", getNValue()="
+				+ getNValue() + ", getMiText()=" + getMiText()
+				+ ", getMiDate()=" + getMiDate() + "]";
+	}
+	
+	
 }
