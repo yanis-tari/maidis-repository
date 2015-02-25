@@ -14,11 +14,7 @@ rule "InsertingMonitoringData"
 	    when
 	        $monitoringBean : Monitoring( $items : items  != null )
 	        $vitalSign : VitalSignMonitoring($ranges : ranges ) from $items
-	    then
-	      for (VitalSignMonitoring range : $ranges) 
-	      {	     	 
-	      	insert(range);		      
-	      }
+	    then	     
 	    System.out.println("Inserting vital sign to monitor ");	   
 	      insert($vitalSign);	       
 end
