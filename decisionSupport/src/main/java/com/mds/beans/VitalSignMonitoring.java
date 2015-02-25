@@ -11,16 +11,16 @@ public class VitalSignMonitoring extends SimpleExam implements java.io.Serializa
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Label(value = "range")
+    @org.kie.api.definition.type.Label(value = "ranges")
 	@org.kie.api.definition.type.Position(value = 1)
 	private java.util.List<com.mds.beans.MonitoringRange> ranges;
 
 
-	public java.util.List<com.mds.beans.MonitoringRange> getRange() {
+	public java.util.List<com.mds.beans.MonitoringRange> getRanges() {
 		return this.ranges;
 	}
 
-	public void setRange(java.util.List<com.mds.beans.MonitoringRange> ranges) {
+	public void setRanges(java.util.List<com.mds.beans.MonitoringRange> ranges) {
 		this.ranges = ranges;
 	}
 
