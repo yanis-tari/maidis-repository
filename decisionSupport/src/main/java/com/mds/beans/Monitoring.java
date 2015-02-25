@@ -18,10 +18,6 @@ public class Monitoring implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(1)
 	private com.mds.beans.Patient patient;
 
-	@org.kie.api.definition.type.Label(value = "items out of range")
-	@org.kie.api.definition.type.Position(value = 2)
-	private java.util.List<com.mds.beans.VitalSignMonitoring> itemsOutOfRange;
-
 	public java.util.List<com.mds.beans.VitalSignMonitoring> getItems() {
 		return this.items;
 	}
@@ -52,15 +48,6 @@ public class Monitoring implements java.io.Serializable {
 		return "Monitoring [items=" + items + "]";
 	}
 
-	public java.util.List<com.mds.beans.VitalSignMonitoring> getItemsOutOfRange() {
-		return this.itemsOutOfRange;
-	}
-
-	public void setItemsOutOfRange(
-			java.util.List<com.mds.beans.VitalSignMonitoring> itemsOutOfRange) {
-		this.itemsOutOfRange = itemsOutOfRange;
-	}
-	
 	public void addItemsOutOfRange(	com.mds.beans.VitalSignMonitoring itemOutOfRange) {
 		if(itemsOutOfRange==null)
 		{
@@ -73,11 +60,9 @@ public class Monitoring implements java.io.Serializable {
 	}
 
 	public Monitoring(java.util.List<com.mds.beans.VitalSignMonitoring> items,
-			com.mds.beans.Patient patient,
-			java.util.List<com.mds.beans.VitalSignMonitoring> itemsOutOfRange) {
+			com.mds.beans.Patient patient) {
 		this.items = items;
 		this.patient = patient;
-		this.itemsOutOfRange = itemsOutOfRange;
 	}
 	
 	
