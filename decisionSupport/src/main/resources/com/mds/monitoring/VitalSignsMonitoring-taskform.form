@@ -15,8 +15,8 @@
 <property name="readonly" value="false"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="inputBinding" value="monitoring/patient"/>
-<property name="outputBinding" value="monitoring/patient"/>
+<property name="inputBinding" value="monitoringBean/patient"/>
+<property name="outputBinding" value="monitoringBean/patient"/>
 <property name="defaultSubform" value="display_patient.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
@@ -31,8 +31,8 @@
 <property name="readonly" value="false"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="inputBinding" value="monitoring/items"/>
-<property name="outputBinding" value="monitoring/items"/>
+<property name="inputBinding" value="monitoringBean/items"/>
+<property name="outputBinding" value="monitoringBean/items"/>
 <property name="defaultSubform" value="MonitoringExamEdite.form"/>
 <property name="previewSubform" value="MonitoringExamEdite.form"/>
 <property name="tableSubform" value="MonitoringExamTableLine.form"/>
@@ -47,5 +47,5 @@
 <property name="enableTableEnterData" value="true"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
-<dataHolder inputId="monitoring" name="#0000A0" type="dataModelerEntry" outId="monitoring" value="com.mds.beans.Monitoring" id="monitoring"/>
+<dataHolder inputId="monitoringBean" name="#0000A0" type="dataModelerEntry" outId="monitoringBean" value="com.mds.beans.Monitoring" id="monitoring"/>
 </form>

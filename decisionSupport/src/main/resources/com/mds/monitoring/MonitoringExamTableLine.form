@@ -23,8 +23,8 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="exam/miText"/>
-<property name="outputBinding" value="exam/miText"/>
+<property name="inputBinding" value="examBean/miText"/>
+<property name="outputBinding" value="examBean/miText"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="exam_nValue" type="InputTextDouble" id="877469657">
@@ -43,8 +43,8 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value="width:80px;"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="exam/nValue"/>
-<property name="outputBinding" value="exam/nValue"/>
+<property name="inputBinding" value="examBean/nValue"/>
+<property name="outputBinding" value="examBean/nValue"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
 <field position="2" name="exam_unit" type="InputText" id="422955480">
@@ -65,8 +65,8 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="exam/unit"/>
-<property name="outputBinding" value="exam/unit"/>
+<property name="inputBinding" value="examBean/unit"/>
+<property name="outputBinding" value="examBean/unit"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="3" name="exam_miDate" type="InputDate" id="667839019">
@@ -83,9 +83,9 @@
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value="=new java.util.Date();"/>
-<property name="inputBinding" value="exam/miDate"/>
-<property name="outputBinding" value="exam/miDate"/>
+<property name="inputBinding" value="examBean/miDate"/>
+<property name="outputBinding" value="examBean/miDate"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<dataHolder inputId="exam" name="#A7E690" type="dataModelerEntry" outId="exam" value="com.mds.beans.VitalSignMonitoring" id="exam"/>
+<dataHolder inputId="examBean" name="#A7E690" type="dataModelerEntry" outId="examBean" value="com.mds.beans.VitalSignMonitoring" id="exam"/>
 </form>
