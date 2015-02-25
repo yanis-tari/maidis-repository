@@ -16,9 +16,9 @@ public class VitalSignMonitoring extends SimpleExam implements java.io.Serializa
 	private java.util.List<com.mds.beans.MonitoringRange> ranges;
 
 
-	@org.kie.api.definition.type.Label(value = "not in range")
-	@org.kie.api.definition.type.Position(value = 1)
-	private com.mds.beans.MonitoringRange notInRange;
+	@org.kie.api.definition.type.Label("in range")
+	@org.kie.api.definition.type.Position(1)
+	private com.mds.beans.MonitoringRange inRange;
 
 
 	public java.util.List<com.mds.beans.MonitoringRange> getRanges() {
@@ -45,12 +45,12 @@ public class VitalSignMonitoring extends SimpleExam implements java.io.Serializa
 				+ ", getMiDate()=" + getMiDate() + "]";
 	}
 
-	public com.mds.beans.MonitoringRange getNotInRange() {
-		return this.notInRange;
+	public com.mds.beans.MonitoringRange getInRange() {
+		return this.inRange;
 	}
 
-	public void setNotInRange(com.mds.beans.MonitoringRange notInRange) {
-		this.notInRange = notInRange;
+	public void setInRange(com.mds.beans.MonitoringRange inRange) {
+		this.inRange = inRange;
 	}
 
 	public VitalSignMonitoring() {
@@ -58,9 +58,9 @@ public class VitalSignMonitoring extends SimpleExam implements java.io.Serializa
 
 	public VitalSignMonitoring(
 			java.util.List<com.mds.beans.MonitoringRange> ranges,
-			com.mds.beans.MonitoringRange notInRange) {
+			com.mds.beans.MonitoringRange inRange) {
 		this.ranges = ranges;
-		this.notInRange = notInRange;
+		this.inRange = inRange;
 	}
 	
 	
