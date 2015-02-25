@@ -33,9 +33,9 @@
 <property name="cssStyle" value=""/>
 <property name="inputBinding" value="monitoring_in/items"/>
 <property name="outputBinding" value="monitoring_out/items"/>
-<property name="defaultSubform" value="exam.form"/>
-<property name="previewSubform" value="exam.form"/>
-<property name="tableSubform" value="exam.form"/>
+<property name="defaultSubform" value="MonitoringExamTableLine.form"/>
+<property name="previewSubform" value="MonitoringExamEdite.form"/>
+<property name="tableSubform" value="MonitoringExamTableLine.form"/>
 <property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
