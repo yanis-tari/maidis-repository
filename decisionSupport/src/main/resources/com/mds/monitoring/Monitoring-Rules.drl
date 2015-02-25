@@ -14,7 +14,7 @@ rule "InsertingMonitoringData"
 	    when
 	        $monitoringBean : Monitoring( $items : items  != null )	
 	    then
-	      System.out.pprintln("Inserting ");
+	      System.out.println("Inserting ");
 	       for (VitalSignMonitoring item : $pamis) {	insert(item);	}
 end
 
@@ -27,6 +27,6 @@ rule "monitoringRule"
 	        $vitalSign : VitalSignMonitoring( $ranges : ranges != null, $value : NValue )
 	        $range : 	MonitoringRange($value >= min , $value <= max ) from $ranges	
 	    then
-	      System.out.pprintln("Monitoring rule triggred : "+$range.action);	       
+	      System.out.println("Monitoring rule triggred : "+$range.action);	       
 end
 
