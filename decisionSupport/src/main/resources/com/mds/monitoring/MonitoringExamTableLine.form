@@ -30,15 +30,7 @@
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div style=&quot;display:none;&quot;&gt;
-$field{exam_accessKey}$field{exam_archiveDateTime}$field{exam_checkSum}$field{exam_contact_Id}$field{exam_diagnosisType}
-$field{exam_fromRespUnit_Id}$field{exam_fromUser_Id}$field{exam_isAffectsPatient}$field{exam_isArchived}$field{exam_isNegative}$field{exam_miActive}
-$field{exam_miCategory}$field{exam_miCertainty}$field{exam_miClass}$field{exam_miCode}$field{exam_miEndDate}$field{exam_miImportance}$field{exam_miRelative}$field{exam_miStatus}$field{exam_miStatusDate}
-$field{exam_miType}$field{exam_mi_Id}$field{exam_msoda}$field{exam_object_Id}$field{exam_patient_Id}$field{exam_quantity}
-$field{exam_ranges}$field{exam_rank}$field{exam_remark}$field{exam_respUnit_Id}$field{exam_sValue}$field{exam_supMI_Id}
-$field{exam_timeStamp}$field{exam_toRespUnit_Id}$field{exam_toUser_Id}$field{exam_userStamp}$field{exam_user_Id}$field{exam_vstartDate}
-&lt;/div&gt;"/>
+&lt;/table&gt;"/>
 <field position="0" name="exam_miText" type="InputText" id="191254943">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
