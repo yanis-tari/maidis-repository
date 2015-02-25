@@ -9,8 +9,10 @@
 .ui-state-default .headerLabel, .ui-state-default .headerText{font-weight: normal; color: #e8f7ff;}
 .ui-state-hover .headerLabel, .ui-state-hover .headerText{font-weight: normal; color: #e8f7fe;}
 .ui-state-active .headerLabel,.ui-state-active .headerText{font-weight: normal; color: #110f0f; }
-.ui-state-default .headerText, .ui-state-hover .headerText {border-right: 1px solid rgba(255, 255, 255, 0.52); padding-right: 10px;}
-.ui-state-active .headerText {border-right: 1px solid rgba(57, 57, 58, 0.5); padding-right: 10px;}
+
+.ui-state-default .spliter, .ui-state-hover .spliter {border-right: 1px solid rgba(255, 255, 255, 0.52); padding-right: 10px;}
+.ui-state-active .spliter {border-right: 1px solid rgba(57, 57, 58, 0.5); padding-right: 10px;}
+
 .headerInput{background-color:transparent;border:none;color: #fff;font-weight: bold; width:70px; overflow: visible}
 .invisible{display:none;}
 &lt;/style&gt;
@@ -19,22 +21,22 @@
 &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; onclick=&quot;resizeParent();&quot;&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;			
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; align=&quot;left&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;td nowrap=&quot;nowrap&quot; align=&quot;center&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
 						$label{patient_pin}
 						&lt;/td&gt;
-						&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;
+						&lt;td align=&quot;center&quot; valign=&quot;top&quot;&gt;
 						$field{patient_pin}
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
 			&lt;/table&gt;
 			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
 						&lt;td nowrap=&quot;nowrap&quot; align=&quot;left&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
@@ -47,28 +49,28 @@
 				&lt;/tbody&gt;
 			&lt;/table&gt;
 			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; align=&quot;left&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;td nowrap=&quot;nowrap&quot; align=&quot;center&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
 						$label{patient_firstName}
 						&lt;/td&gt;
-						&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;
+						&lt;td align=&quot;center&quot; valign=&quot;top&quot;&gt;
 						$field{patient_firstName}
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
 			&lt;/table&gt;
 			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; align=&quot;left&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;td nowrap=&quot;nowrap&quot; align=&quot;center&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
 						$label{patient_lastName}
 						&lt;/td&gt;
-						&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;
+						&lt;td align=&quot;center&quot; valign=&quot;top&quot;&gt;
 						$field{patient_lastName}
 						&lt;/td&gt;
 					&lt;/tr&gt;
@@ -944,7 +946,7 @@
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -966,7 +968,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -988,7 +990,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;firstName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;firstName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -1010,7 +1012,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lastName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lastName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -1032,7 +1034,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birthDate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birthDate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
