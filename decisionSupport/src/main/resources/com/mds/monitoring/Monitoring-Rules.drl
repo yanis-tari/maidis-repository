@@ -5,26 +5,15 @@ import com.mds.beans.SimpleExam;
 import com.mds.beans.Monitoring;
 import com.mds.beans.MonitoringRange;
 import com.mds.beans.VitalSignMonitoring;
-	
-rule "InsertingMonitoringData"
-	    dialect "mvel"
-	    ruleflow-group "monitoring"	    	    
-	    salience 10
-	    when
-	        $monitoringBean : Monitoring( $items : items  != null )
-	        $vitalSign : VitalSignMonitoring($ranges : ranges ) from $items
-	    then	     
-	    System.out.println("Inserting vital sign to monitor ");	   
-	      insert($vitalSign);	       
-end
 
 rule "monitoringRule"
 	    dialect "mvel"
 	    ruleflow-group "monitoring"	    	    
 	    salience 1
 	    when
-	        $vitalSign : VitalSignMonitoring($ranges : ranges, $value : NValue )
-	        $range : 	MonitoringRange($value >= min , $value <= max )	from $ranges
+	    	$monitoringBean : Monitoring( $items : items  != null )
+	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue ) from $items
+	        $range : 	MonitoringRange($value >= min , $value <= max, $action : action )	from $ranges
 	    then
 	      System.out.println("Monitoring rule triggred : "+$range.action);	       
 end
