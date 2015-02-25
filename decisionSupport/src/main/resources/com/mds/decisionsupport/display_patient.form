@@ -18,7 +18,7 @@
 &lt;/style&gt;
 &lt;div id=&quot;patientAccordeon&quot; onclick=&quot;resizeParent();&quot;&gt;
 &lt;h3 id=&quot;header&quot; onclick=&quot;resizeParent();&quot;&gt;
-&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; onclick=&quot;resizeParent();&quot; style=&quot;width:100%;&quot;&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; onclick=&quot;resizeParent();&quot; style=&quot;min-width:700px;&quot;&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;			
 			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
@@ -896,13 +896,13 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true,   }); }); &lt;/script&gt;"/>
+&lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true, activate: function( event, ui ) { resizeParent(); }  }); }); &lt;/script&gt;"/>
 <field position="0" name="patient_pin" type="InputText" id="2054885596">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value="display: inline-block;"/>
-<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;display: inline-block;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
