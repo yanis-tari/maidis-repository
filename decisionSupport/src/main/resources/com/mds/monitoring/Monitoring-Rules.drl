@@ -12,10 +12,11 @@ rule "InsertingMonitoringData"
 	    lock-on-active true
 	    salience 10
 	    when
-	        $monitoringBean : Monitoring( $items : items  != null )	
+	        $monitoringBean : Monitoring( $items : items  != null )
+	        $vitalSign : VitalSignMonitoring() from $items
 	    then
 	      System.out.println("Inserting ");
-	       for (VitalSignMonitoring item : $pamis) {	insert(item);	}
+	      insert($vitalSign);	       
 end
 
 rule "monitoringRule"
@@ -29,4 +30,3 @@ rule "monitoringRule"
 	    then
 	      System.out.println("Monitoring rule triggred : "+$range.action);	       
 end
-
