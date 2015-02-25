@@ -15,5 +15,6 @@ rule "monitoringRule"
 	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue ) from $items
 	        $range : 	MonitoringRange($value >= min , $value <= max, $action : action )	from $ranges
 	    then
-	      System.out.println("Monitoring rule triggred : "+$range.action);	       
+	      	System.out.println("Monitoring rule triggred : "+$range.action);
+	      	$vitalSign.setInRange($range);
 end
