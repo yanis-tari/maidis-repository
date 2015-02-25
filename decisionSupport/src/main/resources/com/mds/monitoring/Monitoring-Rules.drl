@@ -19,14 +19,28 @@ rule "InsertingMonitoringData"
 	      insert($vitalSign);	       
 end
 
-rule "monitoringRule"
+rule "InsertingMonitoringDataRange"
 	    dialect "mvel"
 	    ruleflow-group "monitoring"	    
 	    lock-on-active true
 	    salience 5
+	    when	        
+	        $vitalSign : VitalSignMonitoring($ranges : ranges )
+	        $range : MonitoringRange() from $ranges
+	    then
+	    System.out.println("Inserting vital sign range monitor ");	   
+	      insert($range);	       
+end
+
+
+rule "monitoringRule"
+	    dialect "mvel"
+	    ruleflow-group "monitoring"	    
+	    lock-on-active true
+	    salience 1
 	    when
-	        $vitalSign : VitalSignMonitoring( $ranges : ranges != null, $value : NValue )
-	        $range : 	MonitoringRange($value >= min , $value <= max ) from $ranges	
+	        $vitalSign : VitalSignMonitoring( $value : NValue )
+	        $range : 	MonitoringRange($value >= min , $value <= max )	
 	    then
 	      System.out.println("Monitoring rule triggred : "+$range.action);	       
 end
