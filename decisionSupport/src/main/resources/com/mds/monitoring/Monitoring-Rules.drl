@@ -8,8 +8,7 @@ import com.mds.beans.VitalSignMonitoring;
 	
 rule "InsertingMonitoringData"
 	    dialect "mvel"
-	    ruleflow-group "monitoring"	    
-	    lock-on-active true
+	    ruleflow-group "monitoring"	    	    
 	    salience 10
 	    when
 	        $monitoringBean : Monitoring( $items : items  != null )
@@ -21,8 +20,7 @@ end
 
 rule "InsertingMonitoringDataRange"
 	    dialect "mvel"
-	    ruleflow-group "monitoring"	    
-	    lock-on-active true
+	    ruleflow-group "monitoring"	    	    
 	    salience 5
 	    when	        
 	        $vitalSign : VitalSignMonitoring($ranges : ranges )
@@ -35,8 +33,7 @@ end
 
 rule "monitoringRule"
 	    dialect "mvel"
-	    ruleflow-group "monitoring"	    
-	    lock-on-active true
+	    ruleflow-group "monitoring"	    	    
 	    salience 1
 	    when
 	        $vitalSign : VitalSignMonitoring( $value : NValue )
