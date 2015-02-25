@@ -13,8 +13,14 @@ rule "InsertingMonitoringData"
 	    salience 10
 	    when
 	        $monitoringBean : Monitoring( $items : items  != null )
-	        $vitalSign : VitalSignMonitoring() from $items
+	        $vitalSign : VitalSignMonitoring($ranges : ranges ) from $items
 	    then
+	      for (VitalSignMonitoring range : $ranges) 
+	      {
+	     	 System.out.println("range : "+range.getMin()+" "+range.getMax()+" "+range.getAction());
+	      	insert(range);	
+	      
+	      }
 	    System.out.println("Inserting vital sign to monitor ");	   
 	      insert($vitalSign);	       
 end
