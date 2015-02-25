@@ -5,7 +5,35 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_miText_label_container&quot;&gt;$label{exam_miText}&lt;/div&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_miText_container&quot;&gt;$field{exam_miText}&lt;/div&gt;        &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_label_container&quot;&gt;$label{exam_nValue}&lt;/div&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_container&quot; &gt;$field{exam_nValue}&lt;/div&gt;          &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_unit_label_container&quot; &gt;$label{exam_unit}&lt;/div&gt;            &lt;div id=&quot;uid_-template_null-1322443957-exam_unit_container&quot; &gt;$field{exam_unit}&lt;/div&gt;        &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_label_container&quot; &gt;$label{exam_miDate}&lt;/div&gt;            &lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_container&quot; &gt;$field{exam_miDate}&lt;/div&gt;           &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; "/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_miText_label_container&quot;&gt;$label{exam_miText}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_miText_container&quot;&gt;$field{exam_miText}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_label_container&quot;&gt;$label{exam_nValue}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_container&quot;&gt;$field{exam_nValue}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_unit_label_container&quot;&gt;$label{exam_unit}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_unit_container&quot;&gt;$field{exam_unit}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_label_container&quot;&gt;$label{exam_miDate}&lt;/div&gt;
+
+			&lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_container&quot;&gt;$field{exam_miDate}&lt;/div&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;$label{exam_ranges}$field{exam_ranges}&lt;/p&gt;
+"/>
 <field position="0" name="exam_miText" type="InputText" id="191254943">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -86,6 +114,32 @@
 <property name="inputBinding" value="examBean/miDate"/>
 <property name="outputBinding" value="examBean/miDate"/>
 <property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="exam_ranges" type="MultipleSubform" id="906523321">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="display:none;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;display:none;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;ranges (exam)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="display:none;"/>
+<property name="inputBinding" value="examBean/ranges"/>
+<property name="outputBinding" value="examBean/ranges"/>
+<property name="defaultSubform" value="MonitoringRange.form"/>
+<property name="previewSubform" value="MonitoringRange.form"/>
+<property name="tableSubform" value="MonitoringRange.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="true"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="false"/>
+<property name="fieldClass" value="java.util.List"/>
 </field>
 <dataHolder inputId="examBean" name="#A7E690" type="dataModelerEntry" outId="examBean" value="com.mds.beans.VitalSignMonitoring" id="exam"/>
 </form>
