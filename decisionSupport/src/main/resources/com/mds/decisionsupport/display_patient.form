@@ -22,60 +22,16 @@
 	&lt;tbody&gt;
 		&lt;tr&gt;			
 			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; align=&quot;center&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						$label{patient_pin}
-						&lt;/td&gt;
-						&lt;td align=&quot;center&quot; valign=&quot;top&quot;&gt;
-						$field{patient_pin}
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_pin}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_pin}&lt;/div&gt;
 			&lt;/td&gt;
 			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; align=&quot;center&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						$label{patient_civility}
-						&lt;/td&gt;
-						&lt;td align=&quot;center&quot; valign=&quot;top&quot;&gt;
-						$field{patient_civility}
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_civility}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_civility}&lt;/div&gt;
 			&lt;/td&gt;
-			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; align=&quot;center&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						$label{patient_firstName}
-						&lt;/td&gt;
-						&lt;td align=&quot;center&quot; valign=&quot;top&quot;&gt;
-						$field{patient_firstName}
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;			
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_firstName}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_firstName}&lt;/div&gt;					
 			&lt;/td&gt;
 			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; align=&quot;center&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						$label{patient_lastName}
-						&lt;/td&gt;
-						&lt;td align=&quot;center&quot; valign=&quot;top&quot;&gt;
-						$field{patient_lastName}
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_lastName}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_lastName}&lt;/div&gt;						
 			&lt;/td&gt;
 			&lt;!--td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
 			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
@@ -945,8 +901,8 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value="headerLabel"/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="labelCSSStyle" value="display: inline-block;"/>
+<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;display: inline-block;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -955,7 +911,7 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value="headerText"/>
-<property name="cssStyle" value=""/>
+<property name="cssStyle" value="display: inline-block;"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
