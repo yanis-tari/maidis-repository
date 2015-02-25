@@ -5,13 +5,944 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;.headerInput{background-color:transparent;border:none;color: #fff;font-weight: bold; width:70px; overflow: visible} .invisible{display:none;} &lt;/style&gt; &lt;div id=&quot;patientAccordeon&quot; onclick=&quot;resizeParent();&quot;&gt; &lt;h3 id=&quot;header&quot; onclick=&quot;resizeParent();&quot;&gt;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;ui-corner-all&quot; width=&quot;1%&quot; id=&quot;headerTab&quot; onclick=&quot;resizeParent();&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&amp;nbsp;&lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_pin_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_pin}&lt;/div&gt;       &lt;/td&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_pin_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$field{patient_pin}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_civility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_civility}&lt;/div&gt;       &lt;/td&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_civility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;  color:#fff; font-size: medium; &quot;&gt;$field{patient_civility}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_firstName}&lt;/div&gt;       &lt;/td&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_firstName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:80%; border-left: 1px solid #d2dbf4; padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_lastName}&lt;/div&gt;       &lt;/td&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_lastName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:80%; border-left: 1px solid #d2dbf4; padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_birthDate}&lt;/div&gt;       &lt;/td&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_birthDate}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; &lt;/h3&gt; &lt;div&gt; &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_patient_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_patient_Id}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_patient_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_patient_Id}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_patientInsurance_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_patientInsurance_Id}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_patientInsurance_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_patientInsurance_Id}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_gender_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_gender}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_gender_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_gender}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_nationality_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_nationality}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_nationality_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_nationality}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_status_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_status}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_status_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_status}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_maritalStatus_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_maritalStatus}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_maritalStatus_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_maritalStatus}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_nbChildren_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_nbChildren}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_nbChildren_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_nbChildren}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_profession_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_profession}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_profession_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_profession}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_active_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_active}&lt;/div&gt;          &lt;/td&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_active_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_active}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_careDone_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_careDone}&lt;/div&gt;          &lt;/td&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_careDone_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_careDone}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_anonym_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_anonym}&lt;/div&gt;          &lt;/td&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_anonym_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_anonym}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_invoiced_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_invoiced}&lt;/div&gt;          &lt;/td&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_invoiced_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_invoiced}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;       &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;       &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;        &lt;tbody&gt;         &lt;tr&gt;          &lt;td valign=&quot;top&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_dead_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_dead}&lt;/div&gt;          &lt;/td&gt;          &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;          &lt;div id=&quot;uid_-template_null-277492817-patient_dead_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_dead}&lt;/div&gt;          &lt;/td&gt;         &lt;/tr&gt;        &lt;/tbody&gt;       &lt;/table&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_remark_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_remark}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_remark_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_remark}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;  &lt;div&gt; &lt;table style=&quot;display:none;&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_eDRate_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_eDRate}&lt;/div&gt;       &lt;/td&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_eDRate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_eDRate}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_notRealPatient_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_notRealPatient}&lt;/div&gt;       &lt;/td&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_notRealPatient_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_notRealPatient}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_employed_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_employed}&lt;/div&gt;       &lt;/td&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_employed_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_employed}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_deleted_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_deleted}&lt;/div&gt;       &lt;/td&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_deleted_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_deleted}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt;  &lt;table style=&quot;display:none;&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_bank_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_bank}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_bank_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_bank}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_checkSum_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_checkSum}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_checkSum_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_checkSum}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_color_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_color}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_color_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_color}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_creationDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_creationDate}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_creationDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_creationDate}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_deathDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_deathDate}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_deathDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_deathDate}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_defaultAccessKey_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_defaultAccessKey}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_defaultAccessKey_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_defaultAccessKey}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_destInvoice_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_destInvoice}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_destInvoice_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_destInvoice}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_destMail_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_destMail}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_destMail_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_destMail}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_externalFileId_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_externalFileId}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_externalFileId_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_externalFileId}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_externalFileSource_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_externalFileSource}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_externalFileSource_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_externalFileSource}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_familyChief_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_familyChief_Id}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_familyChief_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_familyChief_Id}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_globalId_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_globalId}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_globalId_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_globalId}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_localFirstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_localFirstName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_localFirstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_localFirstName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_localLastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_localLastName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_localLastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_localLastName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_localMiddleName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_localMiddleName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_localMiddleName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_localMiddleName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_maidenName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_maidenName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_maidenName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_maidenName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_mailCivility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_mailCivility}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_mailCivility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_mailCivility}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_mailFirstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_mailFirstName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_mailFirstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_mailFirstName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_timeStamp_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_timeStamp}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_timeStamp_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_timeStamp}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_userStamp_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_userStamp}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_userStamp_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_userStamp}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_versionId_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_versionId}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_versionId_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_versionId}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_mailLastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_mailLastName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_mailLastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_mailLastName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_user_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_user_Id}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_user_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_user_Id}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_accessKey_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_accessKey}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_accessKey_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_accessKey}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_bankPlace_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_bankPlace}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_bankPlace_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_bankPlace}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_middleName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_middleName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_middleName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_middleName}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_employer_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_employer}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_employer_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_employer}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_birthCountry_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_birthCountry}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_birthCountry_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_birthCountry}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_birthCity_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_birthCity}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-277492817-patient_birthCity_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_birthCity}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true,   }); }); &lt;/script&gt;"/>
+<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;
+.ui-state-default .headerLabel, .ui-state-default .headerText{font-weight: normal; color: #e8f7ff;}
+.ui-state-hover .headerLabel, .ui-state-hover .headerText{font-weight: normal; color: #e8f7fe;}
+.ui-state-active .headerLabel,.ui-state-active .headerText{font-weight: normal; color: #110f0f;}
+.headerInput{background-color:transparent;border:none;color: #fff;font-weight: bold; width:70px; overflow: visible}
+.invisible{display:none;}
+&lt;/style&gt;
+&lt;div id=&quot;patientAccordeon&quot; onclick=&quot;resizeParent();&quot;&gt;
+&lt;h3 id=&quot;header&quot; onclick=&quot;resizeParent();&quot;&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; onclick=&quot;resizeParent();&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;			
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						$label{patient_pin}
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						$field{patient_pin}
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						$label{patient_civility}
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						$field{patient_civility}
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						$label{patient_firstName}
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						$field{patient_firstName}
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						$label{patient_lastName}
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						$field{patient_lastName}
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						$label{patient_birthDate}
+						&lt;/td&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						$field{patient_birthDate}
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/h3&gt;
+&lt;div&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_patient_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_patient_Id}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_patient_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_patient_Id}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_patientInsurance_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_patientInsurance_Id}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_patientInsurance_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_patientInsurance_Id}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_gender_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_gender}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_gender_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_gender}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_nationality_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_nationality}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_nationality_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_nationality}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_status_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_status}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_status_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_status}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_maritalStatus_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_maritalStatus}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_maritalStatus_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_maritalStatus}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_nbChildren_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_nbChildren}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_nbChildren_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_nbChildren}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;45&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_profession_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_profession}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_profession_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_profession}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_active_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_active}&lt;/div&gt;
+									&lt;/td&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_active_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_active}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_careDone_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_careDone}&lt;/div&gt;
+									&lt;/td&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_careDone_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_careDone}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_anonym_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_anonym}&lt;/div&gt;
+									&lt;/td&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_anonym_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_anonym}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_invoiced_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_invoiced}&lt;/div&gt;
+									&lt;/td&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_invoiced_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_invoiced}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+						&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td valign=&quot;top&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_dead_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_dead}&lt;/div&gt;
+									&lt;/td&gt;
+									&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+									&lt;div id=&quot;uid_-template_null-277492817-patient_dead_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_dead}&lt;/div&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_remark_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_remark}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_remark_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_remark}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div&gt;
+&lt;table style=&quot;display:none;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_eDRate_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_eDRate}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_eDRate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_eDRate}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_notRealPatient_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_notRealPatient}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_notRealPatient_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_notRealPatient}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_employed_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_employed}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_employed_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_employed}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;20&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;11%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_deleted_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_deleted}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_deleted_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_deleted}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table style=&quot;display:none;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_bank_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_bank}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_bank_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_bank}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_checkSum_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_checkSum}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_checkSum_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_checkSum}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_color_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_color}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_color_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_color}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_creationDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_creationDate}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_creationDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_creationDate}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_deathDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_deathDate}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_deathDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_deathDate}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_defaultAccessKey_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_defaultAccessKey}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_defaultAccessKey_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_defaultAccessKey}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_destInvoice_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_destInvoice}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_destInvoice_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_destInvoice}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_destMail_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_destMail}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_destMail_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_destMail}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_externalFileId_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_externalFileId}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_externalFileId_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_externalFileId}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_externalFileSource_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_externalFileSource}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_externalFileSource_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_externalFileSource}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_familyChief_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_familyChief_Id}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_familyChief_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_familyChief_Id}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_globalId_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_globalId}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_globalId_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_globalId}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_localFirstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_localFirstName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_localFirstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_localFirstName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_localLastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_localLastName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_localLastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_localLastName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_localMiddleName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_localMiddleName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_localMiddleName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_localMiddleName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_maidenName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_maidenName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_maidenName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_maidenName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_mailCivility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_mailCivility}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_mailCivility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_mailCivility}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_mailFirstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_mailFirstName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_mailFirstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_mailFirstName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_timeStamp_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_timeStamp}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_timeStamp_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_timeStamp}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_userStamp_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_userStamp}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_userStamp_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_userStamp}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_versionId_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_versionId}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_versionId_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_versionId}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_mailLastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_mailLastName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_mailLastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_mailLastName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_user_Id_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_user_Id}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_user_Id_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_user_Id}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_accessKey_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_accessKey}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_accessKey_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_accessKey}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_bankPlace_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_bankPlace}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_bankPlace_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_bankPlace}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_middleName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_middleName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_middleName_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_middleName}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_employer_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_employer}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_employer_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_employer}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_birthCountry_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_birthCountry}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_birthCountry_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_birthCountry}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;180&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_birthCity_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{patient_birthCity}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-277492817-patient_birthCity_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{patient_birthCity}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true,   }); }); &lt;/script&gt;"/>
 <field position="0" name="patient_pin" type="InputText" id="2054885596">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -19,7 +950,7 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value=""/>
+<property name="styleclass" value="headerText"/>
 <property name="cssStyle" value=""/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
@@ -31,9 +962,9 @@
 <field position="1" name="patient_civility" type="InputText" id="1223586434">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -41,7 +972,7 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value=""/>
+<property name="styleclass" value="headerText"/>
 <property name="cssStyle" value=""/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
@@ -53,9 +984,9 @@
 <field position="2" name="patient_firstName" type="InputText" id="1978357788">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;firstName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;firstName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -63,7 +994,7 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value=""/>
+<property name="styleclass" value="headerText"/>
 <property name="cssStyle" value=""/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
@@ -75,9 +1006,9 @@
 <field position="3" name="patient_lastName" type="InputText" id="1782253058">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lastName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lastName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -85,7 +1016,7 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value=""/>
+<property name="styleclass" value="headerText"/>
 <property name="cssStyle" value=""/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
@@ -97,15 +1028,15 @@
 <field position="4" name="patient_birthDate" type="InputDate" id="195698818">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birthDate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;headerLabelquot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birthDate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="styleclass" value="headerInput"/>
+<property name="styleclass" value="headerInput headerText"/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/birthDate"/>
