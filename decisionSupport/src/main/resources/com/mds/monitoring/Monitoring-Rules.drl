@@ -1,2 +1,32 @@
 package com.mds.monitoring;
 
+import java.lang.Number;
+import com.mds.beans.SimpleExam;
+import com.mds.beans.Monitoring;
+import com.mds.beans.MonitoringRange;
+import com.mds.beans.VitalSignMonitoring;
+	
+rule "InsertingMonitoringData"
+	    dialect "mvel"
+	    ruleflow-group "monitoring"	    
+	    lock-on-active true
+	    salience 10
+	    when
+	        $monitoringBean : Monitoring( $items : items  != null )	
+	    then
+	      System.out.pprintln("Inserting ");
+	       for (VitalSignMonitoring item : $pamis) {	insert(item);	}
+end
+
+rule "monitoringRule"
+	    dialect "mvel"
+	    ruleflow-group "monitoring"	    
+	    lock-on-active true
+	    salience 5
+	    when
+	        $vitalSign : VitalSignMonitoring( $ranges : ranges != null, $value : NValue )
+	        $range : 	MonitoringRange($value >= min , $value <= max ) from $ranges	
+	    then
+	      System.out.pprintln("Monitoring rule triggred : "+$range.action);	       
+end
+
