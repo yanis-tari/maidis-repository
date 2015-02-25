@@ -51,4 +51,11 @@ public class Monitoring implements java.io.Serializable {
 		this.patient = patient;
 	}
 
+	@Override
+	public String toString() {
+		return "Monitoring [items=" + items + "]";
+	}
+	
+	
+
 }
