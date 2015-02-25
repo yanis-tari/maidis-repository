@@ -15,7 +15,14 @@ rule "InsertingMonitoringData"
 	        $monitoringBean : Monitoring( $items : items  != null )
 	        $vitalSign : VitalSignMonitoring() from $items
 	    then
-	      System.out.println("Inserting vital sign to monitor : "+$vitalSign.ranges.size());
+	    System.out.println("Inserting vital sign to monitor ");
+	    if($vitalSign.getRanges() != null)
+	    {
+	      System.out.println("$vitalSign.getRanges() != null "+$vitalSign.getRanges().size());	      	      
+	    }else{
+	      System.out.println("$vitalSign.getRanges() == null");
+	    }
+	      
 	      insert($vitalSign);	       
 end
 
