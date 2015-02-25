@@ -5,41 +5,7 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
-			
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_miText_label_container&quot;&gt;$label{exam_miText}&lt;/div&gt;
-			
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_miText_container&quot;&gt;$field{exam_miText}&lt;/div&gt;
-			
-			&lt;/td&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
-			
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_label_container&quot;&gt;$label{exam_nValue}&lt;/div&gt;
-			
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_container&quot; &gt;$field{exam_nValue}&lt;/div&gt;
-					
-			&lt;/td&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
-			
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_unit_label_container&quot; &gt;$label{exam_unit}&lt;/div&gt;
-				
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_unit_container&quot; &gt;$field{exam_unit}&lt;/div&gt;
-			
-			&lt;/td&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
-			
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_label_container&quot; &gt;$label{exam_miDate}&lt;/div&gt;
-				
-						&lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_container&quot; &gt;$field{exam_miDate}&lt;/div&gt;
-						
-			&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_miText_label_container&quot;&gt;$label{exam_miText}&lt;/div&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_miText_container&quot;&gt;$field{exam_miText}&lt;/div&gt;        &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_label_container&quot;&gt;$label{exam_nValue}&lt;/div&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_nValue_container&quot; &gt;$field{exam_nValue}&lt;/div&gt;          &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_unit_label_container&quot; &gt;$label{exam_unit}&lt;/div&gt;            &lt;div id=&quot;uid_-template_null-1322443957-exam_unit_container&quot; &gt;$field{exam_unit}&lt;/div&gt;        &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;           &lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_label_container&quot; &gt;$label{exam_miDate}&lt;/div&gt;            &lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_container&quot; &gt;$field{exam_miDate}&lt;/div&gt;           &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; "/>
 <field position="0" name="exam_miText" type="InputText" id="191254943">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
