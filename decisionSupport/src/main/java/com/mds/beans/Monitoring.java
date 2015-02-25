@@ -48,14 +48,6 @@ public class Monitoring implements java.io.Serializable {
 		return "Monitoring [items=" + items + "]";
 	}
 
-	public void addItemsOutOfRange(	com.mds.beans.VitalSignMonitoring itemOutOfRange) {
-		if(itemsOutOfRange==null)
-		{
-			this.itemsOutOfRange = new ArrayList<VitalSignMonitoring>();
-		}
-		this.itemsOutOfRange.add(itemOutOfRange);
-	}
-
 	public Monitoring() {
 	}
 
