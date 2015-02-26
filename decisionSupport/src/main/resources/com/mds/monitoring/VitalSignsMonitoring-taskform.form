@@ -31,7 +31,7 @@
 				&lt;tbody&gt;
 					&lt;tr&gt;
 						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-137128117-monitoring_items_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{monitoring_items}&lt;/div&gt;
+						&lt;div id=&quot;uid_-template_null-137128117-monitoring_items_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; border-bottom: 1px solid rgba(170, 179, 229, 0.58);&quot;&gt;$label{monitoring_items}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
 					&lt;tr&gt;
