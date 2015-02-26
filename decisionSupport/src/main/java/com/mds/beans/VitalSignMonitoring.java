@@ -20,6 +20,19 @@ public class VitalSignMonitoring extends SimpleExam implements java.io.Serializa
 	@org.kie.api.definition.type.Position(1)
 	private com.mds.beans.MonitoringRange inRange;
 
+	
+	@org.kie.api.definition.type.Label("message")
+	@org.kie.api.definition.type.Position(2)
+	private java.lang.String msg;
+
+	
+	public java.lang.String getMsg() {
+		return msg;
+	}
+
+	public void setMsg(java.lang.String msg) {
+		this.msg = msg;
+	}
 
 	public java.util.List<com.mds.beans.MonitoringRange> getRanges() {
 		return this.ranges;
