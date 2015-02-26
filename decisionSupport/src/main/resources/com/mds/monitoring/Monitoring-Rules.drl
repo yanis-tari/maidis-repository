@@ -17,4 +17,5 @@ rule "monitoringRule"
 	    then
 	      	System.out.println("Monitoring rule triggred : "+$range.action);
 	      	$vitalSign.setInRange($range);
+	      	$vitalSign.setMsg($action);
 end
