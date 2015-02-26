@@ -60,9 +60,9 @@ public class Monitoring implements java.io.Serializable {
 		for (VitalSignMonitoring item : itemsToMonitor) {
 			VitalSignMonitoring vs = new VitalSignMonitoring();
 			vs.setRanges(item.getRanges());
-			vs.setMiText(item.getMiText());			
-			addItem(vs);
+			vs.setMiText(item.getMiText());
 			
+			items.add(itemsToMonitor.indexOf(item), vs);					
 		}
 	}
 
