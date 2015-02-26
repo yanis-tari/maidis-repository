@@ -17,7 +17,28 @@ public class Monitoring implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("patient")
 	@org.kie.api.definition.type.Position(1)
 	private com.mds.beans.Patient patient;
+	
+	@org.kie.api.definition.type.Label("items to Monitor")
+	@org.kie.api.definition.type.Position(2)	
+	private java.util.List<com.mds.beans.VitalSignMonitoring> itemsToMonitor;
 
+	public java.util.List<com.mds.beans.VitalSignMonitoring> getItemsToMonitor() {
+		return itemsToMonitor;
+	}
+
+	public void setItemsToMonitor(	java.util.List<com.mds.beans.VitalSignMonitoring> itemsToMonitor) {
+		this.itemsToMonitor = itemsToMonitor;
+		newMonitoringAssessment();
+	}
+
+	public void addItemToMonitor(com.mds.beans.VitalSignMonitoring itemToMonitor) {
+		if(itemsToMonitor == null){
+			itemsToMonitor = new ArrayList<VitalSignMonitoring>();
+		}
+		this.itemsToMonitor.add(itemToMonitor);
+		addItem(itemToMonitor);
+	}
+	
 	public java.util.List<com.mds.beans.VitalSignMonitoring> getItems() {
 		return this.items;
 	}
@@ -26,6 +47,7 @@ public class Monitoring implements java.io.Serializable {
 	{
 		this.items = items;
 	}
+	
 	public void addItem(com.mds.beans.VitalSignMonitoring item)
 	{
 		if(items ==null)
@@ -33,6 +55,14 @@ public class Monitoring implements java.io.Serializable {
 			this.items = new ArrayList<VitalSignMonitoring>();			
 		}
 		this.items.add(item);		
+	}
+	
+	public void newMonitoringAssessment()
+	{
+		for (VitalSignMonitoring item : itemsToMonitor) {
+			addItem(item);
+			
+		}
 	}
 
 	public com.mds.beans.Patient getPatient() {
@@ -56,7 +86,4 @@ public class Monitoring implements java.io.Serializable {
 		this.items = items;
 		this.patient = patient;
 	}
-	
-	
-
 }
