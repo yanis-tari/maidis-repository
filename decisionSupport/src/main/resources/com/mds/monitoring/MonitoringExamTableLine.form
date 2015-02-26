@@ -1,4 +1,3 @@
-
 <form id="1322443957">
 <property name="subject" value=""/>
 <property name="name" value="exam.form"/>
@@ -110,32 +109,6 @@
 <property name="inputBinding" value="examBean/miDate"/>
 <property name="outputBinding" value="examBean/miDate"/>
 <property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="4" name="exam_ranges" type="MultipleSubform" id="906523321">
-<property name="fieldRequired" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;ranges (exam)quot;quot;esquot;,quot;quot;quot;frquot;,quot; Rule rangequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="inputBinding" value="examBean/ranges"/>
-<property name="outputBinding" value="examBean/ranges"/>
-<property name="defaultSubform" value="MonitoringRange.form"/>
-<property name="previewSubform" value="MonitoringRange.form"/>
-<property name="tableSubform" value="MonitoringRange.form"/>
-<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="deleteItems" value="false"/>
-<property name="updateItems" value="false"/>
-<property name="visualizeItems" value="false"/>
-<property name="hideCreateItem" value="true"/>
-<property name="expanded" value="false"/>
-<property name="enableTableEnterData" value="false"/>
-<property name="fieldClass" value="java.util.List"/>
 </field>
 <dataHolder inputId="examBean" name="#A7E690" type="dataModelerEntry" outId="examBean" value="com.mds.beans.VitalSignMonitoring" id="exam"/>
 </form>
