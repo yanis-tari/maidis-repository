@@ -56,14 +56,23 @@ public class Monitoring implements java.io.Serializable {
 		this.items.add(item);		
 	}
 	
+	public void addItem(int index, com.mds.beans.VitalSignMonitoring item)
+	{
+		if(items ==null)
+		{
+			this.items = new ArrayList<VitalSignMonitoring>();			
+		}
+		items.add(index, item);			
+	}
+	
 	public void newMonitoringAssessment()
 	{
 		for (VitalSignMonitoring item : itemsToMonitor) {
 			VitalSignMonitoring vs = new VitalSignMonitoring();
 			vs.setRanges(item.getRanges());
 			vs.setMiText(item.getMiText());
-			vs.setMiDate(new Date());			
-			items.add(itemsToMonitor.indexOf(item), vs);					
+			vs.setMiDate(new Date());	
+			addItem(itemsToMonitor.indexOf(item), vs);					
 		}
 	}
 
