@@ -75,6 +75,7 @@ public class Monitoring implements java.io.Serializable {
 			VitalSignMonitoring vs = new VitalSignMonitoring();
 			vs.setRanges(item.getRanges());
 			vs.setMiText(item.getMiText());
+			vs.setUnit(item.getUnit());
 			if(item.getUnit() != null)
 				vs.setUnit(item.getUnit());
 			
@@ -91,7 +92,6 @@ public class Monitoring implements java.io.Serializable {
 		this.patient = patient;
 	}
 
-	@Override
 	public String toString() {
 		return "Monitoring [items=" + items + "]";
 	}
