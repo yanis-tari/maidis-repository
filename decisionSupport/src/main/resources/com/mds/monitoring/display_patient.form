@@ -5,83 +5,48 @@
 <property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;.headerInput{background-color:transparent;border:none;color: #fff;font-weight: bold; width:70px; overflow: visible} .invisible{display:none;}
+<property name="formTemplate" value="&lt;style type=&quot;text/css&quot;&gt;
+.ui-state-default .headerLabel, .ui-state-default .headerText{font-weight: normal; color: #e8f7ff;}
+.ui-state-hover .headerLabel, .ui-state-hover .headerText{font-weight: normal; color: #e8f7fe;}
+.ui-state-active .headerLabel,.ui-state-active .headerText{font-weight: normal; color: #110f0f; }
+
+.ui-state-default .spliter, .ui-state-hover .spliter {border-right: 1px solid rgba(255, 255, 255, 0.52); }
+.ui-state-active .spliter {border-right: 1px solid rgba(57, 57, 58, 0.5); }
+
+.headerInput{background-color:transparent;border:none;color: #fff;font-weight: bold; width:70px; overflow: visible}
+.invisible{display:none;}
 &lt;/style&gt;
 &lt;div id=&quot;patientAccordeon&quot; onclick=&quot;resizeParent();&quot;&gt;
-&lt;h3 id=&quot;header&quot; onclick=&quot;resizeParent();&quot;&gt;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;ui-corner-all&quot; width=&quot;1%&quot; id=&quot;headerTab&quot; onclick=&quot;resizeParent();&quot;&gt;
+&lt;h3 id=&quot;header&quot; onclick=&quot;resizeParent();&quot;&gt;
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; onclick=&quot;resizeParent();&quot; style=&quot;min-width:700px;&quot;&gt;
 	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;middle&quot; width=&quot;5%&quot;&gt;&amp;nbsp;&lt;/td&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
+		&lt;tr&gt;			
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_pin}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_pin}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_civility}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_civility}&lt;/div&gt;
+			&lt;/td&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot; class=&quot;spliter&quot;&gt;			
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_firstName}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_firstName}&lt;/div&gt;					
+			&lt;/td&gt;
+			&lt;td colspan=&quot;1&quot; valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;25%&quot;&gt;
+						&lt;div style=&quot;display: inline-block;&quot;&gt;$label{patient_lastName}&lt;/div&gt;	&lt;div style=&quot;display: inline-block;&quot;&gt;$field{patient_lastName}&lt;/div&gt;						
+			&lt;/td&gt;
+			&lt;!--td align=&quot;center&quot; colspan=&quot;1&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
 			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
 						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-277492817-patient_pin_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_pin}&lt;/div&gt;
+						$label{patient_birthDate}
 						&lt;/td&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-277492817-patient_pin_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$field{patient_pin}&lt;/div&gt;
+						$field{patient_birthDate}
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
 			&lt;/table&gt;
-			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;color:#fff; font-size: medium;&quot;&gt;$label{patient_civility}&lt;/div&gt;
-						&lt;/td&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_civility_container&quot; style=&quot;padding-top: 3px; padding-right:3px;  color:#fff; font-size: medium; &quot;&gt;$field{patient_civility}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:100%; border-left: 1px solid #d2dbf4;padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_firstName}&lt;/div&gt;
-						&lt;/td&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_firstName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_firstName}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:80%; border-left: 1px solid #d2dbf4; padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_lastName}&lt;/div&gt;
-						&lt;/td&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_lastName_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_lastName}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
-			&lt;td align=&quot;center&quot; colspan=&quot;1&quot; style=&quot;height:80%; border-left: 1px solid #d2dbf4; padding-left:10px;&quot; valign=&quot;middle&quot; width=&quot;20%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$label{patient_birthDate}&lt;/div&gt;
-						&lt;/td&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1665539227-patient_birthDate_container&quot; style=&quot;padding-top: 3px; padding-right:3px; color:#fff; font-size: medium;&quot;&gt;$field{patient_birthDate}&lt;/div&gt;
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
+			&lt;/td--&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -931,12 +896,12 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true,   }); }); &lt;/script&gt;"/>
+&lt;script&gt; $(function() {  $( &quot;#patientAccordeon&quot; ).accordion({  active: false,  collapsible: true, activate: function( event, ui ) { resizeParent(); }  }); }); &lt;/script&gt;"/>
 <field position="0" name="patient_pin" type="InputText" id="2054885596">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
+<property name="labelCSSStyle" value="display: inline-block;"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pin (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pinquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -945,9 +910,9 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value="headerInput"/>
-<property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="styleclass" value="headerText"/>
+<property name="cssStyle" value="display: inline-block;"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/pin"/>
@@ -957,7 +922,7 @@
 <field position="1" name="patient_civility" type="InputText" id="1223586434">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;civility (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Civilityquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -967,9 +932,9 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value="headerInput"/>
+<property name="styleclass" value="headerText"/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/civility"/>
@@ -979,7 +944,7 @@
 <field position="2" name="patient_firstName" type="InputText" id="1978357788">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;firstName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;First namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -989,9 +954,9 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value="headerInput"/>
+<property name="styleclass" value="headerText"/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/firstName"/>
@@ -1001,7 +966,7 @@
 <field position="3" name="patient_lastName" type="InputText" id="1782253058">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lastName (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Last namequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -1011,9 +976,9 @@
 <property name="formula" value=""/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
-<property name="styleclass" value="headerInput"/>
+<property name="styleclass" value="headerText"/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/lastName"/>
@@ -1023,7 +988,7 @@
 <field position="4" name="patient_birthDate" type="InputDate" id="195698818">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
+<property name="labelCSSClass" value="headerLabel"/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;birthDate (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Birth datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -1031,7 +996,7 @@
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="styleclass" value="headerInput"/>
+<property name="styleclass" value="headerInput headerText"/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/birthDate"/>
@@ -1041,8 +1006,18 @@
 <field position="5" name="patient_patient_Id" type="InputTextInteger" id="803779883">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;patient_Id (patient)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;patient_Id (patient)quot;quot;esquot;,quot;quot;quot;frquot;,quot;IDquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="patient_in/patient_Id"/>
 <property name="outputBinding" value="patient_out/patient_Id"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -1156,7 +1131,7 @@
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
+<property name="rangeFormula" value="=&quot;gfhgfh &quot;;"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
@@ -1201,7 +1176,7 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
+<property name="cssStyle" value="width:100%;"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
