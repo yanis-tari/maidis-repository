@@ -27,10 +27,6 @@
 			&lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_label_container&quot;&gt;$label{exam_miDate}&lt;/div&gt;
 
 			&lt;div id=&quot;uid_-template_null-1322443957-exam_miDate_container&quot;&gt;$field{exam_miDate}&lt;/div&gt;
-			&lt;/td&gt;			
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot;  valign=&quot;top&quot; width=&quot;0%&quot;&gt;				
-				&lt;div id=&quot;uid_-template_null-1322443957-exam_ranges_container&quot;&gt;$field{exam_ranges}&lt;/div&gt;
-			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;"/>
