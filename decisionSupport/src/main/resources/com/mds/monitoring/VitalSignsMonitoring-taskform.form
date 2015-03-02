@@ -55,8 +55,8 @@
 							&lt;div id=&quot;uid_-template_null-137128117-monitoring_stopMonitoring_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{monitoring_stopMonitoring}&lt;/div&gt;
 						&lt;/td&gt;
 						
-						&lt;td align=&quot;left&quot; valign=&quot;top&quot; &gt;
-							&lt;div id=&quot;uid_-template_null-137128117-monitoring_monitoringDuration_label_container&quot; style=&quot;padding-top: 3px; padding-left:50px; border-left: 1px solid rgba(170, 179, 229, 0.58);&quot;&gt;$label{monitoring_monitoringDuration}&lt;/div&gt;
+						&lt;td align=&quot;left&quot; valign=&quot;top&quot; style=&quot;border-left: 1px solid rgba(170, 179, 229, 0.58);&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-137128117-monitoring_monitoringDuration_label_container&quot; style=&quot;padding-top: 3px; padding-left:20px; padding-right:3px;&quot;&gt;$label{monitoring_monitoringDuration}&lt;/div&gt;
 						&lt;/td&gt;
 						
 						&lt;td align=&quot;left&quot; nowrap=&quot;nowrap&quot; valign=&quot;top&quot;&gt;
@@ -131,8 +131,8 @@
 <field position="3" name="monitoring_monitoringDuration" type="InputText" id="1612011533">
 <property name="fieldRequired" value="false"/>
 <property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;monitoringDuration (monitoring)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Next assessment in quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="labelCSSStyle" value="color: #4b4a4a; text-shadow: #ddf 1px 1px 0;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;color: #4b4a4a; text-shadow: #ddf 1px 1px 0;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;monitoringDuration (monitoring)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Next assessment in quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -141,7 +141,7 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
+<property name="cssStyle" value="color: #4b4a4a; text-shadow: #ddf 1px 1px 0;"/>
 <property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
