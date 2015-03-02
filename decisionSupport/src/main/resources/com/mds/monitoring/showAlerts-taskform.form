@@ -2,8 +2,67 @@
 <form id="1704031157">
 <property name="subject" value=""/>
 <property name="name" value="showAlerts-taskform.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1704031157-monitoring_patient_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{monitoring_patient}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1704031157-monitoring_patient_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{monitoring_patient}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1704031157-monitoring_itemsAlert_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px; border-bottom: 1px solid rgba(170, 179, 229, 0.58);&quot;&gt;$label{monitoring_itemsAlert}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1704031157-monitoring_itemsAlert_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{monitoring_itemsAlert}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;15px&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-137128117-monitoring_stopMonitoring_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{monitoring_stopMonitoring}&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td align=&quot;left&quot; nowrap=&quot;nowrap&quot; valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-137128117-monitoring_stopMonitoring_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{monitoring_stopMonitoring}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+"/>
 <field position="1" name="monitoring_itemsAlert" type="MultipleSubform" id="588970597">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
