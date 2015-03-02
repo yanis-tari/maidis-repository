@@ -2,7 +2,8 @@
 <form id="91482547">
 <property name="subject" value=""/>
 <property name="name" value="AvcTreatmentSuggestion-taskform.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="left"/>
 <property name="status" value="0"/>
 <field position="0" name="avcIS_patient" type="Subform" id="263803367">
 <property name="fieldRequired" value="false"/>
@@ -23,8 +24,8 @@
 <property name="fieldRequired" value="false"/>
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;treatmentSuggestion (avcIS)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Treatment suggestion :quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="labelCSSStyle" value="color: #4b4a4a; text-shadow: #ddf 1px 1px 0;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;color: #4b4a4a; text-shadow: #ddf 1px 1px 0;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;treatmentSuggestion (avcIS)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Treatment suggestion :quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
