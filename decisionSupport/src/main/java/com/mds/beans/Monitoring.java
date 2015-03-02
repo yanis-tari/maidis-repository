@@ -12,6 +12,7 @@ public class Monitoring implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
     
+    
 	@org.kie.api.definition.type.Label("patient")
 	@org.kie.api.definition.type.Position(0)
 	private com.mds.beans.Patient patient;
@@ -34,9 +35,19 @@ public class Monitoring implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(value = 4)
 	private java.lang.Boolean stopMonitoring;
 
+	@org.kie.api.definition.type.Label(value = "stop the monitoring")
+	@org.kie.api.definition.type.Position(value = 5)
+	private java.lang.String monitoringDuration;
 	
 	
-	
+	public java.lang.String getMonitoringDuration() {
+		return monitoringDuration;
+	}
+
+	public void setMonitoringDuration(java.lang.String monitoringDuration) {
+		this.monitoringDuration = monitoringDuration;
+	}
+
 	public java.util.List<com.mds.beans.VitalSignMonitoring> getItemsAlert() {
 		return itemsAlert;
 	}
