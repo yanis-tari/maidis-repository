@@ -12,12 +12,13 @@ rule "monitoringRule"
 	    salience 1
 	    when
 	    	$monitoringBean : Monitoring( $items : items  != null )
-	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue ) from $items
+	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue, isMonitored == false ) from $items
 	        $range : 	MonitoringRange($value >= min , $value <= max, $action : action, doAlert == false )	from $ranges
 	    then
 	      	System.out.println("Monitoring rule triggred : "+$range.action);
 	      	$vitalSign.setInRange($range);
 	      	$vitalSign.setMsg($action);
+	      	$vitalSign.setIsMonitored(true);
 end
 
 
@@ -28,12 +29,12 @@ rule "monitoringRuleAlert"
 	    salience 1
 	    when
 	    	$monitoringBean : Monitoring( $items : items  != null )
-	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue ) from $items
+	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue, isMonitored == false ) from $items
 	        $range : 	MonitoringRange($value >= min , $value <= max, $action : action, doAlert == true)	from $ranges
 	    then
 	      	System.out.println("Monitoring rule triggred : "+$range.action);
 	      	$vitalSign.setInRange($range);
 	      	$vitalSign.setMsg($action);
-	      
+	      	$vitalSign.setIsMonitored(true);
 	      	$monitoringBean.addItemAlert($vitalSign);
 end
