@@ -33,6 +33,7 @@ rule "monitoringRuleAlert"
 	    then
 	      	System.out.println("Monitoring rule triggred : "+$range.action);
 	      	$vitalSign.setInRange($range);
-	      	$vitalSign.setMsg($action);	      	
-	      	$monitoringBean.aaddItemAlert($vitalSign);
+	      	$vitalSign.setMsg($action);
+	      
+	      	$monitoringBean.addItemAlert($vitalSign);
 end
