@@ -19,6 +19,12 @@ public class MonitoringRange implements java.io.Serializable {
     @org.kie.api.definition.type.Label(value = "min")
     @org.kie.api.definition.type.Position(value = 0)
     private java.lang.Integer min;
+    
+    @org.kie.api.definition.type.Label(value = "do alert")
+    @org.kie.api.definition.type.Position(value = 3)
+    private java.lang.Boolean doAlert;
+    
+    
 
     public MonitoringRange() {
     }
@@ -29,7 +35,17 @@ public class MonitoringRange implements java.io.Serializable {
         this.action = action;
     }
 
-    public java.lang.String getAction() {
+    
+    
+    public java.lang.Boolean getDoAlert() {
+		return doAlert;
+	}
+
+	public void setDoAlert(java.lang.Boolean doAlert) {
+		this.doAlert = doAlert;
+	}
+
+	public java.lang.String getAction() {
         return this.action;
     }
     
