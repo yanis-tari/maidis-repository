@@ -17,8 +17,8 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="cssStyle" value="white-space: nowrap"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="examBean/miText"/>
@@ -39,29 +39,11 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
+<property name="cssStyle" value="white-space: nowrap"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="examBean/nValue"/>
 <property name="outputBinding" value="examBean/nValue"/>
 <property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="3" name="exam_miDate" type="InputDate" id="1766304600">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;miDate (exam)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="size" value=""/>
-<property name="formula" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="examBean/miDate"/>
-<property name="outputBinding" value="examBean/miDate"/>
-<property name="fieldClass" value="java.util.Date"/>
 </field>
 <field position="2" name="exam_unit" type="InputText" id="1571889816">
 <property name="fieldRequired" value="false"/>
@@ -77,13 +59,31 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="cssStyle" value="white-space: nowrap"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="examBean/unit"/>
 <property name="outputBinding" value="examBean/unit"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="exam_miDate" type="InputDate" id="1766304600">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;miDate (exam)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Datequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="white-space: nowrap"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="examBean/miDate"/>
+<property name="outputBinding" value="examBean/miDate"/>
+<property name="fieldClass" value="java.util.Date"/>
 </field>
 <field position="4" name="exam_msg" type="InputText" id="998485651">
 <property name="fieldRequired" value="false"/>
@@ -99,8 +99,8 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="cssStyle" value="white-space: nowrap"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="examBean/msg"/>
