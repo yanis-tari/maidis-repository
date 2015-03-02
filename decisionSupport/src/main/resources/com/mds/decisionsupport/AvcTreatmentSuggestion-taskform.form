@@ -19,12 +19,12 @@
 <property name="defaultSubform" value="display_patient.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="1" name="avcIS_treatmentSuggestion" type="InputTextArea" id="1051790698">
+<field position="1" name="avcIS_treatmentSuggestion" type="InputText" id="1051790698">
 <property name="fieldRequired" value="false"/>
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value="display: inline; "/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;display: inline; quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;treatmentSuggestion (avcIS)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Treatment suggestion :quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;treatmentSuggestion (avcIS)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Treatment suggestion :quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -33,8 +33,8 @@
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
-<property name="cssStyle" value="display:inline; border:none; background color:transparent; width:600px;"/>
-<property name="isHTML" value="false"/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="avc_in/treatmentSuggestion"/>
