@@ -4,4 +4,5 @@
 <property name="name" value="MonitoringExamAlertLine.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="examBean" name="#0000A0" type="dataModelerEntry" outId="examBean" value="com.mds.beans.VitalSignMonitoring" id="exam"/>
 </form>
