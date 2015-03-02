@@ -48,11 +48,19 @@
 			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
 				&lt;tbody&gt;
 					&lt;tr&gt;
-						&lt;td valign=&quot;top&quot; align=&quot;left&quot; width=&quot;15px&quot; &gt;
-						&lt;div id=&quot;uid_-template_null-137128117-monitoring_stopMonitoring_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{monitoring_stopMonitoring}&lt;/div&gt;
+						&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;15px&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-137128117-monitoring_stopMonitoring_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{monitoring_stopMonitoring}&lt;/div&gt;
 						&lt;/td&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; align=&quot;left&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-137128117-monitoring_stopMonitoring_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{monitoring_stopMonitoring}&lt;/div&gt;
+						&lt;td align=&quot;left&quot; nowrap=&quot;nowrap&quot; valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-137128117-monitoring_stopMonitoring_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{monitoring_stopMonitoring}&lt;/div&gt;
+						&lt;/td&gt;
+						
+						&lt;td align=&quot;left&quot; valign=&quot;top&quot; &gt;
+							&lt;div id=&quot;uid_-template_null-137128117-monitoring_monitoringDuration_label_container&quot; style=&quot;padding-top: 3px; padding-left:50px; border-left: 1px solid rgba(170, 179, 229, 0.58);&quot;&gt;$label{monitoring_monitoringDuration}&lt;/div&gt;
+						&lt;/td&gt;
+						
+						&lt;td align=&quot;left&quot; nowrap=&quot;nowrap&quot; valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-137128117-monitoring_monitoringDuration_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{monitoring_monitoringDuration}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
@@ -60,8 +68,7 @@
 			&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
-&lt;/table&gt;
-"/>
+&lt;/table&gt;"/>
 <field position="0" name="monitoring_patient" type="Subform" id="1519296989">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
@@ -120,6 +127,27 @@
 <property name="inputBinding" value="monitoringBean/stopMonitoring"/>
 <property name="outputBinding" value="monitoringBean/stopMonitoring"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="monitoring_monitoringDuration" type="InputText" id="1612011533">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;monitoringDuration (monitoring)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Next assessment in quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="monitoringBean/monitoringDuration"/>
+<property name="outputBinding" value="monitoringBean/monitoringDuration"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="monitoringBean" name="#0000A0" type="dataModelerEntry" outId="monitoringBean" value="com.mds.beans.Monitoring" id="monitoring"/>
 </form>
