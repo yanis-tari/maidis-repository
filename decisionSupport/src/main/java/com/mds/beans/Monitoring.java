@@ -45,6 +45,13 @@ public class Monitoring implements java.io.Serializable {
 			java.util.List<com.mds.beans.VitalSignMonitoring> itemsAlert) {
 		this.itemsAlert = itemsAlert;
 	}
+	
+	public void addItemAlert(com.mds.beans.VitalSignMonitoring itemAlert) {
+		if(itemsAlert == null)
+			this.itemsAlert = new ArrayList<com.mds.beans.VitalSignMonitoring>();
+		
+		this.itemsAlert.add(itemAlert);
+	}
 
 	public java.util.List<com.mds.beans.VitalSignMonitoring> getItemsToMonitor() {
 		return itemsToMonitor;
