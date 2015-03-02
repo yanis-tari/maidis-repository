@@ -11,21 +11,40 @@ import java.util.Date;
 public class Monitoring implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
-
-    @org.kie.api.definition.type.Position(0)
-	private java.util.List<com.mds.beans.VitalSignMonitoring> items;
-
+    
 	@org.kie.api.definition.type.Label("patient")
-	@org.kie.api.definition.type.Position(1)
+	@org.kie.api.definition.type.Position(0)
 	private com.mds.beans.Patient patient;
-	
-	@org.kie.api.definition.type.Label("items to Monitor")
+
+    
+    @org.kie.api.definition.type.Label("items")
+    @org.kie.api.definition.type.Position(1)
+	private java.util.List<com.mds.beans.VitalSignMonitoring> items;
+    
+    @org.kie.api.definition.type.Label("items to Monitor")
 	@org.kie.api.definition.type.Position(2)
 	private java.util.List<com.mds.beans.VitalSignMonitoring> itemsToMonitor;
-
+    
+    @org.kie.api.definition.type.Label("items alert")
+	@org.kie.api.definition.type.Position(3)
+	private java.util.List<com.mds.beans.VitalSignMonitoring> itemsAlert;
+    
+    
 	@org.kie.api.definition.type.Label(value = "stop the monitoring")
-	@org.kie.api.definition.type.Position(value = 3)
+	@org.kie.api.definition.type.Position(value = 4)
 	private java.lang.Boolean stopMonitoring;
+
+	
+	
+	
+	public java.util.List<com.mds.beans.VitalSignMonitoring> getItemsAlert() {
+		return itemsAlert;
+	}
+
+	public void setItemsAlert(
+			java.util.List<com.mds.beans.VitalSignMonitoring> itemsAlert) {
+		this.itemsAlert = itemsAlert;
+	}
 
 	public java.util.List<com.mds.beans.VitalSignMonitoring> getItemsToMonitor() {
 		return itemsToMonitor;
@@ -74,8 +93,7 @@ public class Monitoring implements java.io.Serializable {
 		for (VitalSignMonitoring item : itemsToMonitor) {
 			VitalSignMonitoring vs = new VitalSignMonitoring();
 			vs.setRanges(item.getRanges());
-			vs.setMiText(item.getMiText());
-			vs.setUnit(item.getUnit());
+			vs.setMiText(item.getMiText());	
 			if(item.getUnit() != null)
 				vs.setUnit(item.getUnit());
 			
