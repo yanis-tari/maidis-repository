@@ -1,0 +1,48 @@
+
+<form id="1704031157">
+<property name="subject" value=""/>
+<property name="name" value="showAlerts-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="monitoring_itemsToMonitor" type="MultipleSubform" id="611567491">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;itemsToMonitor (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoringBean/itemsToMonitor"/>
+<property name="outputBinding" value="monitoringBean/itemsToMonitor"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="0" name="monitoring_items" type="MultipleSubform" id="2066715188">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;items (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoringBean/items"/>
+<property name="outputBinding" value="monitoringBean/items"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="1" name="monitoring_itemsAlert" type="MultipleSubform" id="588970597">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;itemsAlert (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoringBean/itemsAlert"/>
+<property name="outputBinding" value="monitoringBean/itemsAlert"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="4" name="monitoring_stopMonitoring" type="CheckBox" id="945403509">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stopMonitoring (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoringBean/stopMonitoring"/>
+<property name="outputBinding" value="monitoringBean/stopMonitoring"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="monitoring_patient" type="Subform" id="394413799">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;patient (monitoring)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="monitoringBean/patient"/>
+<property name="outputBinding" value="monitoringBean/patient"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="monitoringBean" name="#0000A0" type="dataModelerEntry" outId="monitoringBean" value="com.mds.beans.Monitoring" id="monitoring"/>
+</form>
