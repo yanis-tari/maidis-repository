@@ -5,7 +5,7 @@
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
 <field position="0" name="range_min" type="InputTextInteger" id="750659213">
-<property name="fieldRequired" value="true"/>
+<property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -24,7 +24,7 @@
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="1" name="range_max" type="InputTextInteger" id="2073512317">
-<property name="fieldRequired" value="true"/>
+<property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -43,7 +43,7 @@
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="2" name="range_action" type="InputText" id="1796073943">
-<property name="fieldRequired" value="true"/>
+<property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
@@ -57,7 +57,7 @@
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
+<property name="isHTML" value="true"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="rangeBean/action"/>
