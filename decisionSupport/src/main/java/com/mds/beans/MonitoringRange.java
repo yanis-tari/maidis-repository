@@ -29,15 +29,17 @@ public class MonitoringRange implements java.io.Serializable {
     public MonitoringRange() {
     }
     
-    public MonitoringRange(java.lang.Integer min, java.lang.Integer max, java.lang.String action) {
-        this.min = min;
-        this.max = max;
-        this.action = action;
-    }
+   
+    
+    public MonitoringRange(java.lang.Integer min, java.lang.Integer max, java.lang.String action, Boolean doAlert) {
+		super();
+		this.action = action;
+		this.max = max;
+		this.min = min;
+		this.doAlert = doAlert;
+	}
 
-    
-    
-    public java.lang.Boolean getDoAlert() {
+	public java.lang.Boolean getDoAlert() {
 		return doAlert;
 	}
 
