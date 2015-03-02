@@ -29,7 +29,7 @@ public class VitalSignMonitoring extends SimpleExam implements java.io.Serializa
 
 	@org.kie.api.definition.type.Label("is Monitored")
 	@org.kie.api.definition.type.Position(3)
-	private java.lang.Boolean isMonitored;
+	private java.lang.Boolean isMonitored = false;
 
 	
 	public java.lang.Boolean getIsMonitored() {
