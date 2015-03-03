@@ -42,7 +42,7 @@
 <property name="visualizeItems" value="false"/>
 <property name="hideCreateItem" value="true"/>
 <property name="expanded" value="false"/>
-<property name="enableTableEnterData" value="false"/>
+<property name="enableTableEnterData" value="true"/>
 <property name="fieldClass" value="java.util.List"/>
 </field>
 <dataHolder inputId="triage_in" name="#0000A0" type="dataModelerEntry" outId="triage_out" value="com.mds.beans.Triage" id="triage"/>
