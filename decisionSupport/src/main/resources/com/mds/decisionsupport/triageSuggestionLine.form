@@ -93,31 +93,18 @@
 				&lt;tbody&gt;
 					&lt;tr&gt;
 						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_suggestionClinicalPathway_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_suggestionClinicalPathway}&lt;/div&gt;
+							&lt;div id=&quot;uid_-template_null-1574922001-suggestion_suggestionClinicalPathway_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_suggestionClinicalPathway}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
 					&lt;tr&gt;
 						&lt;td valign=&quot;top&quot;&gt;
-						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_suggestionClinicalPathway_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{suggestion_suggestionClinicalPathway}&lt;/div&gt;
+							&lt;div id=&quot;uid_-template_null-1574922001-suggestion_suggestionClinicalPathway_container&quot; style=&quot;padding-top: 3px; padding-right:3px; display: inline-block;&quot;&gt;$field{suggestion_suggestionClinicalPathway}&lt;/div&gt;
+							&lt;div id=&quot;uid_-template_null-1574922001-suggestion_startThePathway_container&quot; style=&quot;padding-top: 3px; padding-right:3px; display: inline-block;&quot;&gt;$field{suggestion_startThePathway}&lt;/div&gt;
 						&lt;/td&gt;
 					&lt;/tr&gt;
 				&lt;/tbody&gt;
 			&lt;/table&gt;
-			&lt;/td&gt;
-			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
-			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
-				&lt;tbody&gt;
-					&lt;tr&gt;
-						&lt;td valign=&quot;top&quot;&gt;
-						$field{suggestion_startThePathway}
-						&lt;/td&gt;
-						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
-						$label{suggestion_startThePathway}
-						&lt;/td&gt;
-					&lt;/tr&gt;
-				&lt;/tbody&gt;
-			&lt;/table&gt;
-			&lt;/td&gt;
+			&lt;/td&gt;			
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -262,7 +249,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;startThePathway (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Startquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;startThePathway (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
