@@ -17,10 +17,10 @@
         <type>java.util.Date</type>
       </import>
       <import>
-        <type>MyHealthMessage</type>
+        <type>com.mds.MyHealthMessage</type>
       </import>
       <import>
-        <type>MyHealthMsgType</type>
+        <type>com.mds.MyHealthMsgType</type>
       </import>
     </imports>
   </imports>
