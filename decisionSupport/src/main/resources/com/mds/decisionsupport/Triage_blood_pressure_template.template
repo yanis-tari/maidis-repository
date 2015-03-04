@@ -91,6 +91,19 @@
             <fieldName>pamiList</fieldName>
             <fieldType>Collection</fieldType>
           </fieldConstraint>
+          <fieldConstraint>
+            <value>false</value>
+            <operator>==</operator>
+            <constraintValueType>1</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>Triage</factType>
+            <fieldName>triggeredByPatient</fieldName>
+            <fieldType>Boolean</fieldType>
+          </fieldConstraint>
         </constraints>
       </constraintList>
       <factType>Triage</factType>
