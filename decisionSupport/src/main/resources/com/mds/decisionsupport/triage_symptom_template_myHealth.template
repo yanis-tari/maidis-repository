@@ -72,6 +72,31 @@
             <fieldName>pamiList</fieldName>
             <fieldType>Collection</fieldType>
           </fieldConstraint>
+          <fieldConstraint>
+            <value>true</value>
+            <constraintValueType>1</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>Triage</factType>
+            <fieldName>triggeredByPatient</fieldName>
+            <fieldType>Boolean</fieldType>
+          </fieldConstraint>
+          <fieldConstraint>
+            <operator>!= null</operator>
+            <constraintValueType>0</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <fieldBinding>patientID</fieldBinding>
+            <factType>Triage</factType>
+            <fieldName>myHealthPatientId</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
         </constraints>
       </constraintList>
       <factType>Triage</factType>
