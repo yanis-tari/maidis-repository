@@ -41,6 +41,15 @@ public class Triage implements java.io.Serializable {
 	@org.kie.api.definition.type.Label(value = "start the selected clinical pathway")
 	@org.kie.api.definition.type.Position(value = 8)
 	protected java.lang.Boolean startTheSelectedClinicalPathway;
+	
+	@org.kie.api.definition.type.Label(value = "triggered by patient")
+	@org.kie.api.definition.type.Position(value = 9)
+	protected java.lang.Boolean triggeredByPatient;
+	
+	@org.kie.api.definition.type.Label("myHealth patient Id")
+	@org.kie.api.definition.type.Position(10)
+	protected java.lang.String myHealthPatientId;
+	
 
 	public com.mds.beans.Contact getContact() {
         return this.contact;
@@ -129,6 +138,24 @@ public class Triage implements java.io.Serializable {
 		this.startTheSelectedClinicalPathway = startTheSelectedClinicalPathway;
 	}
 
+	
+	
+	public java.lang.Boolean getTriggeredByPatient() {
+		return triggeredByPatient;
+	}
+
+	public void setTriggeredByPatient(java.lang.Boolean triggeredByPatient) {
+		this.triggeredByPatient = triggeredByPatient;
+	}
+
+	public java.lang.String getMyHealthPatientId() {
+		return myHealthPatientId;
+	}
+
+	public void setMyHealthPatientId(java.lang.String myHealthPatientId) {
+		this.myHealthPatientId = myHealthPatientId;
+	}
+
 	public Triage() {
 	}
 
@@ -150,6 +177,8 @@ public class Triage implements java.io.Serializable {
 		this.startTheSelectedClinicalPathway = startTheSelectedClinicalPathway;
 	}
 
+	
+	
 	@Override
 	public String toString() {
 		return "pamiList=" + pamiList +" <br> patient=" + patient+ " <br>,contact=" + contact + ", pamiList=" + pamiList + ", triageValue=" + triageValue
