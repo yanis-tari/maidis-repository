@@ -159,6 +159,30 @@
       <state>1</state>
       <methodName>addSuggestions</methodName>
     </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+    <assertLogical>
+      <fieldValues>
+        <fieldValue>
+          <field>patient_id</field>
+          <value>=patientID</value>
+          <nature>2</nature>
+          <type>String</type>
+        </fieldValue>
+        <fieldValue>
+          <field>msg</field>
+          <value>$myHealthMsg</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+        <fieldValue>
+          <field>type</field>
+          <value>$msgType</value>
+          <nature>7</nature>
+          <type>Comparable</type>
+        </fieldValue>
+      </fieldValues>
+      <factType>MyHealthMessage</factType>
+      <isBound>false</isBound>
+    </assertLogical>
   </rhs>
   <imports>
     <imports>
@@ -173,6 +197,12 @@
       </org.drools.workbench.models.datamodel.imports.Import>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.mds.beans.Pami</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.mds.MyHealthMessage</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.mds.MyHealthMsgType</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
@@ -235,6 +265,17 @@
       </list>
     </entry>
     <entry>
+      <string>$myHealthMsg</string>
+      <list>
+        <string>Chest pain (pathological ECG: senior opinion) ==&gt; 2-1</string>
+        <string>Acute limb ischemia* ==&gt; 3-2</string>
+        <string>Phlebitis (suspected) ==&gt; 3</string>
+        <string>Malaise or loss of consciousness ==&gt; 3</string>
+        <string>Peripheral edema ==&gt; 4-3</string>
+        <string>Palpitations ==&gt; 4</string>
+      </list>
+    </entry>
+    <entry>
       <string>$department</string>
       <list>
         <string>Cardiology</string>
@@ -265,6 +306,17 @@
         <string></string>
         <string></string>
         <string></string>
+      </list>
+    </entry>
+    <entry>
+      <string>$msgType</string>
+      <list>
+        <string>MyHealthMsgType.ALERT</string>
+        <string>MyHealthMsgType.ALERT</string>
+        <string>MyHealthMsgType.ALERT</string>
+        <string>MyHealthMsgType.ALERT</string>
+        <string>MyHealthMsgType.ALERT</string>
+        <string>MyHealthMsgType.ALERT</string>
       </list>
     </entry>
   </table>
