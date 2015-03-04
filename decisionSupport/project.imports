@@ -16,6 +16,12 @@
       <import>
         <type>java.util.Date</type>
       </import>
+      <import>
+        <type>MyHealthMessage</type>
+      </import>
+      <import>
+        <type>MyHealthMsgType</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
