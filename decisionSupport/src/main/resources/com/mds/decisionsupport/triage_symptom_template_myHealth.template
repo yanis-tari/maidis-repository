@@ -74,6 +74,7 @@
           </fieldConstraint>
           <fieldConstraint>
             <value>true</value>
+            <operator>==</operator>
             <constraintValueType>1</constraintValueType>
             <expression>
               <parts/>
