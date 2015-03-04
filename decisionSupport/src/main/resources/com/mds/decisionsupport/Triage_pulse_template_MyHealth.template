@@ -91,6 +91,32 @@
             <fieldName>pamiList</fieldName>
             <fieldType>Collection</fieldType>
           </fieldConstraint>
+          <fieldConstraint>
+            <value>true</value>
+            <operator>==</operator>
+            <constraintValueType>1</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>Triage</factType>
+            <fieldName>triggeredByPatient</fieldName>
+            <fieldType>Boolean</fieldType>
+          </fieldConstraint>
+          <fieldConstraint>
+            <operator>!= null</operator>
+            <constraintValueType>0</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <fieldBinding>patientID</fieldBinding>
+            <factType>Triage</factType>
+            <fieldName>myHealthPatientId</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
         </constraints>
       </constraintList>
       <factType>Triage</factType>
@@ -189,6 +215,37 @@
       <boundName>mySuggestion</boundName>
       <isBound>true</isBound>
     </assertLogical>
+    <assertLogical>
+      <fieldValues>
+        <fieldValue>
+          <field>msg</field>
+          <value>$myHealthMsg</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+        <fieldValue>
+          <field>patient_id</field>
+          <value>=patientID</value>
+          <nature>2</nature>
+          <type>String</type>
+        </fieldValue>
+        <fieldValue>
+          <field>type</field>
+          <value>MyHealthMsgType.ALERT</value>
+          <nature>1</nature>
+          <type>Comparable</type>
+        </fieldValue>
+      </fieldValues>
+      <factType>MyHealthMessage</factType>
+      <boundName>msg</boundName>
+      <isBound>true</isBound>
+    </assertLogical>
+    <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+      <fieldValues/>
+      <variable>msg</variable>
+      <state>1</state>
+      <methodName>sendMessage</methodName>
+    </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
     <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
       <fieldValues>
         <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
@@ -214,6 +271,12 @@
       </org.drools.workbench.models.datamodel.imports.Import>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.mds.beans.SimpleExam</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.mds.MyHealthMessage</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.mds.MyHealthMsgType</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
@@ -258,6 +321,16 @@
         <string></string>
         <string></string>
         <string></string>
+      </list>
+    </entry>
+    <entry>
+      <string>$myHealthMsg</string>
+      <list>
+        <string>your pulse is too high, please call your doctor</string>
+        <string>your pulse is  in range 120-141 bpm, please call your doctor</string>
+        <string>your pulse is  in range 140–180 bpm, please call your doctor</string>
+        <string>your pulse is  in range 41–50 bpm, please call your doctor</string>
+        <string>your pulse is too low, please call your doctor</string>
       </list>
     </entry>
     <entry>
