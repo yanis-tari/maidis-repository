@@ -3,6 +3,8 @@ package com.mds.decisionsupport;
 import com.mds.beans.Pami;
 import com.mds.beans.Triage;
 import com.mds.beans.TriageSuggestion;
+import com.mds.MyHealthMessage;
+import com.mds.MyHealthMsgType;
 
 rule "Triage_AVC_symptoms"
 		dialect "mvel"
@@ -15,7 +17,7 @@ rule "Triage_AVC_symptoms"
 	        Hemiparesis : Pami( miCode in ( "http://snomed.info/id/20022000","G83.89","G838" ) )
 	        SensoryLoss : Pami( miCode in ( "http://snomed.info/id/33653009","R20.0","R200" ) )
 	        HeadacheORHomonymousHemianopiaORLossOfConsciousness : Pami( miCode in ( "http://snomed.info/id/230461009", "http://snomed.info/id/25064002","R51", "http://snomed.info/id/34063005", "http://snomed.info/id/246664003", "http://snomed.info/id/246666001", "http://snomed.info/id/246665002", "http://snomed.info/id/164004005","H53.461","H53.469","H534", "http://snomed.info/id/419045004", "http://snomed.info/id/32834005", "http://snomed.info/id/40863000", "http://snomed.info/id/7862002", "http://snomed.info/id/275946007","R55" ) )	        
-	        triageBean : Triage( pamiList != null && suggestionList : suggestions && pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis && pamiList contains SensoryLoss && pamiList contains HeadacheORHomonymousHemianopiaORLossOfConsciousness )
+	        triageBean : Triage( pamiList != null && suggestionList : suggestions && pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis && pamiList contains SensoryLoss && pamiList contains HeadacheORHomonymousHemianopiaORLossOfConsciousness && triggeredByPatient == false )
 			not ( TriageSuggestion ( ruleId == "Triage_AVC_symptoms" ) from suggestionList)        
 	    then			
         	TriageSuggestion suggestion = new TriageSuggestion();
@@ -29,5 +31,37 @@ rule "Triage_AVC_symptoms"
 		        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );	          
 	        triageBean.addSuggestions( suggestion );
 	        update(triageBean);
+	        	    
+end
+
+
+rule "Triage_AVC_symptoms_myHealth"
+		dialect "mvel"
+	    ruleflow-group "triage"
+	    no-loop  true
+	    salience 5
+	    when
+	        Aphasia : Pami( miCode in ( "http://snomed.info/id/87486003","R47.01","R470" ) )
+	        Ataxia : Pami( miCode in ( "http://snomed.info/id/20262006","R27.0","R270" ) )
+	        Hemiparesis : Pami( miCode in ( "http://snomed.info/id/20022000","G83.89","G838" ) )
+	        SensoryLoss : Pami( miCode in ( "http://snomed.info/id/33653009","R20.0","R200" ) )
+	        HeadacheORHomonymousHemianopiaORLossOfConsciousness : Pami( miCode in ( "http://snomed.info/id/230461009", "http://snomed.info/id/25064002","R51", "http://snomed.info/id/34063005", "http://snomed.info/id/246664003", "http://snomed.info/id/246666001", "http://snomed.info/id/246665002", "http://snomed.info/id/164004005","H53.461","H53.469","H534", "http://snomed.info/id/419045004", "http://snomed.info/id/32834005", "http://snomed.info/id/40863000", "http://snomed.info/id/7862002", "http://snomed.info/id/275946007","R55" ) )	        
+	        triageBean : Triage( pamiList != null && suggestionList : suggestions && pamiList contains Aphasia && pamiList contains Ataxia && pamiList contains Hemiparesis && pamiList contains SensoryLoss && pamiList contains HeadacheORHomonymousHemianopiaORLossOfConsciousness && triggeredByPatient == true && patientID : myHealthPatientId != null )
+			not ( TriageSuggestion ( ruleId == "Triage_AVC_symptoms" ) from suggestionList)        
+	    then			
+        	TriageSuggestion suggestion = new TriageSuggestion();
+		        suggestion.setValue( "1" );
+		        suggestion.setDepartment( "stroke unit" );
+		        suggestion.setSuggestionClinicalPathway( "cerebrovascular accident" );
+		        suggestion.setSuggestionClinicalPathwayID( "cerebrovascular.accident" );
+		        suggestion.setRule( "If stroke symptoms Then triage level 1" );
+		        suggestion.setRuleText( "If stroke symptoms Then triage level 1" );
+		        suggestion.setRuleId( "Triage_AVC_symptoms" );
+		        suggestion.setAction( "Suspicion of stroke : immediate transfer to the stroke unit" );	          
+	        triageBean.addSuggestions( suggestion );	        	     	        
+	        update(triageBean);
+	        
+	        MyHealthMessage msg = new MyHealthMessage("you have a stroke symptoms, please call yor doctor",patientID , MyHealthMsgType.ALERT);
+			msg.sendMessage();			
 	        	    
 end
