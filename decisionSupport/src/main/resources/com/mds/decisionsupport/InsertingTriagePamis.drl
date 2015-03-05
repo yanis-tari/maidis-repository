@@ -14,5 +14,5 @@ rule "InsertingTriagePamis"
 	    when
 	        $triageBean : Triage( $pamis : pamiList != null )	
 	    then
-	       for (Pami pami : $pamis) {	insert(pami);	}
+	       for (Pami pami : $pamis) {	insert(pami);	System.out.println("Inserting bean :"+pami.getMiType()+" "+pami.getMiText()+" "+pami.getMiCode());}
 end
