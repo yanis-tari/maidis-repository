@@ -5,15 +5,3 @@ import com.mds.beans.Triage;
 import com.mds.beans.TriageSuggestion;
 import com.mds.MyHealthMessage;
 import com.mds.MyHealthMsgType;
-
-rule "Triage_AVC_symptoms"
-		dialect "mvel"
-	    ruleflow-group "triage"
-	    no-loop  true
-	    salience 5
-	    when
-	        Aphasia : Pami( miCode in ( "http://snomed.info/id/87486003","R47.01","R470" ) )
-	                
-	    then
-	   		System.out.println("Regle Triage_AVC_symptoms");			
-end
