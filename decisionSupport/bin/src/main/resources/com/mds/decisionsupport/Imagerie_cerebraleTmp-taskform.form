@@ -1,0 +1,16 @@
+
+<form id="1855191274">
+<property name="subject" value=""/>
+<property name="name" value="Imagerie_cerebraleTmp-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="avc_irmResult" type="InputText" id="129601807">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;irmResult (avc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="avc_in/irmResult"/>
+<property name="outputBinding" value="avc_out/irmResult"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="avc_in" name="#0000A0" type="dataModelerEntry" outId="avc_out" value="com.mds.beans.Avc" id="avc"/>
+</form>

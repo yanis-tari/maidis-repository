@@ -16,12 +16,43 @@
       <import>
         <type>java.util.Date</type>
       </import>
-      <import>
+	  <import>
         <type>com.mds.MyHealthMessage</type>
       </import>
       <import>
         <type>com.mds.MyHealthMsgType</type>
       </import>
+      <import>
+        <type>java.util.concurrent.CountDownLatch</type>
+      </import>
+      <import>
+        <type>java.util.concurrent.TimeUnit</type>
+      </import>
+      <import>
+        <type>rx.Subscription</type>
+      </import>
+      <import>
+        <type>rx.functions.Action1</type>
+      </import>
+      <import>
+        <type>ws.wamp.jawampa.ApplicationError</type>
+      </import>
+      <import>
+        <type>ws.wamp.jawampa.Request</type>
+      </import>
+      <import>
+        <type>ws.wamp.jawampa.WampClient</type>
+      </import>
+      <import>
+        <type>ws.wamp.jawampa.WampClientBuilder</type>
+      </import>
+      <import>
+        <type>ws.wamp.jawampa.WampError</type>
+      </import>
+      <import>
+        <type>com.mds.task.web.socket.EventPublisher</type>
+      </import>
+      
     </imports>
   </imports>
   <version>1.0</version>

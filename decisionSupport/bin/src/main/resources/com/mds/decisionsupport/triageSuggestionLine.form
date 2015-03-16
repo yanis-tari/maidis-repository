@@ -1,0 +1,264 @@
+
+<form id="1574922001">
+<property name="subject" value=""/>
+<property name="name" value="triageSuggestionLine.form"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_value}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{suggestion_value}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_description_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_description}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_description_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{suggestion_description}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_action_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_action}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_action_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{suggestion_action}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_rule_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_rule}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_rule_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{suggestion_rule}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_department_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_department}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1574922001-suggestion_department_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{suggestion_department}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;14%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-1574922001-suggestion_suggestionClinicalPathway_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{suggestion_suggestionClinicalPathway}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+							&lt;div id=&quot;uid_-template_null-1574922001-suggestion_suggestionClinicalPathway_container&quot; style=&quot;padding-top: 3px; padding-right:3px; display: inline-block;&quot;&gt;$field{suggestion_suggestionClinicalPathway}&lt;/div&gt;
+							&lt;div id=&quot;uid_-template_null-1574922001-suggestion_startThePathway_container&quot; style=&quot;padding-top: 3px; padding-right:3px; display: inline-block;&quot;&gt;$field{suggestion_startThePathway}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;			
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+"/>
+<field position="0" name="suggestion_value" type="InputText" id="2129500434">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;value (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Triage levelquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="color: red;"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/value"/>
+<property name="outputBinding" value="suggestion/value"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="suggestion_description" type="InputText" id="87152382">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;description (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Descriptionquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="overflow: visible"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/description"/>
+<property name="outputBinding" value="suggestion/description"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="suggestion_action" type="InputText" id="1556058728">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;action (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Actionquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="overflow: visible"/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/action"/>
+<property name="outputBinding" value="suggestion/action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="suggestion_rule" type="InputText" id="2076752118">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;rule (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Triggered rulequot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/rule"/>
+<property name="outputBinding" value="suggestion/rule"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="suggestion_department" type="InputText" id="1893540149">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;department (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Departmentquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/department"/>
+<property name="outputBinding" value="suggestion/department"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="suggestion_suggestionClinicalPathway" type="InputText" id="2112744026">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;suggestionClinicalPathway (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Pathwayquot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/suggestionClinicalPathway"/>
+<property name="outputBinding" value="suggestion/suggestionClinicalPathway"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="suggestion_startThePathway" type="CheckBox" id="214991832">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;startThePathway (suggestion)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="suggestion/startThePathway"/>
+<property name="outputBinding" value="suggestion/startThePathway"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="suggestion" name="#0000A0" type="dataModelerEntry" outId="suggestion" value="com.mds.beans.TriageSuggestion" id="suggestion"/>
+</form>

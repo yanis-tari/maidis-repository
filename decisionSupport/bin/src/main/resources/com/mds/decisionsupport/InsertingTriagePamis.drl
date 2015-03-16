@@ -1,0 +1,18 @@
+package com.mds.decisionsupport;
+
+import java.lang.Number;
+import com.mds.beans.Triage;
+import com.mds.beans.TriageSuggestion;
+import com.mds.beans.Pami;
+import com.mds.beans.SimpleExam;
+	
+rule "InsertingTriagePamis"
+	    dialect "mvel"
+	    ruleflow-group "triage"	    
+	    lock-on-active true
+	    salience 10
+	    when
+	        $triageBean : Triage( $pamis : pamiList != null )	
+	    then
+	       for (Pami pami : $pamis) {	insert(pami);	System.out.println("Inserting bean :"+pami.getMiType()+" "+pami.getMiText()+" "+pami.getMiCode());}
+end

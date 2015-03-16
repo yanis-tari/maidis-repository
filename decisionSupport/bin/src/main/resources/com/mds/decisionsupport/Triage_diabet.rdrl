@@ -1,0 +1,26 @@
+package com.mds.decisionsupport;
+
+import java.lang.Number;
+import com.mds.beans.Pami;
+import com.mds.beans.Triage;
+import com.mds.beans.TriageSuggestion;
+
+rule "Triage_diabet"
+	dialect "mvel"
+	ruleflow-group "triage"
+	salience 1
+	when
+		vomiting : Pami( miCode in ( "http://snomed.info/id/249497008", "http://snomed.info/id/422400008" ) )
+		lossOfConsciousness : Pami( miCode in ( "http://snomed.info/id/419045004", "http://snomed.info/id/7862002", "http://snomed.info/id/40863000", "http://snomed.info/id/275946007" ) )
+		abdominalPain : Pami( miCode in ( "http://snomed.info/id/21522001", "http://snomed.info/id/314212008", "http://snomed.info/id/304542004" ) )
+		triageBean : Triage( pamiList contains vomiting && pamiList contains lossOfConsciousness && pamiList contains abdominalPain )
+	then
+		TriageSuggestion suggestion = new TriageSuggestion();
+		suggestion.setValue( "1" );
+		suggestion.setRule( "" );
+		suggestion.setSuggestionClinicalPathwayID( "decisionSupport.Diabet" );
+		suggestion.setSuggestionClinicalPathway( "Diabet pathway" );
+		suggestion.setDepartment( "Diabet" );
+		insertLogical( suggestion );
+		triageBean.addSuggestions( suggestion );
+end

@@ -1,0 +1,46 @@
+
+<form id="91482547">
+<property name="subject" value=""/>
+<property name="name" value="AvcTreatmentSuggestion-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="left"/>
+<property name="status" value="0"/>
+<field position="0" name="avcIS_patient" type="Subform" id="263803367">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;patient (avcIS)quot;quot;esquot;,quot;quot;quot;frquot;,quot; quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="avc_in/patient"/>
+<property name="outputBinding" value="avc_out/patient"/>
+<property name="defaultSubform" value="display_patient.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="1" name="avcIS_treatmentSuggestion" type="InputText" id="1051790698">
+<property name="fieldRequired" value="false"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="color: #4b4a4a; text-shadow: #ddf 1px 1px 0;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;color: #4b4a4a; text-shadow: #ddf 1px 1px 0;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;treatmentSuggestion (avcIS)quot;quot;esquot;,quot;quot;quot;frquot;,quot;Treatment suggestion :quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="avc_in/treatmentSuggestion"/>
+<property name="outputBinding" value="avc_out/treatmentSuggestion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="avc_in" name="#0000A0" type="dataModelerEntry" outId="avc_out" value="com.mds.beans.Avc" id="avcIS"/>
+</form>

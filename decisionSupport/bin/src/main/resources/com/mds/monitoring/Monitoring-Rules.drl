@@ -1,0 +1,40 @@
+package com.mds.monitoring;
+
+import java.lang.Number;
+import com.mds.beans.SimpleExam;
+import com.mds.beans.Monitoring;
+import com.mds.beans.MonitoringRange;
+import com.mds.beans.VitalSignMonitoring;
+
+rule "monitoringRule"
+	    dialect "mvel"
+	    ruleflow-group "monitoring"	    	    
+	    salience 1
+	    when
+	    	$monitoringBean : Monitoring( $items : items  != null )
+	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue, isMonitored == false ) from $items
+	        $range : 	MonitoringRange($value >= min , $value <= max, $action : action, doAlert == false )	from $ranges
+	    then
+	      	System.out.println("Monitoring rule triggred : "+$range.action);
+	      	$vitalSign.setInRange($range);
+	      	$vitalSign.setMsg($action);
+	      	$vitalSign.setIsMonitored(true);
+end
+
+
+
+rule "monitoringRuleAlert"
+	    dialect "mvel"
+	    ruleflow-group "monitoring"	    	    
+	    salience 1
+	    when
+	    	$monitoringBean : Monitoring( $items : items  != null )
+	        $vitalSign : VitalSignMonitoring($ranges : ranges != null, $value : NValue, isMonitored == false ) from $items
+	        $range : 	MonitoringRange($value >= min , $value <= max, $action : action, doAlert == true)	from $ranges
+	    then
+	      	System.out.println("Monitoring rule triggred : "+$range.action);
+	      	$vitalSign.setInRange($range);
+	      	$vitalSign.setMsg($action);
+	      	$vitalSign.setIsMonitored(true);
+	      	$monitoringBean.addItemAlert($vitalSign);
+end
